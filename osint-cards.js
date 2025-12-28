@@ -71,8 +71,73 @@
     `;
   };
 
+  // Recursive function to render nested categories
+  const renderNestedCategory = (cat) => {
+    const title = cleanTitle(cat.title);
+    const subtitle = (cat.subtitle || "").trim();
+    const items = Array.isArray(cat.items) ? cat.items : [];
+    const subCategories = Array.isArray(cat.categories) ? cat.categories : [];
+    
+    // Separate actual items from sub-categories
+    const actualItems = items.filter(item => !item.categories);
+    const itemsHtml = actualItems.map(renderItem).join("");
+    
+    // Sort sub-categories alphabetically before rendering
+    const sortedSubCats = subCategories.sort((a, b) => {
+      const titleA = cleanTitle(a.title).toLowerCase();
+      const titleB = cleanTitle(b.title).toLowerCase();
+      return titleA.localeCompare(titleB);
+    });
+    
+    // Render sub-categories recursively (nested cats FIRST, then items)
+    const subCatsHtml = sortedSubCats
+      .map(subCat => `<section class="card">${renderNestedCategory(subCat)}</section>`)
+      .join("");
+    
+    // Count total items across nested structure
+    const itemCount = actualItems.length + subCategories.reduce((acc, sc) => acc + countItems(sc), 0);
+
+    return `
+      <details>
+        <summary>
+          <div class="card-title">
+            <h2>${escapeHtml(title)}</h2>
+            <span>${escapeHtml(subtitle || `OSINT resources (${itemCount})`)}</span>
+          </div>
+          <div class="chev" aria-hidden="true">⌄</div>
+        </summary>
+        <div class="card-body">
+          ${subCatsHtml || ''}
+          ${actualItems.length > 0 ? `<ul>${itemsHtml}</ul>` : ''}
+          ${actualItems.length === 0 && subCatsHtml === '' ? `<li class="muted">No items in this category.</li>` : ''}
+        </div>
+      </details>
+    `;
+  };
+
+  // Helper function to count total items recursively
+  const countItems = (cat) => {
+    const items = Array.isArray(cat.items) ? cat.items.length : 0;
+    const subCats = Array.isArray(cat.categories) 
+      ? cat.categories.reduce((acc, sc) => acc + countItems(sc), 0)
+      : 0;
+    return items + subCats;
+  };
+
   const renderCard = (cat, idx) => {
     const title = cleanTitle(cat.title);
+    const hasSubCategories = Array.isArray(cat.categories) && cat.categories.length > 0;
+    
+    // If category has sub-categories, use nested rendering
+    if (hasSubCategories) {
+      return `
+        <section class="card" data-category="${escapeHtml(title)}" data-index="${idx}">
+          ${renderNestedCategory(cat)}
+        </section>
+      `;
+    }
+    
+    // Otherwise, use flat rendering
     const subtitle = (cat.subtitle || "").trim();
     const items = Array.isArray(cat.items) ? cat.items : [];
     const list = items.map(renderItem).join("");
@@ -111,28 +176,48 @@
         allCards.push(...container.querySelectorAll("section.card"));
       }
     });
-    const cards = allCards;
-    cards.forEach((card) => {
-      // Get the card title for searching
-      const cardTitleEl = card.querySelector(".card-title h2");
+    
+    // Helper function to recursively filter nested sections
+    const filterSection = (section) => {
+      const cardTitleEl = section.querySelector(":scope > details > summary .card-title h2");
       const cardTitle = cardTitleEl ? cardTitleEl.innerText.toLowerCase() : "";
       
-      const items = card.querySelectorAll("li.item");
-      let anyVisibleInCard = false;
+      // Find direct items (not in nested sections)
+      const directItems = Array.from(section.querySelectorAll(":scope > details > .card-body > ul > li.item"));
+      
+      // Find nested sections
+      const nestedSections = Array.from(section.querySelectorAll(":scope > details > .card-body > section.card"));
+      
+      let anyVisibleInSection = false;
 
-      items.forEach((li) => {
+      // Filter direct items
+      directItems.forEach((li) => {
         const hay = (li.getAttribute("data-search") || "").toLowerCase();
         const show = !query || cardTitle.includes(query) || hay.includes(query);
         li.style.display = show ? "" : "none";
         if (show) {
           visibleItems += 1;
-          anyVisibleInCard = true;
+          anyVisibleInSection = true;
+        }
+      });
+
+      // Recursively filter nested sections
+      nestedSections.forEach((nestedSection) => {
+        const nestedVisible = filterSection(nestedSection);
+        if (nestedVisible) {
+          anyVisibleInSection = true;
         }
       });
 
       // Hide empty categories during search (also check card title)
-      const cardMatches = !query || cardTitle.includes(query) || anyVisibleInCard;
-      card.style.display = cardMatches ? "" : "none";
+      const sectionMatches = !query || cardTitle.includes(query) || anyVisibleInSection;
+      section.style.display = sectionMatches ? "" : "none";
+      
+      return sectionMatches;
+    };
+
+    allCards.forEach((card) => {
+      filterSection(card);
     });
 
     setCount(visibleItems);
@@ -180,7 +265,7 @@
       });
     }
 
-    const total = cats.reduce((acc, c) => acc + (Array.isArray(c.items) ? c.items.length : 0), 0);
+    const total = cats.reduce((acc, c) => acc + countItems(c), 0);
     setCount(total);
     initSearch();
   };
