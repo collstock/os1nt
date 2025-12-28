@@ -327,6 +327,56 @@ details .card-body ul{
   gap: 8px;
 }
 
+/* Nested/multi-level cards for sub-categories */
+.card .card {
+  margin: 8px 0;
+  background: rgba(18,27,60,.45);
+  border: 1px solid rgba(255,255,255,.08);
+  box-shadow: 0 4px 12px rgba(0,0,0,.15);
+}
+
+.card .card .card-title h2 {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.card .card .card-title span {
+  font-size: 11px;
+}
+
+.card .card .card-head {
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(255,255,255,.05);
+}
+
+.card .card .card-body {
+  padding: 10px 12px;
+}
+
+/* Triple-nested sub-sub-categories */
+.card .card .card {
+  background: rgba(18,27,60,.3);
+  border-color: rgba(255,255,255,.06);
+  margin: 6px 0;
+}
+
+.card .card .card .card-title h2 {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.card .card .card .card-title span {
+  font-size: 10px;
+}
+
+.card .card .card .card-head {
+  padding: 8px 10px;
+}
+
+.card .card .card .card-body {
+  padding: 8px 10px;
+}
+
 details .card-body .item{
   margin: 0;
 }
