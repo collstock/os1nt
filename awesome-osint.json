@@ -6119,6 +6119,11 @@
       "subtitle": "",
       "items": [
         {
+          "name": "Cloudflare Warp",
+          "url": "https://one.one.one.one/",
+          "description": "Cloudflare's free VPN service that focuses on privacy and speed."
+        },
+        {
           "name": "OffShore.cat",
           "url": "https://offshore.cat/vpn",
           "description": "list of vpns for the privacy conscious"
