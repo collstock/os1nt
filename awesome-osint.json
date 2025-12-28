@@ -1633,669 +1633,731 @@
       "subtitle": "",
       "items": [
         {
-          "name": "ExportData",
-          "url": "https://www.exportdata.io/",
-          "description": "Data export tool for historical tweets, followers & followings and historical trends."
-        },
-        {
-          "name": "Foller.me",
-          "url": "http://foller.me/",
-          "description": ""
-        },
-        {
-          "name": "MyTweetAlerts",
-          "url": "https://www.mytweetalerts.com/",
-          "description": "A tool to create custom email alerts based on Twitter search."
-        },
-        {
-          "name": "OneMillionTweetMap",
-          "url": "http://onemilliontweetmap.com/",
-          "description": ""
-        },
-        {
-          "name": "RiteTag",
-          "url": "https://ritetag.com/",
-          "description": ""
-        },
-        {
-          "name": "Sentiment140",
-          "url": "http://www.twittersentiment.appspot.com/",
-          "description": ""
-        },
-        {
-          "name": "StorySaver",
-          "url": "https://www.storysaver.net/en",
-          "description": "Instagram story downloader to save stories, highlights & reels anonymously."
-        },
-        {
-          "name": "SowSearch",
-          "url": "https://www.sowsearch.info/",
-          "description": "Facebook search query builder"
-        },
-        {
-          "name": "Tagdef",
-          "url": "https://tagdef.com/",
-          "description": ""
-        },
-        {
-          "name": "Trends24",
-          "url": "http://trends24.in/",
-          "description": ""
-        },
-        {
-          "name": "TwChat",
-          "url": "http://twchat.com/",
-          "description": ""
-        },
-        {
-          "name": "TweetMap",
-          "url": "http://mapd.csail.mit.edu/tweetmap",
-          "description": ""
-        },
-        {
-          "name": "TweetMap",
-          "url": "http://worldmap.harvard.edu/tweetmap",
-          "description": ""
-        },
-        {
-          "name": "Twitter Advanced Search",
-          "url": "https://twitter.com/search-advanced?lang=en",
-          "description": ""
-        },
-        {
-          "name": "Twitter Audit",
-          "url": "https://www.twitteraudit.com/",
-          "description": ""
-        },
-        {
-          "name": "Twitter Chat Schedule",
-          "url": "http://tweetreports.com/twitter-chat-schedule",
-          "description": ""
-        },
-        {
-          "name": "Twitter Search",
-          "url": "http://search.twitter.com/",
-          "description": ""
-        },
-        {
-          "name": "Facebook Friend List Scraper",
-          "url": "https://github.com/narkopolo/fb_friend_list_scraper",
-          "description": "Tool for scraping large Facebook friend lists without being rate-limited."
-        },
-        {
-          "name": "Facebook Search",
-          "url": "http://search.fb.com/",
-          "description": ""
-        },
-        {
-          "name": "Fanpage Karma",
-          "url": "http://www.fanpagekarma.com/",
-          "description": ""
-        },
-        {
-          "name": "Fb-sleep-stats",
-          "url": "https://github.com/sqren/fb-sleep-stats",
-          "description": "Use Facebook to track your friends’ sleeping habits."
-        },
-        {
-          "name": "Find my Facebook ID",
-          "url": "https://randomtools.io/",
-          "description": "To find your Facebook personal numeric ID for facebook graph API operations, fb:admins, social plugins."
-        },
-        {
-          "name": "haveibeenzuckered",
-          "url": "https://haveibeenzuckered.com/",
-          "description": "A large dataset containing 533 million Facebook accounts was made available for download. The data was obtained by exploiting a vulnerability that was, according to Facebook, corrected in August 2019. Check if a telephone number is present within the Facebook data breach."
-        },
-        {
-          "name": "Lookup-ID.com",
-          "url": "https://lookup-id.com/",
-          "description": "Looking for your Facebook profile ID / Group ID / Page ID."
-        },
-        {
-          "name": "SearchIsBack",
-          "url": "https://searchisback.com/",
-          "description": ""
-        },
-        {
-          "name": "Wolfram Alpha Facebook Report",
-          "url": "http://www.wolframalpha.com/input/?i=facebook+report",
-          "description": ""
-        },
-        {
-          "name": "Dolphin Radar",
-          "url": "https://www.dolphinradar.com/web-viewer-for-instagram",
-          "description": "An Instagram Post Viewer lets you view posts, stories, and profiles from public accounts with ease. Free viewer limit: 1."
-        },
-        {
-          "name": "Iconosquare",
-          "url": "http://iconosquare.com/",
-          "description": ""
-        },
-        {
-          "name": "instagram_monitor",
-          "url": "https://github.com/misiektoja/instagram_monitor",
-          "description": "Tool for real-time tracking of Instagram users' activities and profile changes with support for email alerts, CSV logging, showing media in the terminal, anonymous story downloads and more"
-        },
-        {
-          "name": "InstagramPrivSniffer",
-          "url": "https://github.com/obitouka/InstagramPrivSniffer",
-          "description": "Views Instagram PRIVATE ACCOUNT'S media without login 😱."
-        },
-        {
-          "name": "Osintgram",
-          "url": "https://github.com/Datalux/Osintgram",
-          "description": "Osintgram offers an interactive shell to perform analysis on Instagram account of any users by its nickname."
-        },
-        {
-          "name": "Osintgraph",
-          "url": "https://github.com/XD-MHLOO/Osintgraph",
-          "description": "Tool that maps your target’s Instagram data and relationships in Neo4j for social network analysis."
-        },
-        {
-          "name": "Toutatis",
-          "url": "https://github.com/megadose/toutatis",
-          "description": "a tool that allows you to extract information from instagrams accounts such as s, phone numbers and more"
-        },
-        {
-          "name": "Pingroupie",
-          "url": "http://pingroupie.com/",
-          "description": ""
-        },
-        {
-          "name": "Pinterest Pin Stats",
-          "url": "https://chromewebstore.google.com/detail/pinterest-pin-stats-sort/mcmkeopcpbfgjlakblglpcccpodbjkel",
-          "description": "Display hidden Pinterest stats for each pin."
-        },
-        {
-          "name": "Arctic Shift",
-          "url": "https://github.com/ArthurHeitmann/arctic_shift",
-          "description": "A tool for accessing and interacting with large dumps of Reddit data, offering an API and web interface for research and moderation purposes."
-        },
-        {
-          "name": "Imgur",
-          "url": "http://imgur.com/search?q=",
-          "description": "The most popular image hosting website used by redditors."
-        },
-        {
-          "name": "Mostly Harmless",
-          "url": "http://kerrick.github.io/Mostly-Harmless/#features",
-          "description": "Mostly Harmless looks up the page you are currently viewing to see if it has been submitted to reddit."
-        },
-        {
-          "name": "Pushshift API",
-          "url": "https://pushshift.io/",
-          "description": "A powerful API that provides access to historical Reddit data, including posts, comments, and metadata for analysis and research—more information [here](https://www.reddit.com/r/pushshift/)."
-        },
-        {
-          "name": "Pullpush",
-          "url": "https://pullpush.io/",
-          "description": "PullPush is a service for the indexing and retrieval of content that Reddit users have submitted to Reddit. Helpful for finding deleted/removed posts & comments."
-        },
-        {
-          "name": "REDARCS",
-          "url": "https://the-eye.eu/redarcs/",
-          "description": "Reddit archives 2005-2023."
-        },
-        {
-          "name": "Reddit Archive",
-          "url": "http://www.redditarchive.com/",
-          "description": "Historical archives of reddit posts."
-        },
-        {
-          "name": "Reddit Suite",
-          "url": "https://chrome.google.com/webstore/detail/reddit-enhancement-suite/kbmfpngjjgdllneeigpgjifpgocmfgmb",
-          "description": "Enhances your reddit experience."
-        },
-        {
-          "name": "Reddit User Analyser",
-          "url": "https://atomiks.github.io/reddit-user-analyser/",
-          "description": "reddit user account analyzer."
-        },
-        {
-          "name": "RedditMetis",
-          "url": "https://redditmetis.com/",
-          "description": "RedditMetis is a Reddit user analysis tool to see the summary and statistics for a Reddit account, including top posts and user activity etc."
-        },
-        {
-          "name": "Subreddits",
-          "url": "http://subreddits.org/",
-          "description": "Discover new subreddits."
-        },
-        {
-          "name": "Reddit Comment Search",
-          "url": "https://redditcommentsearch.com/",
-          "description": "Analyze a reddit users by comment history."
-        },
-        {
-          "name": "Universal Scammer List",
-          "url": "https://universalscammerlist.com/",
-          "description": "This acts as the website-portion for the subreddit /r/universalscammerlist. That subreddit, in conjuction with this website and a reddit bot, manages a list of malicious reddit accounts and minimizes the damage they can deal. This list is referred to as the \"USL\" for short."
-        },
-        {
-          "name": "Reddit Comment Lookup",
-          "url": "https://randomtools.io/reddit-comment-search/",
-          "description": "Search for reddit comments by reddit username."
-        },
-        {
-          "name": "Дезертир",
-          "url": "http://vk.com/app3046467",
-          "description": ""
-        },
-        {
-          "name": "Barkov.net",
-          "url": "http://vk.barkov.net/",
-          "description": ""
-        },
-        {
-          "name": "VK5",
-          "url": "http://vk5.city4me.com/",
-          "description": ""
-        },
-        {
-          "name": "VK Community Search",
-          "url": "http://vk.com/communities",
-          "description": ""
-        },
-        {
-          "name": "VK People Search",
-          "url": "http://vk.com/people",
-          "description": ""
-        },
-        {
-          "name": "VK.watch",
-          "url": "https://vk.watch/",
-          "description": ""
-        },
-        {
           "name": "Tumblr Search",
           "url": "http://www.tumblr.com/search",
           "description": ""
         },
         {
-          "name": "the-endorser",
-          "url": "https://github.com/eth0izzle/the-endorser",
-          "description": "Tool that allows you to draw out relationships between people on LinkedIn via endorsements/skills."
-        },
-        {
-          "name": "LinkedInDumper",
-          "url": "https://github.com/l4rm4nd/LinkedInDumper",
-          "description": "Script to dump/scrape/extract company employees info from LinkedIn API."
-        },
-        {
-          "name": "CCTV",
-          "url": "https://github.com/IvanGlinkin/CCTV",
-          "description": "Close-Circuit Telegram Vision revolutionizes location tracking with its open-source design and Telegram API integration. Offering precise tracking within 50-100 meters, users can monitor others in real-time for logistics or safety, redefining how we navigate our surroundings."
-        },
-        {
-          "name": "GroupDa",
-          "url": "https://groupda.com/telegram/group/search",
-          "description": "Can be used for Searching Telegram Channels. Search by Category, Countries and Language."
-        },
-        {
-          "name": "Maltego Telegram",
-          "url": "https://github.com/vognik/maltego-telegram",
-          "description": "Rich Set of Entities & Transforms for OSINT on Telegram with Maltego."
-        },
-        {
-          "name": "Telegram Finder",
-          "url": "https://www.telegram-finder.io/",
-          "description": "A tool to find Telegram users by their phone number, linkedin url or email."
-        },
-        {
-          "name": "Telerecon",
-          "url": "https://github.com/sockysec/Telerecon",
-          "description": "A reconnaissance framework for researching and investigating Telegram."
-        },
-        {
-          "name": "TgramSearch",
-          "url": "https://tgramsearch.com/",
-          "description": "Convenient search for Telegram channels, as well as a structured catalog with over 700000 Telegram channels. Available in 8+ Languages."
-        },
-        {
-          "name": "tgworld",
-          "url": "https://tg.world/",
-          "description": "The Global Search System TG.World will help you find Channels, Groups and Bots in Telegram in any language and for any country in the world!"
-        },
-        {
-          "name": "Telegram Channel Joiner",
-          "url": "https://github.com/spmedia/Telegram-Channel-Joiner",
-          "description": "grow your Free and Premium Telegram accounts easily with this channel joiner script."
-        },
-        {
-          "name": "Telepahty",
-          "url": "https://github.com/proseltd/Telepathy-Community",
-          "description": "Telepathy is a tool that archives Telegram chats and analyzes communication patterns within the app. By providing insights into user interactions, message frequency, and content trends, Telepathy helps investigators understand the dynamics and relationships within Telegram groups and channels."
-        },
-        {
-          "name": "Teleteg",
-          "url": "https://teleteg.com/",
-          "description": "The ultimate Telegram search engine. 10 results for free plan."
-        },
-        {
-          "name": "Telegago",
-          "url": "https://cse.google.com/cse?q=+&cx=006368593537057042503:efxu7xprihg#gsc.tab=0&gsc.q=%20&gsc.page=1",
-          "description": "A Google Advanced Search specifically for finding public and private Telegram Channels and Chatrooms."
-        },
-        {
-          "name": "Telegram Nearby Map",
-          "url": "https://github.com/tejado/telegram-nearby-map",
-          "description": "Webapp based on OpenStreetMap and the official Telegram library to find the position of nearby users."
-        },
-        {
-          "name": "Telegram channels scraper TeleGraphite",
-          "url": "https://github.com/hamodywe/telegram-scraper-TeleGraphite",
-          "description": "Telegram Scraper & JSON Exporter & telegram channels scraper."
-        },
-        {
-          "name": "TeleSearch",
-          "url": "https://telesearch.me/",
-          "description": "Search and find your desired Telegram channels, groups, bots and games quickly and easily with Telesearch​."
-        },
-        {
-          "name": "TeleTracker",
-          "url": "https://github.com/tsale/TeleTracker",
-          "description": "TeleTracker is a simple set of Python scripts designed for anyone investigating Telegram channels. It helps you send messages quickly and gather useful channel information easily."
-        },
-        {
-          "name": "TOsint",
-          "url": "https://github.com/drego85/tosint",
-          "description": "Tosint (Telegram OSINT) is a powerful tool designed to extract valuable information from Telegram bots and channels. It serves as an essential resource for security researchers, investigators, and anyone interested in gathering insights from various Telegram entities."
-        },
-        {
-          "name": "AgentFNS_Bot",
-          "url": "https://t.me/AgentFNS_bot",
-          "description": "Free instant counterparty check using official data (INN/OGRN)."
-        },
-        {
-          "name": "AVinfoBot",
-          "url": "https://t.me/AVskp_Bot",
-          "description": "Used-car history via plate/VIN/phone."
-        },
-        {
-          "name": "AvtoNomer",
-          "url": "https://t.me/avtonomerbot",
-          "description": "Finds vehicle photos by plate via platesmania.com."
-        },
-        {
-          "name": "avtogram_bot",
-          "url": "https://telegram.me/ABTOGRAMBOT",
-          "description": "Paid car reports (VIN/plate): accidents, fines, liens."
-        },
-        {
-          "name": "avtocodbot",
-          "url": "https://t.me/avtocodbot",
-          "description": "Paid VIN/plate lookup."
-        },
-        {
-          "name": "bmi_np_bot",
-          "url": "https://t.me/MNProbot",
-          "description": "Identifies phone-number operator and basic info."
-        },
-        {
-          "name": "ChatSearchRobot",
-          "url": "https://t.me/ChatSearchRobot",
-          "description": "Finds chats with similar topics; 709k+ VK chats."
-        },
-        {
-          "name": "ClerkBot",
-          "url": "https://t.me/clerksecretbot",
-          "description": "Phone + username lookup; vehicle info."
-        },
-        {
-          "name": "creationdatebot",
-          "url": "https://t.me/creationdatebot",
-          "description": "Approx. Telegram account creation date."
-        },
-        {
-          "name": "CryptoBot",
-          "url": "https://t.me/CryptoBot",
-          "description": "Anonymous crypto wallet."
-        },
-        {
-          "name": "datXpert",
-          "url": "https://telegram.me/datxpertbot",
-          "description": "Leak search via IntelX."
-        },
-        {
-          "name": "Detectiva",
-          "url": "http://detectiva.link/rezervBot",
-          "description": "Phone/email lookup with 6 search types."
-        },
-        {
-          "name": "Discord Sensor",
-          "url": "https://telegram.me/discordsensorbot",
-          "description": "Retrieves Discord account data."
-        },
-        {
-          "name": "dCallsBot",
-          "url": "https://t.me/dCallsBot",
-          "description": "Anonymous calls, masking, eSIM/DID."
-        },
-        {
-          "name": "EasyVIN",
-          "url": "https://t.me/EasyVINbot",
-          "description": "Cheap VIN/plate history check."
-        },
-        {
-          "name": "egrul_bot",
-          "url": "https://t.me/egrul_bot",
-          "description": "Free counterparty-check bot."
-        },
-        {
-          "name": "EyeTON",
-          "url": "https://telegram.me/istoneyebot",
-          "description": "TON wallet graph + linked profiles."
-        },
-        {
-          "name": "FindStickerCreator",
-          "url": "https://t.me/SPOwnerBot",
-          "description": "Finds creator of any Telegram sticker pack."
-        },
-        {
-          "name": "Фари",
-          "url": "https://telegram.me/faribybot",
-          "description": "VIN-history lookup from getcar.by."
-        },
-        {
-          "name": "GeoMacFinder",
-          "url": "https://t.me/geomacbot",
-          "description": "Finds Wi-Fi AP location by MAC/BSSID."
-        },
-        {
-          "name": "getChatList",
-          "url": "https://telegram.me/getchatlistbot",
-          "description": "Shows user’s group list."
-        },
-        {
-          "name": "Getairplane",
-          "url": "https://telegram.me/getairplane_bot",
-          "description": "Phone → flight history (20 years)."
-        },
-        {
-          "name": "GetSendGifts",
-          "url": "https://telegram.me/GetSendGiftsProBot",
-          "description": "Shows who sent Telegram gifts."
-        },
-        {
-          "name": "HimeraSearch",
-          "url": "https://t.me/HimeraNeGBL8Pro1dp_Search_bot",
-          "description": "OSINT/HUMINT search: phones, emails, vehicles, people, courts."
-        },
-        {
-          "name": "Insight",
-          "url": "https://t.me/ibhld_bot",
-          "description": "Shows interests based on subscriptions."
-        },
-        {
-          "name": "InstaAnonym",
-          "url": "https://t.me/instaanonymbot",
-          "description": "Anonymous Instagram/VK viewer."
-        },
-        {
-          "name": "InstaBot",
-          "url": "https://telegram.me/InstaBot",
-          "description": "Downloads Instagram media."
-        },
-        {
           "name": "ITP Infotrack",
           "url": "https://infotrackpeople.org/",
           "description": "People, vehicle, property lookup."
+        }
+      ],
+      "categories": [
+        {
+          "title": "Facebook",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Fanpage Karma",
+              "url": "http://www.fanpagekarma.com/",
+              "description": ""
+            },
+            {
+              "name": "SowSearch",
+              "url": "https://www.sowsearch.info/",
+              "description": "Facebook search query builder"
+            },
+            {
+              "name": "Facebook Friend List Scraper",
+              "url": "https://github.com/narkopolo/fb_friend_list_scraper",
+              "description": "Tool for scraping large Facebook friend lists without being rate-limited."
+            },
+            {
+              "name": "Facebook Search",
+              "url": "http://search.fb.com/",
+              "description": ""
+            },
+            {
+              "name": "Fb-sleep-stats",
+              "url": "https://github.com/sqren/fb-sleep-stats",
+              "description": "Use Facebook to track your friends’ sleeping habits."
+            },
+            {
+              "name": "Find my Facebook ID",
+              "url": "https://randomtools.io/",
+              "description": "To find your Facebook personal numeric ID for facebook graph API operations, fb:admins, social plugins."
+            },
+            {
+              "name": "haveibeenzuckered",
+              "url": "https://haveibeenzuckered.com/",
+              "description": "A large dataset containing 533 million Facebook accounts was made available for download. The data was obtained by exploiting a vulnerability that was, according to Facebook, corrected in August 2019. Check if a telephone number is present within the Facebook data breach."
+            },
+            {
+              "name": "Lookup-ID.com",
+              "url": "https://lookup-id.com/",
+              "description": "Looking for your Facebook profile ID / Group ID / Page ID."
+            },
+            {
+              "name": "Wolfram Alpha Facebook Report",
+              "url": "http://www.wolframalpha.com/input/?i=facebook+report",
+              "description": ""
+            }
+          ]
         },
         {
-          "name": "Leak OSINT",
-          "url": "https://telegram.me/Leak_SSINTbot",
-          "description": "Phone-number leakage check."
+          "title": "Instagram",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Iconosquare",
+              "url": "http://iconosquare.com/",
+              "description": ""
+            },
+            {
+              "name": "StorySaver",
+              "url": "https://www.storysaver.net/en",
+              "description": "Instagram story downloader to save stories, highlights & reels anonymously."
+            },
+            {
+              "name": "Dolphin Radar",
+              "url": "https://www.dolphinradar.com/web-viewer-for-instagram",
+              "description": "An Instagram Post Viewer lets you view posts, stories, and profiles from public accounts with ease. Free viewer limit: 1."
+            },
+            {
+              "name": "instagram_monitor",
+              "url": "https://github.com/misiektoja/instagram_monitor",
+              "description": "Tool for real-time tracking of Instagram users' activities and profile changes with support for email alerts, CSV logging, showing media in the terminal, anonymous story downloads and more"
+            },
+            {
+              "name": "InstagramPrivSniffer",
+              "url": "https://github.com/obitouka/InstagramPrivSniffer",
+              "description": "Views Instagram PRIVATE ACCOUNT'S media without login 😱."
+            },
+            {
+              "name": "Osintgram",
+              "url": "https://github.com/Datalux/Osintgram",
+              "description": "Osintgram offers an interactive shell to perform analysis on Instagram account of any users by its nickname."
+            },
+            {
+              "name": "Osintgraph",
+              "url": "https://github.com/XD-MHLOO/Osintgraph",
+              "description": "Tool that maps your target’s Instagram data and relationships in Neo4j for social network analysis."
+            },
+            {
+              "name": "Toutatis",
+              "url": "https://github.com/megadose/toutatis",
+              "description": "a tool that allows you to extract information from instagrams accounts such as s, phone numbers and more"
+            },
+            {
+              "name": "InstaAnonym",
+              "url": "https://t.me/instaanonymbot",
+              "description": "Anonymous Instagram/VK viewer."
+            },
+            {
+              "name": "InstaBot",
+              "url": "https://telegram.me/InstaBot",
+              "description": "Downloads Instagram media."
+            }
+          ]
         },
         {
-          "name": "Maigret OSINT bot",
-          "url": "https://t.me/osint_maigret_bot",
-          "description": "Username search on 1,366 sites."
+          "title": "X / Twitter",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Sentiment140",
+              "url": "http://www.twittersentiment.appspot.com/",
+              "description": ""
+            },
+            {
+              "name": "Tagdef",
+              "url": "https://tagdef.com/",
+              "description": ""
+            },
+            {
+              "name": "SearchIsBack",
+              "url": "https://searchisback.com/",
+              "description": ""
+            },
+            {
+              "name": "ExportData",
+              "url": "https://www.exportdata.io/",
+              "description": "Data export tool for historical tweets, followers & followings and historical trends."
+            },
+            {
+              "name": "Foller.me",
+              "url": "http://foller.me/",
+              "description": ""
+            },
+            {
+              "name": "MyTweetAlerts",
+              "url": "https://www.mytweetalerts.com/",
+              "description": "A tool to create custom email alerts based on Twitter search."
+            },
+            {
+              "name": "OneMillionTweetMap",
+              "url": "http://onemilliontweetmap.com/",
+              "description": ""
+            },
+            {
+              "name": "RiteTag",
+              "url": "https://ritetag.com/",
+              "description": ""
+            },
+            {
+              "name": "Trends24",
+              "url": "http://trends24.in/",
+              "description": ""
+            },
+            {
+              "name": "TwChat",
+              "url": "http://twchat.com/",
+              "description": ""
+            },
+            {
+              "name": "TweetMap",
+              "url": "http://mapd.csail.mit.edu/tweetmap",
+              "description": ""
+            },
+            {
+              "name": "TweetMap",
+              "url": "http://worldmap.harvard.edu/tweetmap",
+              "description": ""
+            },
+            {
+              "name": "Twitter Advanced Search",
+              "url": "https://twitter.com/search-advanced?lang=en",
+              "description": ""
+            },
+            {
+              "name": "Twitter Audit",
+              "url": "https://www.twitteraudit.com/",
+              "description": ""
+            },
+            {
+              "name": "Twitter Chat Schedule",
+              "url": "http://tweetreports.com/twitter-chat-schedule",
+              "description": ""
+            },
+            {
+              "name": "Twitter Search",
+              "url": "http://search.twitter.com/",
+              "description": ""
+            }
+          ]
         },
         {
-          "name": "mnp_bot",
-          "url": "https://t.me/mnp_bot",
-          "description": "Phone operator + region."
+          "title": "Telegram",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "TOsint",
+              "url": "https://github.com/drego85/tosint",
+              "description": "Tosint (Telegram OSINT) is a powerful tool designed to extract valuable information from Telegram bots and channels. It serves as an essential resource for security researchers, investigators, and anyone interested in gathering insights from various Telegram entities."
+            },
+            {
+              "name": "CCTV",
+              "url": "https://github.com/IvanGlinkin/CCTV",
+              "description": "Close-Circuit Telegram Vision revolutionizes location tracking with its open-source design and Telegram API integration. Offering precise tracking within 50-100 meters, users can monitor others in real-time for logistics or safety, redefining how we navigate our surroundings."
+            },
+            {
+              "name": "GroupDa",
+              "url": "https://groupda.com/telegram/group/search",
+              "description": "Can be used for Searching Telegram Channels. Search by Category, Countries and Language."
+            },
+            {
+              "name": "Maltego Telegram",
+              "url": "https://github.com/vognik/maltego-telegram",
+              "description": "Rich Set of Entities & Transforms for OSINT on Telegram with Maltego."
+            },
+            {
+              "name": "Telegram Finder",
+              "url": "https://www.telegram-finder.io/",
+              "description": "A tool to find Telegram users by their phone number, linkedin url or email."
+            },
+            {
+              "name": "Telerecon",
+              "url": "https://github.com/sockysec/Telerecon",
+              "description": "A reconnaissance framework for researching and investigating Telegram."
+            },
+            {
+              "name": "TgramSearch",
+              "url": "https://tgramsearch.com/",
+              "description": "Convenient search for Telegram channels, as well as a structured catalog with over 700000 Telegram channels. Available in 8+ Languages."
+            },
+            {
+              "name": "tgworld",
+              "url": "https://tg.world/",
+              "description": "The Global Search System TG.World will help you find Channels, Groups and Bots in Telegram in any language and for any country in the world!"
+            },
+            {
+              "name": "Telegram Channel Joiner",
+              "url": "https://github.com/spmedia/Telegram-Channel-Joiner",
+              "description": "grow your Free and Premium Telegram accounts easily with this channel joiner script."
+            },
+            {
+              "name": "Telepahty",
+              "url": "https://github.com/proseltd/Telepathy-Community",
+              "description": "Telepathy is a tool that archives Telegram chats and analyzes communication patterns within the app. By providing insights into user interactions, message frequency, and content trends, Telepathy helps investigators understand the dynamics and relationships within Telegram groups and channels."
+            },
+            {
+              "name": "Teleteg",
+              "url": "https://teleteg.com/",
+              "description": "The ultimate Telegram search engine. 10 results for free plan."
+            },
+            {
+              "name": "Telegago",
+              "url": "https://cse.google.com/cse?q=+&cx=006368593537057042503:efxu7xprihg#gsc.tab=0&gsc.q=%20&gsc.page=1",
+              "description": "A Google Advanced Search specifically for finding public and private Telegram Channels and Chatrooms."
+            },
+            {
+              "name": "Telegram Nearby Map",
+              "url": "https://github.com/tejado/telegram-nearby-map",
+              "description": "Webapp based on OpenStreetMap and the official Telegram library to find the position of nearby users."
+            },
+            {
+              "name": "Telegram channels scraper TeleGraphite",
+              "url": "https://github.com/hamodywe/telegram-scraper-TeleGraphite",
+              "description": "Telegram Scraper & JSON Exporter & telegram channels scraper."
+            },
+            {
+              "name": "TeleSearch",
+              "url": "https://telesearch.me/",
+              "description": "Search and find your desired Telegram channels, groups, bots and games quickly and easily with Telesearch​."
+            },
+            {
+              "name": "TeleTracker",
+              "url": "https://github.com/tsale/TeleTracker",
+              "description": "TeleTracker is a simple set of Python scripts designed for anyone investigating Telegram channels. It helps you send messages quickly and gather useful channel information easily."
+            },
+            {
+              "name": "AgentFNS_Bot",
+              "url": "https://t.me/AgentFNS_bot",
+              "description": "Free instant counterparty check using official data (INN/OGRN)."
+            },
+            {
+              "name": "AVinfoBot",
+              "url": "https://t.me/AVskp_Bot",
+              "description": "Used-car history via plate/VIN/phone."
+            },
+            {
+              "name": "AvtoNomer",
+              "url": "https://t.me/avtonomerbot",
+              "description": "Finds vehicle photos by plate via platesmania.com."
+            },
+            {
+              "name": "avtogram_bot",
+              "url": "https://telegram.me/ABTOGRAMBOT",
+              "description": "Paid car reports (VIN/plate): accidents, fines, liens."
+            },
+            {
+              "name": "avtocodbot",
+              "url": "https://t.me/avtocodbot",
+              "description": "Paid VIN/plate lookup."
+            },
+            {
+              "name": "bmi_np_bot",
+              "url": "https://t.me/MNProbot",
+              "description": "Identifies phone-number operator and basic info."
+            },
+            {
+              "name": "ChatSearchRobot",
+              "url": "https://t.me/ChatSearchRobot",
+              "description": "Finds chats with similar topics; 709k+ VK chats."
+            },
+            {
+              "name": "ClerkBot",
+              "url": "https://t.me/clerksecretbot",
+              "description": "Phone + username lookup; vehicle info."
+            },
+            {
+              "name": "creationdatebot",
+              "url": "https://t.me/creationdatebot",
+              "description": "Approx. Telegram account creation date."
+            },
+            {
+              "name": "CryptoBot",
+              "url": "https://t.me/CryptoBot",
+              "description": "Anonymous crypto wallet."
+            },
+            {
+              "name": "datXpert",
+              "url": "https://telegram.me/datxpertbot",
+              "description": "Leak search via IntelX."
+            },
+            {
+              "name": "Detectiva",
+              "url": "http://detectiva.link/rezervBot",
+              "description": "Phone/email lookup with 6 search types."
+            },
+            {
+              "name": "Discord Sensor",
+              "url": "https://telegram.me/discordsensorbot",
+              "description": "Retrieves Discord account data."
+            },
+            {
+              "name": "dCallsBot",
+              "url": "https://t.me/dCallsBot",
+              "description": "Anonymous calls, masking, eSIM/DID."
+            },
+            {
+              "name": "EasyVIN",
+              "url": "https://t.me/EasyVINbot",
+              "description": "Cheap VIN/plate history check."
+            },
+            {
+              "name": "egrul_bot",
+              "url": "https://t.me/egrul_bot",
+              "description": "Free counterparty-check bot."
+            },
+            {
+              "name": "EyeTON",
+              "url": "https://telegram.me/istoneyebot",
+              "description": "TON wallet graph + linked profiles."
+            },
+            {
+              "name": "FindStickerCreator",
+              "url": "https://t.me/SPOwnerBot",
+              "description": "Finds creator of any Telegram sticker pack."
+            },
+            {
+              "name": "Фари",
+              "url": "https://telegram.me/faribybot",
+              "description": "VIN-history lookup from getcar.by."
+            },
+            {
+              "name": "GeoMacFinder",
+              "url": "https://t.me/geomacbot",
+              "description": "Finds Wi-Fi AP location by MAC/BSSID."
+            },
+            {
+              "name": "getChatList",
+              "url": "https://telegram.me/getchatlistbot",
+              "description": "Shows user’s group list."
+            },
+            {
+              "name": "Getairplane",
+              "url": "https://telegram.me/getairplane_bot",
+              "description": "Phone → flight history (20 years)."
+            },
+            {
+              "name": "GetSendGifts",
+              "url": "https://telegram.me/GetSendGiftsProBot",
+              "description": "Shows who sent Telegram gifts."
+            },
+            {
+              "name": "HimeraSearch",
+              "url": "https://t.me/HimeraNeGBL8Pro1dp_Search_bot",
+              "description": "OSINT/HUMINT search: phones, emails, vehicles, people, courts."
+            },
+            {
+              "name": "Insight",
+              "url": "https://t.me/ibhld_bot",
+              "description": "Shows interests based on subscriptions."
+            },
+            {
+              "name": "Leak OSINT",
+              "url": "https://telegram.me/Leak_SSINTbot",
+              "description": "Phone-number leakage check."
+            },
+            {
+              "name": "Maigret OSINT bot",
+              "url": "https://t.me/osint_maigret_bot",
+              "description": "Username search on 1,366 sites."
+            },
+            {
+              "name": "mnp_bot",
+              "url": "https://t.me/mnp_bot",
+              "description": "Phone operator + region."
+            },
+            {
+              "name": "MotherSearchBot",
+              "url": "https://t.me/MotherSearchBot",
+              "description": "Google-like Telegram search."
+            },
+            {
+              "name": "NEUROAUTOSEARCH",
+              "url": "https://t.me/noblackAuto_bot",
+              "description": "Car DB search + neural networks."
+            },
+            {
+              "name": "OkSearch",
+              "url": "https://telegram.me/OkSearchBot",
+              "description": "Search channels, bots, groups by keyword."
+            },
+            {
+              "name": "OpenDataUABot",
+              "url": "https://t.me/OpenDataUABot",
+              "description": "Ukrainian OSINT bot."
+            },
+            {
+              "name": "OPENLOAD Bot",
+              "url": "https://t.me/OPENLOADTOPBOT",
+              "description": "Semi-automated OSINT/vuln scanning suite."
+            },
+            {
+              "name": "Osintkit",
+              "url": "https://t.me/osintkit_check_bot",
+              "description": "Ukrainian lookup: passport, tax ID, email, phone, address, vehicles, Telegram."
+            },
+            {
+              "name": "PasswordSearch",
+              "url": "https://telegram.me/PasswordSearchBot",
+              "description": "Shows leaked passwords for an email."
+            },
+            {
+              "name": "PimEyes",
+              "url": "https://telegram.me/pimeyesbot",
+              "description": "Face-search across social networks."
+            },
+            {
+              "name": "RegDateBot",
+              "url": "https://t.me/regdate_clone_bot",
+              "description": "Registration date by ID/forward."
+            },
+            {
+              "name": "SangMata (beta)",
+              "url": "https://t.me/SangMata_beta_bot",
+              "description": "Name-change history via /search_id."
+            },
+            {
+              "name": "SangMataInfo_bot",
+              "url": "https://t.me/SangMataInfo_bot",
+              "description": "Username change history."
+            },
+            {
+              "name": "SaveYoutubeBot",
+              "url": "https://t.me/SaveYoutubeBot",
+              "description": "Finds and downloads YouTube videos."
+            },
+            {
+              "name": "Search_firm_bot",
+              "url": "https://t.me/Search_firm_bot",
+              "description": "Searches organizations, banks, postal codes."
+            },
+            {
+              "name": "Searchforchats",
+              "url": "https://telegram.me/searchforchatsbot",
+              "description": "Searches chats by keywords."
+            },
+            {
+              "name": "Sherlock",
+              "url": "https://t.me/Getcontact123qwerty_bot?start=_ref_jGW8Sa_iEmG9V",
+              "description": "Name/phone/email search + vehicle data."
+            },
+            {
+              "name": "ShtrafKZBot",
+              "url": "https://t.me/ShtrafKZBot",
+              "description": "Fines, taxes, penalties; traffic violations."
+            },
+            {
+              "name": "SMS Activate",
+              "url": "https://t.me/PrivatePhoneBot",
+              "description": "Virtual numbers from 50+ countries."
+            },
+            {
+              "name": "SpyGGbot",
+              "url": "https://telegram.me/SpyGGbot",
+              "description": "TON balances, NFT owners, Fragment usernames."
+            },
+            {
+              "name": "Surftg_bot",
+              "url": "https://t.me/surftg_bot",
+              "description": "Searches Telegram messages."
+            },
+            {
+              "name": "TuriBot",
+              "url": "https://t.me/TuriBot",
+              "description": "Resolves username from Telegram ID."
+            },
+            {
+              "name": "Unamer",
+              "url": "https://telegram.me/unamer_bot",
+              "description": "Username ownership history."
+            },
+            {
+              "name": "username_to_id_bot",
+              "url": "https://t.me/username_to_id_bot",
+              "description": "Returns user/chat/channel/bot ID."
+            },
+            {
+              "name": "UsInfoBot",
+              "url": "https://t.me/usinfobot",
+              "description": "Resolves username from ID (inline)."
+            },
+            {
+              "name": "WhoisDomBot",
+              "url": "https://t.me/WhoisDomBot",
+              "description": "Whois lookup for domains/IPs + dig/trace."
+            }
+          ]
         },
         {
-          "name": "MotherSearchBot",
-          "url": "https://t.me/MotherSearchBot",
-          "description": "Google-like Telegram search."
+          "title": "Reddit",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Arctic Shift",
+              "url": "https://github.com/ArthurHeitmann/arctic_shift",
+              "description": "A tool for accessing and interacting with large dumps of Reddit data, offering an API and web interface for research and moderation purposes."
+            },
+            {
+              "name": "Imgur",
+              "url": "http://imgur.com/search?q=",
+              "description": "The most popular image hosting website used by redditors."
+            },
+            {
+              "name": "Mostly Harmless",
+              "url": "http://kerrick.github.io/Mostly-Harmless/#features",
+              "description": "Mostly Harmless looks up the page you are currently viewing to see if it has been submitted to reddit."
+            },
+            {
+              "name": "Pushshift API",
+              "url": "https://pushshift.io/",
+              "description": "A powerful API that provides access to historical Reddit data, including posts, comments, and metadata for analysis and research—more information [here](https://www.reddit.com/r/pushshift/)."
+            },
+            {
+              "name": "Pullpush",
+              "url": "https://pullpush.io/",
+              "description": "PullPush is a service for the indexing and retrieval of content that Reddit users have submitted to Reddit. Helpful for finding deleted/removed posts & comments."
+            },
+            {
+              "name": "REDARCS",
+              "url": "https://the-eye.eu/redarcs/",
+              "description": "Reddit archives 2005-2023."
+            },
+            {
+              "name": "Reddit Archive",
+              "url": "http://www.redditarchive.com/",
+              "description": "Historical archives of reddit posts."
+            },
+            {
+              "name": "Reddit Suite",
+              "url": "https://chrome.google.com/webstore/detail/reddit-enhancement-suite/kbmfpngjjgdllneeigpgjifpgocmfgmb",
+              "description": "Enhances your reddit experience."
+            },
+            {
+              "name": "Reddit User Analyser",
+              "url": "https://atomiks.github.io/reddit-user-analyser/",
+              "description": "reddit user account analyzer."
+            },
+            {
+              "name": "RedditMetis",
+              "url": "https://redditmetis.com/",
+              "description": "RedditMetis is a Reddit user analysis tool to see the summary and statistics for a Reddit account, including top posts and user activity etc."
+            },
+            {
+              "name": "Subreddits",
+              "url": "http://subreddits.org/",
+              "description": "Discover new subreddits."
+            },
+            {
+              "name": "Reddit Comment Search",
+              "url": "https://redditcommentsearch.com/",
+              "description": "Analyze a reddit users by comment history."
+            },
+            {
+              "name": "Universal Scammer List",
+              "url": "https://universalscammerlist.com/",
+              "description": "This acts as the website-portion for the subreddit /r/universalscammerlist. That subreddit, in conjuction with this website and a reddit bot, manages a list of malicious reddit accounts and minimizes the damage they can deal. This list is referred to as the \"USL\" for short."
+            },
+            {
+              "name": "Reddit Comment Lookup",
+              "url": "https://randomtools.io/reddit-comment-search/",
+              "description": "Search for reddit comments by reddit username."
+            }
+          ]
         },
         {
-          "name": "NEUROAUTOSEARCH",
-          "url": "https://t.me/noblackAuto_bot",
-          "description": "Car DB search + neural networks."
+          "title": "VK",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Дезертир",
+              "url": "http://vk.com/app3046467",
+              "description": ""
+            },
+            {
+              "name": "Barkov.net",
+              "url": "http://vk.barkov.net/",
+              "description": ""
+            },
+            {
+              "name": "VK5",
+              "url": "http://vk5.city4me.com/",
+              "description": ""
+            },
+            {
+              "name": "VK Community Search",
+              "url": "http://vk.com/communities",
+              "description": ""
+            },
+            {
+              "name": "VK People Search",
+              "url": "http://vk.com/people",
+              "description": ""
+            },
+            {
+              "name": "VK.watch",
+              "url": "https://vk.watch/",
+              "description": ""
+            }
+          ]
         },
         {
-          "name": "OkSearch",
-          "url": "https://telegram.me/OkSearchBot",
-          "description": "Search channels, bots, groups by keyword."
+          "title": "LinkedIn",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "the-endorser",
+              "url": "https://github.com/eth0izzle/the-endorser",
+              "description": "Tool that allows you to draw out relationships between people on LinkedIn via endorsements/skills."
+            },
+            {
+              "name": "LinkedInDumper",
+              "url": "https://github.com/l4rm4nd/LinkedInDumper",
+              "description": "Script to dump/scrape/extract company employees info from LinkedIn API."
+            }
+          ]
         },
         {
-          "name": "OpenDataUABot",
-          "url": "https://t.me/OpenDataUABot",
-          "description": "Ukrainian OSINT bot."
+          "title": "Pinterest",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Pingroupie",
+              "url": "http://pingroupie.com/",
+              "description": ""
+            },
+            {
+              "name": "Pinterest Pin Stats",
+              "url": "https://chromewebstore.google.com/detail/pinterest-pin-stats-sort/mcmkeopcpbfgjlakblglpcccpodbjkel",
+              "description": "Display hidden Pinterest stats for each pin."
+            }
+          ]
         },
         {
-          "name": "OPENLOAD Bot",
-          "url": "https://t.me/OPENLOADTOPBOT",
-          "description": "Semi-automated OSINT/vuln scanning suite."
+          "title": "Steam",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "OSINT-Steam",
+              "url": "https://osint-steam.vercel.app/en",
+              "description": "An [open-source](https://github.com/Berchez/OSINT-steam) tool that returns public information, such as friends list and possible locations, from Steam profiles."
+            }
+          ]
         },
         {
-          "name": "Osintkit",
-          "url": "https://t.me/osintkit_check_bot",
-          "description": "Ukrainian lookup: passport, tax ID, email, phone, address, vehicles, Telegram."
-        },
-        {
-          "name": "PasswordSearch",
-          "url": "https://telegram.me/PasswordSearchBot",
-          "description": "Shows leaked passwords for an email."
-        },
-        {
-          "name": "PimEyes",
-          "url": "https://telegram.me/pimeyesbot",
-          "description": "Face-search across social networks."
-        },
-        {
-          "name": "RegDateBot",
-          "url": "https://t.me/regdate_clone_bot",
-          "description": "Registration date by ID/forward."
-        },
-        {
-          "name": "SangMata (beta)",
-          "url": "https://t.me/SangMata_beta_bot",
-          "description": "Name-change history via /search_id."
-        },
-        {
-          "name": "SangMataInfo_bot",
-          "url": "https://t.me/SangMataInfo_bot",
-          "description": "Username change history."
-        },
-        {
-          "name": "SaveYoutubeBot",
-          "url": "https://t.me/SaveYoutubeBot",
-          "description": "Finds and downloads YouTube videos."
-        },
-        {
-          "name": "Search_firm_bot",
-          "url": "https://t.me/Search_firm_bot",
-          "description": "Searches organizations, banks, postal codes."
-        },
-        {
-          "name": "Searchforchats",
-          "url": "https://telegram.me/searchforchatsbot",
-          "description": "Searches chats by keywords."
-        },
-        {
-          "name": "Sherlock",
-          "url": "https://t.me/Getcontact123qwerty_bot?start=_ref_jGW8Sa_iEmG9V",
-          "description": "Name/phone/email search + vehicle data."
-        },
-        {
-          "name": "ShtrafKZBot",
-          "url": "https://t.me/ShtrafKZBot",
-          "description": "Fines, taxes, penalties; traffic violations."
-        },
-        {
-          "name": "SMS Activate",
-          "url": "https://t.me/PrivatePhoneBot",
-          "description": "Virtual numbers from 50+ countries."
-        },
-        {
-          "name": "SpyGGbot",
-          "url": "https://telegram.me/SpyGGbot",
-          "description": "TON balances, NFT owners, Fragment usernames."
-        },
-        {
-          "name": "Surftg_bot",
-          "url": "https://t.me/surftg_bot",
-          "description": "Searches Telegram messages."
-        },
-        {
-          "name": "TuriBot",
-          "url": "https://t.me/TuriBot",
-          "description": "Resolves username from Telegram ID."
-        },
-        {
-          "name": "Unamer",
-          "url": "https://telegram.me/unamer_bot",
-          "description": "Username ownership history."
-        },
-        {
-          "name": "username_to_id_bot",
-          "url": "https://t.me/username_to_id_bot",
-          "description": "Returns user/chat/channel/bot ID."
-        },
-        {
-          "name": "UsInfoBot",
-          "url": "https://t.me/usinfobot",
-          "description": "Resolves username from ID (inline)."
-        },
-        {
-          "name": "WhoisDomBot",
-          "url": "https://t.me/WhoisDomBot",
-          "description": "Whois lookup for domains/IPs + dig/trace."
-        },
-        {
-          "name": "OSINT-Steam",
-          "url": "https://osint-steam.vercel.app/en",
-          "description": "An [open-source](https://github.com/Berchez/OSINT-steam) tool that returns public information, such as friends list and possible locations, from Steam profiles."
-        },
-        {
-          "name": "github_monitor",
-          "url": "https://github.com/misiektoja/github_monitor",
-          "description": "Tool for real-time tracking of GitHub users' activities including profile and repository changes with support for email alerts, CSV logging, detection when a user blocks or unblocks you and more"
-        },
-        {
-          "name": "GithubRecon",
-          "url": "https://kriztalz.sh/github-recon/",
-          "description": "Lookup Github users by username or email and gather associated data."
-        },
-        {
-          "name": "Shotstars",
-          "url": "https://github.com/snooppr/shotstars",
-          "description": "An advanced tool for checking GitHub repositories, with star statistics, including fake star analysis and data visualization."
+          "title": "GitHub",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "github_monitor",
+              "url": "https://github.com/misiektoja/github_monitor",
+              "description": "Tool for real-time tracking of GitHub users' activities including profile and repository changes with support for email alerts, CSV logging, detection when a user blocks or unblocks you and more"
+            },
+            {
+              "name": "GithubRecon",
+              "url": "https://kriztalz.sh/github-recon/",
+              "description": "Lookup Github users by username or email and gather associated data."
+            },
+            {
+              "name": "Shotstars",
+              "url": "https://github.com/snooppr/shotstars",
+              "description": "An advanced tool for checking GitHub repositories, with star statistics, including fake star analysis and data visualization."
+            }
+          ]
         }
       ]
     },
