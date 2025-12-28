@@ -75,31 +75,84 @@
           "url": "https://you.com/",
           "description": "AI search engine."
         }
-      ]
-    },
-    {
-      "title": "[↑](#-google-dorks-tools) Google Dorks Tools",
-      "subtitle": "",
-      "items": [
+      ],
+      "categories": [
         {
-          "name": "DorkGenius",
-          "url": "https://dorkgenius.com/",
-          "description": "DorkGenius is the ultimate tool for generating custom search queries for Google, Bing, and DuckDuckGo. - Our cutting-edge app uses the power of AI to help you create advanced search queries that can find exactly what you're looking for on the web."
+          "title": "Privacy Focused Search Engines",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "DuckDuckGo",
+              "url": "https://duckduckgo.com/",
+              "description": "an Internet search engine that emphasizes protecting searchers' privacy."
+            },
+            {
+              "name": "Disconnect Search",
+              "url": "https://search.disconnect.me/",
+              "description": "Stop search engines from tracking your searches."
+            },
+            {
+              "name": "Gibiru",
+              "url": "https://gibiru.com/",
+              "description": "Gibiru provides “uncensored search results” without collecting personal data like logging users’ IP addresses or search queries."
+            },
+            {
+              "name": "Kagi Search",
+              "url": "https://kagi.com/",
+              "description": "Liberate your search. Free of ads. Free of surveillance. Your time respected. You are the customer, never the product."
+            },
+            {
+              "name": "Mojeek",
+              "url": "https://www.mojeek.com/",
+              "description": "Mojeek is a growing independent search engine which does not track you."
+            },
+            {
+              "name": "Presearch",
+              "url": "https://presearch.com/",
+              "description": "Presearch is a decentralized, community-driven search engine that protects your privacy and rewards you when you search."
+            },
+            {
+              "name": "Qwant",
+              "url": "https://www.qwant.com/",
+              "description": "The search engine that respects your privacy."
+            },
+            {
+              "name": "Startpage",
+              "url": "https://www.startpage.com/",
+              "description": "The world’s most private search engine."
+            },
+            {
+              "name": "swisscows",
+              "url": "https://swisscows.com/en",
+              "description": "Anonymous search engine, a family-friendly, privacy-focused search engine based in Switzerland."
+            }
+          ]
         },
         {
-          "name": "DorkGPT",
-          "url": "https://www.dorkgpt.com/",
-          "description": "Generate Google Dorks with AI."
-        },
-        {
-          "name": "Google Hacking Database (GHDB)",
-          "url": "https://www.exploit-db.com/google-hacking-database",
-          "description": "The GHDB is an index of search queries (we call them dorks) used to find publicly available information, intended for pentesters and security researchers."
-        },
-        {
-          "name": "SearchDorks",
-          "url": "https://kriztalz.sh/search-dorks/",
-          "description": "Generate Search Engine (Google, FOFA, Shodan, Censys, ZoomEye) Dorks using AI."
+          "title": "Google Dorks Tools",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "DorkGenius",
+              "url": "https://dorkgenius.com/",
+              "description": "DorkGenius is the ultimate tool for generating custom search queries for Google, Bing, and DuckDuckGo. - Our cutting-edge app uses the power of AI to help you create advanced search queries that can find exactly what you're looking for on the web."
+            },
+            {
+              "name": "DorkGPT",
+              "url": "https://www.dorkgpt.com/",
+              "description": "Generate Google Dorks with AI."
+            },
+            {
+              "name": "Google Hacking Database (GHDB)",
+              "url": "https://www.exploit-db.com/google-hacking-database",
+              "description": "The GHDB is an index of search queries (we call them dorks) used to find publicly available information, intended for pentesters and security researchers."
+            },
+            {
+              "name": "SearchDorks",
+              "url": "https://kriztalz.sh/search-dorks/",
+              "description": "Generate Search Engine (Google, FOFA, Shodan, Censys, ZoomEye) Dorks using AI."
+            }
+          ]
         }
       ]
     },
@@ -312,57 +365,6 @@
       ]
     },
     {
-      "title": "[↑](#-table-of-contents) Privacy Focused Search Engines",
-      "subtitle": "",
-      "items": [
-        {
-          "name": "DuckDuckGo",
-          "url": "https://duckduckgo.com/",
-          "description": "an Internet search engine that emphasizes protecting searchers' privacy."
-        },
-        {
-          "name": "Disconnect Search",
-          "url": "https://search.disconnect.me/",
-          "description": "Stop search engines from tracking your searches."
-        },
-        {
-          "name": "Gibiru",
-          "url": "https://gibiru.com/",
-          "description": "Gibiru provides “uncensored search results” without collecting personal data like logging users’ IP addresses or search queries."
-        },
-        {
-          "name": "Kagi Search",
-          "url": "https://kagi.com/",
-          "description": "Liberate your search. Free of ads. Free of surveillance. Your time respected. You are the customer, never the product."
-        },
-        {
-          "name": "Mojeek",
-          "url": "https://www.mojeek.com/",
-          "description": "Mojeek is a growing independent search engine which does not track you."
-        },
-        {
-          "name": "Presearch",
-          "url": "https://presearch.com/",
-          "description": "Presearch is a decentralized, community-driven search engine that protects your privacy and rewards you when you search."
-        },
-        {
-          "name": "Qwant",
-          "url": "https://www.qwant.com/",
-          "description": "The search engine that respects your privacy."
-        },
-        {
-          "name": "Startpage",
-          "url": "https://www.startpage.com/",
-          "description": "The world’s most private search engine."
-        },
-        {
-          "name": "swisscows",
-          "url": "https://swisscows.com/en",
-          "description": "Anonymous search engine, a family-friendly, privacy-focused search engine based in Switzerland."
-        }
-      ]
-    },
-    {
       "title": "[↑](#-table-of-contents) Data Breach Search Engines",
       "subtitle": "",
       "items": [
@@ -418,6 +420,11 @@
           "description": "Repository of abuses reported by system administrators for IPs, Domains, and subnets"
         },
         {
+          "name": "Amass",
+          "url": "https://github.com/owasp-amass/amass",
+          "description": "The amass tool searches Internet data sources, performs brute force subdomain enumeration, searches web archives, and uses machine learning to generate additional subdomain name guesses. DNS name resolution is performed across many public servers so the authoritative server will see the traffic coming from different locations. Written in Go."
+        },
+        {
           "name": "BeVigil",
           "url": "https://bevigil.com/search",
           "description": "Search for assets like Subdomains, URLs, Parameters in mobile applications"
@@ -456,6 +463,11 @@
           "name": "CiteSeerX",
           "url": "http://citeseer.ist.psu.edu/",
           "description": ""
+        },
+        {
+          "name": "Columbus Project",
+          "url": "https://github.com/elmasy-com/columbus",
+          "description": "Columbus Project is an advanced subdomain discovery service with fast, powerful and easy to use API."
         },
         {
           "name": "Criminal IP",
@@ -528,6 +540,11 @@
           "description": ""
         },
         {
+          "name": "Merklemap",
+          "url": "https://www.merklemap.com/",
+          "description": "Discover and enumerate all subdomains associated with a website, including those not publicly advertised. Works by ingesting certificate transparency logs."
+        },
+        {
           "name": "Million Short",
           "url": "https://millionshort.com/",
           "description": ""
@@ -595,7 +612,7 @@
       ]
     },
     {
-      "title": "[↑](#-table-of-contents) Dark Web Search Engines",
+      "title": "[↑](#-table-of-contents) Dark Web Research",
       "subtitle": "",
       "items": [
         {
@@ -609,9 +626,19 @@
           "description": ""
         },
         {
+          "name": "Exonera Tor",
+          "url": "https://exonerator.torproject.org/",
+          "description": "A database of IP addresses that have been part of the Tor network. It answers the question whether there was a Tor relay running on a given IP address on a given date."
+        },
+        {
           "name": "OnionLand",
           "url": "https://onionland.io/",
           "description": "Onion search engine for Tor network."
+        },
+        {
+          "name": "OnionScan",
+          "url": "https://github.com/s-rah/onionscan",
+          "description": "Free and open source tool for investigating the Dark Web. Its main goal is to help researchers and investigators monitor and track Dark Web sites."
         }
       ]
     },
@@ -619,91 +646,96 @@
       "title": "[↑](#-table-of-contents) Cryptocurrency Searches",
       "subtitle": "",
       "items": [
-    {
-      "name": "BlockChair",
-      "url": "https://blockchair.com/",
-      "description": "Blockchain search and analytics engine."
-    },
-    {
-      "name": "BlockCypher",
-      "url": "https://www.blockcypher.com/",
-      "description": "Blockchain explorer with APIs for transactions, addresses, and blocks across several chains."
-    },
-    {
-      "name": "Blockchain.com Explorer",
-      "url": "https://www.blockchain.com/explorer",
-      "description": "Widely used Bitcoin and multi-chain explorer with transaction and block search."
-    },
-    {
-      "name": "BlockExplorer.one",
-      "url": "https://blockexplorer.one/",
-      "description": "Multi-chain explorer supporting Bitcoin, Ethereum, Litecoin, Dogecoin, and others."
-    },
-    {
-      "name": "Blockstream Explorer",
-      "url": "https://blockstream.info/",
-      "description": "Open-source Bitcoin blockchain explorer with support for testnet and Liquid."
-    },
-    {
-      "name": "BTCScan",
-      "url": "https://btcscan.org/",
-      "description": "Bitcoin blockchain explorer with real-time transaction and address data."
-    },
-    {
-      "name": "Chainalysis",
-      "url": "https://www.chainalysis.com/",
-      "description": "Blockchain analysis platform for tracing cryptocurrency transactions and compliance investigations."
-    },
-    {
-      "name": "Crystal Blockchain",
-      "url": "https://crystalintelligence.com/",
-      "description": "Advanced blockchain analytics for tracing movements, visualizing transaction flows, and risk analysis."
-    },
-    {
-      "name": "Elliptic Investigator",
-      "url": "https://www.elliptic.co/blockchain-forensics-tools",
-      "description": "Forensic toolset for tracing crypto transactions, uncovering illicit activity, and linking addresses."
-    },
-    {
-      "name": "Etherscan",
-      "url": "https://etherscan.io/",
-      "description": "Comprehensive Ethereum blockchain explorer for transaction, address, and contract data."
-    },
-    {
-      "name": "MetaSleuth",
-      "url": "https://metasleuth.io/",
-      "description": "Crypto tracking and investigation platform for wallet tracing and compliance research."
-    },
-    {
-      "name": "OKLink",
-      "url": "https://www.oklink.com/",
-      "description": "Multi-crypto blockchain explorer providing chain data, transaction details, and address insights."
-    },
-    {
-      "name": "Polygonscan",
-      "url": "https://polygonscan.com/",
-      "description": "Polygon network explorer derived from Etherscan for tracking transactions on Polygon."
-    },
-    {
-      "name": "Solscan",
-      "url": "https://solscan.io/",
-      "description": "Fast and detailed explorer for the Solana blockchain."
-    },
-    {
-      "name": "Tokenview",
-      "url": "https://tokenview.com/",
-      "description": "Multi-chain blockchain explorer offering real-time tracking of transactions and wallet balances."
-    },
-    {
-      "name": "TRM Labs",
-      "url": "https://www.trmlabs.com/",
-      "description": "Blockchain intelligence platform for transaction tracing, risk scoring, and investigation workflows."
-    },
-    {
-      "name": "WalletExplorer",
-      "url": "https://www.walletexplorer.com/",
-      "description": "Bitcoin block explorer with address grouping and wallet labeling."
-    }
+        {
+          "name": "BlockChair",
+          "url": "https://blockchair.com/",
+          "description": "Blockchain search and analytics engine."
+        },
+        {
+          "name": "BlockCypher",
+          "url": "https://www.blockcypher.com/",
+          "description": "Blockchain explorer with APIs for transactions, addresses, and blocks across several chains."
+        },
+        {
+          "name": "Blockchain.com Explorer",
+          "url": "https://www.blockchain.com/explorer",
+          "description": "Widely used Bitcoin and multi-chain explorer with transaction and block search."
+        },
+        {
+          "name": "BlockExplorer.one",
+          "url": "https://blockexplorer.one/",
+          "description": "Multi-chain explorer supporting Bitcoin, Ethereum, Litecoin, Dogecoin, and others."
+        },
+        {
+          "name": "Blockstream Explorer",
+          "url": "https://blockstream.info/",
+          "description": "Open-source Bitcoin blockchain explorer with support for testnet and Liquid."
+        },
+        {
+          "name": "BTCScan",
+          "url": "https://btcscan.org/",
+          "description": "Bitcoin blockchain explorer with real-time transaction and address data."
+        },
+        {
+          "name": "Chainalysis",
+          "url": "https://www.chainalysis.com/",
+          "description": "Blockchain analysis platform for tracing cryptocurrency transactions and compliance investigations."
+        },
+        {
+          "name": "Crystal Blockchain",
+          "url": "https://crystalintelligence.com/",
+          "description": "Advanced blockchain analytics for tracing movements, visualizing transaction flows, and risk analysis."
+        },
+        {
+          "name": "Crypto Scam & Crypto Phishing URL Threat Intel Feed",
+          "url": "https://github.com/spmedia/Crypto-Scam-and-Crypto-Phishing-Threat-Intel-Feed",
+          "description": "A fresh feed of crypto phishing and crypto scam websites. Automatically updated daily."
+        },
+        {
+          "name": "Elliptic Investigator",
+          "url": "https://www.elliptic.co/blockchain-forensics-tools",
+          "description": "Forensic toolset for tracing crypto transactions, uncovering illicit activity, and linking addresses."
+        },
+        {
+          "name": "Etherscan",
+          "url": "https://etherscan.io/",
+          "description": "Comprehensive Ethereum blockchain explorer for transaction, address, and contract data."
+        },
+        {
+          "name": "MetaSleuth",
+          "url": "https://metasleuth.io/",
+          "description": "Crypto tracking and investigation platform for wallet tracing and compliance research."
+        },
+        {
+          "name": "OKLink",
+          "url": "https://www.oklink.com/",
+          "description": "Multi-crypto blockchain explorer providing chain data, transaction details, and address insights."
+        },
+        {
+          "name": "Polygonscan",
+          "url": "https://polygonscan.com/",
+          "description": "Polygon network explorer derived from Etherscan for tracking transactions on Polygon."
+        },
+        {
+          "name": "Solscan",
+          "url": "https://solscan.io/",
+          "description": "Fast and detailed explorer for the Solana blockchain."
+        },
+        {
+          "name": "Tokenview",
+          "url": "https://tokenview.com/",
+          "description": "Multi-chain blockchain explorer offering real-time tracking of transactions and wallet balances."
+        },
+        {
+          "name": "TRM Labs",
+          "url": "https://www.trmlabs.com/",
+          "description": "Blockchain intelligence platform for transaction tracing, risk scoring, and investigation workflows."
+        },
+        {
+          "name": "WalletExplorer",
+          "url": "https://www.walletexplorer.com/",
+          "description": "Bitcoin block explorer with address grouping and wallet labeling."
+        }
       ]
     },
     {
@@ -2641,11 +2673,6 @@
           "description": "Search for accounts associated with a given email across various platforms."
         },
         {
-          "name": "DeHashed",
-          "url": "https://dehashed.com/",
-          "description": "DeHashed helps prevent ATO with our extensive data set & breach notification solution. Match employee and consumer logins against the world’s largest repository of aggregated publicly available assets leaked from third-party breaches. Secure passwords before criminals can abuse stolen information, and protect your enterprise."
-        },
-        {
           "name": "Email Address Validator",
           "url": "http://www.email-validator.net/",
           "description": "Improve deliverability, reduce bounce rates, prevent fraud and minimize funnel leaks."
@@ -3244,6 +3271,18 @@
           "url": "https://youcontrol.com.ua/en/",
           "description": ""
         }
+      ],
+      "categories": [
+        {
+          "title": "Country-Specific Company Search",
+          "items": [
+            {
+              "name": "Companies House (UK)",
+              "url": "https://companieshouse.gov.uk/",
+              "description": "UK Official Company Register."
+            }
+          ]
+        }
       ]
     },
     {
@@ -3463,11 +3502,6 @@
           "description": ""
         },
         {
-          "name": "Crypto Scam & Crypto Phishing URL Threat Intel Feed",
-          "url": "https://github.com/spmedia/Crypto-Scam-and-Crypto-Phishing-Threat-Intel-Feed",
-          "description": "A fresh feed of crypto phishing and crypto scam websites. Automatically updated daily."
-        },
-        {
           "name": "Dedicated or Not",
           "url": "http://dedicatedornot.com/",
           "description": ""
@@ -3516,11 +3550,6 @@
           "name": "Easy whois",
           "url": "https://www.easywhois.com/",
           "description": ""
-        },
-        {
-          "name": "Exonera Tor",
-          "url": "https://exonerator.torproject.org/",
-          "description": "A database of IP addresses that have been part of the Tor network. It answers the question whether there was a Tor relay running on a given IP address on a given date."
         },
         {
           "name": "Focsec",
@@ -6679,27 +6708,6 @@
       ]
     },
     {
-      "title": "[↑](#-table-of-contents) DNS",
-      "subtitle": "",
-      "items": [
-        {
-          "name": "Amass",
-          "url": "https://github.com/owasp-amass/amass",
-          "description": "The amass tool searches Internet data sources, performs brute force subdomain enumeration, searches web archives, and uses machine learning to generate additional subdomain name guesses. DNS name resolution is performed across many public servers so the authoritative server will see the traffic coming from different locations. Written in Go."
-        },
-        {
-          "name": "Columbus Project",
-          "url": "https://github.com/elmasy-com/columbus",
-          "description": "Columbus Project is an advanced subdomain discovery service with fast, powerful and easy to use API."
-        },
-        {
-          "name": "Merklemap",
-          "url": "https://www.merklemap.com/",
-          "description": "Discover and enumerate all subdomains associated with a website, including those not publicly advertised. Works by ingesting certificate transparency logs."
-        }
-      ]
-    },
-    {
       "title": "[↑](#-table-of-contents) Maritime and Air Traffic Tracking",
       "subtitle": "",
       "items": [
@@ -6707,7 +6715,7 @@
           "name": "VesselFinder",
           "url": "https://www.vesselfinder.com/",
           "description": "a FREE AIS vessel tracking web site. VesselFinder displays real time ship positions and marine traffic detected by global AIS network."
-        }, 
+        },
         {
           "name": "Flightradar24",
           "url": "https://www.flightradar24.com/",
@@ -6969,11 +6977,6 @@
           "name": "GitGuardian - Public GitHub Monitoring",
           "url": "https://www.gitguardian.com/monitor-public-github-for-secrets",
           "description": "Monitor public GitHub repositories in real time. Detect secrets and sensitive information to prevent hackers from using GitHub as a backdoor to your business."
-        },
-        {
-          "name": "OnionScan",
-          "url": "https://github.com/s-rah/onionscan",
-          "description": "Free and open source tool for investigating the Dark Web. Its main goal is to help researchers and investigators monitor and track Dark Web sites."
         },
         {
           "name": "onion-lookup",
