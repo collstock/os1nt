@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OS1NT R3P0</title>
+  <link rel="icon" type="image/png" href="search_5177376.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="osint-cards.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="home" href="#" aria-label="Home">
+        <span aria-hidden="true">🏠</span>
+      </a>
+
+      <div class="brand">
+        <img src="search_5177376.png" alt="OS1NT R3P0 Logo" class="brand-mark" />
+        <div class="brand-text">
+          <h1>OS1NT R3P0</h1>
+          <p>OSINT Link Collection</p>
+        </div>
+      </div>
+
+      <div class="toolbar">
+        <div class="search" role="search">
+          <div class="icon" aria-hidden="true">⌕</div>
+          <input id="search-input" type="search" placeholder="Search…" aria-label="Search OSINT links" />
+          <button id="search-clear" class="search-clear" type="button" aria-label="Clear search" hidden>✕</button>
+        </div>
+
+        <div class="pill" aria-live="polite">
+          <span>Items</span> <b id="item-count">0</b>
+        </div>
+
+        <button id="toggle-all" class="btn primary">Collapse All</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="hero-card">
+        <h2>OSINT Repository</h2>
+        <p>
+          Explore a curated collection of open-source intelligence tools and resources, brought to you by the OSINT community. For other useful sources check out the
+          <a href="https://github.com/jivoi/awesome-osint?tab=readme-ov-file" target="_blank" rel="noopener noreferrer" class="highlight">AwesomeOSINT GitHub page</a>.
+          If you find this project valuable, consider <a href="#" class="highlight">supporting us</a> or <a href="#" class="highlight">recommending new tools</a> to expand the collection.
+        </p>
+        <div class="stack">
+          <a class="btn primary" href="blog.html">Blog</a>
+          <a class="btn" href="#">Donate</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h3>Quick Notes</h3>
+        <p class="muted">
+          Tools are regularly reviewed for accuracy, but always verify.
+        </p>
+        <div class="hint">
+          <b>Tip:</b> Access all sites using a VPN for privacy.
+        </div>
+      </div>
+    </section>
+
+    <section class="layout">
+      <div class="col-left">
+        <div id="osint-cards" aria-live="polite">
+          <section class="card">
+            <div class="card-head">
+              <div class="card-title">
+                <h2>Loading OSINT categories…</h2>
+                <span>If this takes long, check that <code>awesome-osint.json</code> is next to this HTML file.</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="muted">Rendering cards from the locally stored JSON.</p>
+            </div>
+          </section>
+          <noscript>
+            <section class="card">
+              <div class="card-head">
+                <div class="card-title">
+                  <h2>JavaScript required</h2>
+                  <span>Enable JavaScript to render categories from <code>awesome-osint.json</code>.</span>
+                </div>
+              </div>
+            </section>
+          </noscript>
+        </div>
+      </div>
+
+      <div class="col-middle">
+        <div id="osint-cards-middle" aria-live="polite">
+          <section class="card">
+            <div class="card-head">
+              <div class="card-title">
+                <h2>Loading OSINT categories…</h2>
+                <span>Middle column content</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="muted">Rendering cards from the locally stored JSON.</p>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <aside class="col-right">
+        <div id="osint-cards-right" aria-live="polite">
+          <section class="card">
+            <div class="card-head">
+              <div class="card-title">
+                <h2>Loading OSINT categories…</h2>
+                <span>Right column content</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="muted">Rendering cards from the locally stored JSON.</p>
+            </div>
+          </section>
+        </div>
+      </aside>
+    </section>
+
+    <footer class="footer">
+      <span class="muted">© OS1NT • All rights reserved</span>
+    </footer>
+  </main>
+
+  <script>
+    function updateItemCount() {
+      const layoutSection = document.querySelector('.layout');
+      const items = layoutSection ? layoutSection.querySelectorAll('li.item') : [];
+      const count = items.length;
+      const countElement = document.getElementById('item-count');
+      if (countElement) {
+        countElement.textContent = count;
+      }
+    }
+
+    updateItemCount();
+
+    const observer = new MutationObserver(updateItemCount);
+    const layoutSection = document.querySelector('.layout');
+    if (layoutSection) {
+      observer.observe(layoutSection, { childList: true, subtree: true });
+    }
+
+    const toggleAllBtn = document.getElementById('toggle-all');
+    if (toggleAllBtn) {
+      toggleAllBtn.addEventListener('click', () => {
+        const allDetails = document.querySelectorAll('.layout details');
+        const anyOpen = Array.from(allDetails).some(d => d.open);
+
+        allDetails.forEach(details => {
+          details.open = !anyOpen;
+        });
+
+        toggleAllBtn.textContent = anyOpen ? 'Expand All' : 'Collapse All';
+      });
+    }
+
+    // Search clear button behavior
+    (function() {
+      const searchInput = document.getElementById('search-input');
+      const searchClear = document.getElementById('search-clear');
+      if (!searchInput || !searchClear) return;
+
+      const updateClear = () => {
+        if (searchInput.value.trim().length > 0) {
+          searchClear.removeAttribute('hidden');
+        } else {
+          searchClear.setAttribute('hidden', '');
+        }
+      };
+
+      searchInput.addEventListener('input', updateClear);
+
+      searchClear.addEventListener('click', () => {
+        searchInput.value = '';
+        updateClear();
+        searchInput.focus();
+        searchInput.dispatchEvent(new Event('input', { bubbles: true }));
+      });
+
+      updateClear();
+    })();
+
+    
+  </script>
+</body>
+</html>

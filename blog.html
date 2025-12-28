@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OS1NT R3P0 — Blog</title>
+  <link rel="icon" type="image/png" href="search_5177376.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Blog-specific tweaks reusing the existing palette */
+    .blog-hero{ display:flex; flex-direction:column; gap:12px; margin-bottom:var(--gap); }
+    .blog-hero .stack{ flex-wrap:wrap; }
+    .post-card .card-head{ align-items:flex-start; }
+    .post-meta{ display:flex; gap:12px; flex-wrap:wrap; color: var(--muted); font-size:12px; }
+    .tag-list{ display:flex; gap:8px; flex-wrap:wrap; margin:8px 0 0; }
+    .post-card p{ line-height:1.6; }
+    .blog-feed{ display:flex; flex-direction:column; gap:var(--gap); }
+    .post-card img{ width:100%; border-radius:12px; margin:12px 0; border:1px solid var(--border); }
+    .post-card h3{ margin-top:18px; }
+    .code{ background:#0b0b0c; color:#f3f3f3; padding:12px; border-radius:10px; font-family:ui-monospace,monospace; font-size:13px; overflow:auto; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="home" href="index.html" aria-label="Back to OSINT links">
+        <span aria-hidden="true">🏠</span>
+      </a>
+
+      <div class="brand">
+        <img src="search_5177376.png" alt="OS1NT R3P0 Logo" class="brand-mark" />
+        <div class="brand-text">
+          <h1>OS1NT R3P0</h1>
+          <p>Field Notes &amp; Stories</p>
+        </div>
+      </div>
+
+      <div class="toolbar">
+        <div class="search" role="search">
+          <div class="icon" aria-hidden="true">⌕</div>
+          <input id="post-search" type="search" placeholder="Search the blog…" aria-label="Search blog posts" />
+          <button id="post-search-clear" class="search-clear" type="button" aria-label="Clear search" hidden>✕</button>
+        </div>
+        <div class="pill" aria-live="polite">
+          <span>Posts</span> <b id="post-count">0</b>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero-card blog-hero">
+      <h2>Investigator's Log</h2>
+      <p class="muted">
+        Long-form breakdowns, quick wins, and lessons learned from working through OSINT cases, tooling experiments, and verification drills.
+      </p>
+      <div class="stack">
+        <a class="btn primary" href="#">Subscribe</a>
+        <a class="btn" href="index.html">Browse the tools</a>
+      </div>
+    </section>
+
+    <section class="blog-feed" aria-label="Blog posts">
+
+      <!-- NEW POST: FAVICON SEARCHES -->
+      <article class="card post-card">
+        <div class="card-head">
+          <div class="card-title">
+            <h2>Favicon hash searches: finding related infrastructure fast</h2>
+            <div class="post-meta">
+              <span>Published 23 December 2025</span>
+              <span>10 min read</span>
+              <span>By OS1NT R3P0</span>
+            </div>
+          </div>
+          <button class="btn small" type="button">Bookmark</button>
+        </div>
+
+        <div class="card-body">
+          <p>Favicon searches allow OSINT analysts to identify servers that share the same website icon, even when domains, IP addresses, or hosting providers change. By hashing a favicon and querying platforms such as Shodan, analysts can uncover related infrastructure, shadow environments, and reused panels.</p>
+
+          <figure>
+            <img src="blogres/Favicon.png" alt="Example favicon used for hash searches" />
+            <figcaption class="muted">Example favicon used to generate a MurmurHash3 fingerprint for search.</figcaption>
+          </figure>
+
+          <h3>Why favicon searches matter</h3>
+          <p>Favicons are rarely treated as sensitive assets. Organizations often reuse the same icon across production systems, staging environments, and administrative interfaces. While DNS records and IP addresses change frequently, favicons often remain static, making them a reliable pivot point.</p>
+
+
+          
+          <h3>How favicon hashing works</h3>
+          <p>The process is straightforward. First, collect the favicon file—commonly located at <code>/favicon.ico</code>.<p></p>
+          Next, generate a hash of the file contents. Shodan indexes favicons using a MurmurHash3 (mmh3) value derived from the favicon bytes. You can use tools like <a href="https://faviconhasher.codejavu.tech/" target="_blank" rel="noopener noreferrer">Favicon Hasher</a> to generate the mmh3 hash. <p></p> Finally, search that hash to identify other hosts serving the same icon.</p>
+
+          <div class="code">
+http.favicon.hash:123456789
+          </div>
+
+        <figure>
+            <img src="blogres/shodan_favicon_search.png" alt="Shodan favicon hash search results" />
+            <figcaption class="muted">Shodan results for a favicon hash query showing matched hosts and metadata.</figcaption>
+        </figure>
+
+          <h3>Refining searches in Shodan</h3>
+          <p>Analysts can combine favicon hashes with additional filters to reduce noise and prioritize results.</p>
+
+          <div class="code">
+http.favicon.hash:123456789 country:DE<br>
+http.favicon.hash:123456789 org:"Example Corp"<br>
+http.favicon.hash:123456789 port:443
+          </div>
+
+          <h3>Practical OSINT use cases</h3>
+          <p><b>Attack surface mapping:</b> Starting from a single known website, favicon searches often reveal staging servers, legacy portals, and exposed administrative interfaces that do not appear in DNS inventories.</p>
+
+          <p><b>Phishing and fraud investigations:</b> Phishing kits frequently reuse icons and web templates. A favicon hash can link multiple domains and hosting providers back to the same campaign.</p>
+
+          <p><b>Incident response scoping:</b> When responders identify one exposed system, favicon searches help determine whether other internet-facing systems share the same interface and may require remediation.</p>
+
+          <h3>Limitations to keep in mind</h3>
+          <p>Favicon searches can produce false positives, particularly when vendors ship default icons with widely deployed products. Adversaries can also change favicons easily. Analysts should always validate results using supporting indicators such as TLS certificates, HTML titles, response headers, and hosting patterns.</p>
+
+          <div class="tag-list" aria-label="Tags">
+            <span class="chip"><b>OSINT</b></span>
+            <span class="chip"><b>Infrastructure</b></span>
+            <span class="chip"><b>Shodan</b></span>
+            <span class="chip"><b>Tradecraft</b></span>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <footer class="footer">
+      <span class="muted">© OS1NT • Field Notes</span>
+    </footer>
+  </main>
+
+  <script>
+    const searchInput = document.getElementById('post-search');
+    const searchClear = document.getElementById('post-search-clear');
+    const posts = Array.from(document.querySelectorAll('.post-card'));
+    const countEl = document.getElementById('post-count');
+
+    function filterPosts(){
+      const query = searchInput.value.trim().toLowerCase();
+      let visible = 0;
+      posts.forEach(post => {
+        // Get title from card-title h2 and full text content
+        const titleEl = post.querySelector('.card-title h2');
+        const title = titleEl ? titleEl.innerText.toLowerCase() : '';
+        const fullText = post.innerText.toLowerCase();
+        const match = !query || title.includes(query) || fullText.includes(query);
+        post.style.display = match ? '' : 'none';
+        if(match) visible++;
+      });
+      countEl.textContent = visible;
+    }
+
+    // Show/hide clear button and wire its behavior
+    const updateClear = () => {
+      if (!searchClear || !searchInput) return;
+      if (searchInput.value && searchInput.value.trim().length > 0) {
+        searchClear.removeAttribute('hidden');
+      } else {
+        searchClear.setAttribute('hidden', '');
+      }
+    };
+
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => { updateClear(); filterPosts(); });
+      searchInput.addEventListener('keydown', (ev) => {
+        if (ev.key === 'Escape') {
+          searchInput.value = '';
+          updateClear();
+          filterPosts();
+        }
+      });
+    }
+
+    if (searchClear) {
+      searchClear.addEventListener('click', () => {
+        if (!searchInput) return;
+        searchInput.value = '';
+        updateClear();
+        searchInput.focus();
+        filterPosts();
+      });
+    }
+
+    // Initialize
+    updateClear();
+    filterPosts();
+  </script>
+</body>
+</html>
