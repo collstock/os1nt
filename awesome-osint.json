@@ -106,6 +106,67 @@
       ]
     },
     {
+      "title": "[↑](#-ai-large-language-models) AI Large Language Models (LLMs)",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "ChatGPT",
+          "url": "https://chat.openai.com/",
+          "description": "Conversational AI by OpenAI based on the GPT family of large language models, used for reasoning, writing, coding, research, and analysis."
+        },
+        {
+          "name": "Claude",
+          "url": "https://claude.ai/",
+          "description": "AI assistant by Anthropic focused on helpfulness, safety, and long-context reasoning for writing, analysis, and coding tasks."
+        },
+        {
+          "name": "Gemini",
+          "url": "https://gemini.google.com/",
+          "description": "Google’s multimodal AI model family designed for text, code, image, and data reasoning across consumer and enterprise use cases."
+        },
+        {
+          "name": "Grok",
+          "url": "https://grok.x.ai/",
+          "description": "Large language model by xAI with real-time data access and a focus on current events, reasoning, and social media analysis."
+        },
+        {
+          "name": "Meta AI (LLaMA)",
+          "url": "https://ai.meta.com/llama/",
+          "description": "Open-weight large language models developed by Meta, widely used for research, fine-tuning, and self-hosted AI applications."
+        },
+        {
+          "name": "Mistral",
+          "url": "https://mistral.ai/",
+          "description": "High-performance European large language models optimized for efficiency, open deployment, and enterprise use."
+        },
+        {
+          "name": "Cohere",
+          "url": "https://cohere.com/",
+          "description": "Enterprise-focused language models optimized for retrieval-augmented generation, classification, and semantic search."
+        },
+        {
+          "name": "Perplexity AI",
+          "url": "https://www.perplexity.ai/",
+          "description": "AI-powered answer engine combining large language models with real-time web search and source citation."
+        },
+        {
+          "name": "Microsoft Copilot",
+          "url": "https://copilot.microsoft.com/",
+          "description": "AI assistant integrated into Microsoft products, powered by large language models for productivity, coding, and research."
+        },
+        {
+          "name": "Amazon Q",
+          "url": "https://aws.amazon.com/q/",
+          "description": "Generative AI assistant by Amazon focused on enterprise workflows, cloud operations, and developer productivity."
+        },
+        {
+          "name": "IBM watsonx.ai",
+          "url": "https://www.ibm.com/watsonx",
+          "description": "Enterprise AI platform offering foundation models and governance features for regulated and business-critical use cases."
+        }
+      ]
+    },
+    {
       "title": "[↑](#-table-of-contents) Main National Search Engines",
       "subtitle": "",
       "items": [
