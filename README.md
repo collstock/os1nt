@@ -32,6 +32,7 @@ A curated OSINT (Open-Source Intelligence) link repository with an organized car
 ### Main Directory (index.html)
 
 - **Alphabetically sorted categories** displayed in a 3-column grid (A, B, C / D, E, F order)
+- **Nested/hierarchical categories** for better organization of sub-topics
 - **Collapsible category cards** with expandable lists of tools
 - **Search toolbar** with clear (✕) button
 - **Item counter** showing visible results
@@ -100,11 +101,81 @@ The primary data source is `awesome-osint.json`, structured as:
           "name": "Tool Name",
           "url": "https://example.com/tool",
           "description": "Brief description of the tool"
+        }
+      ],
+      "categories": [
+        {
+          "title": "Nested Category Name",
+          "subtitle": "Optional description",
+          "items": [
+            {
+              "name": "Nested Tool Name",
+              "url": "https://example.com/nested-tool",
+              "description": "Description of nested tool"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+### Nested Categories
+
+Categories can optionally include a `categories` array for hierarchical organization:
+
+- **Top-level items** appear first when the parent category is expanded
+- **Nested categories** appear next (alphabetically sorted)
+- **Nested categories** render with reduced opacity (45% for 1st level, 30% for 2nd level)
+- **Search** works across nested items and displays matching nested categories
+
+**Example: General Search with nested sub-categories**
+
+```json
+{
+  "title": "[↑](#-table-of-contents) General Search",
+  "subtitle": "",
+  "items": [
+    {
+      "name": "Aol",
+      "url": "https://search.aol.com/",
+      "description": "The web for America."
+    },
+    {
+      "name": "Google Search",
+      "url": "https://www.google.com/",
+      "description": "Most popular search engine."
+    }
+  ],
+  "categories": [
+    {
+      "title": "Privacy Focused Search Engines",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "DuckDuckGo",
+          "url": "https://duckduckgo.com/",
+          "description": "Internet search engine that emphasizes protecting searchers' privacy."
         },
-        ...
+        {
+          "name": "Qwant",
+          "url": "https://www.qwant.com/",
+          "description": "The search engine that respects your privacy."
+        }
       ]
     },
-    ...
+    {
+      "title": "Google Dorks Tools",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "Google Hacking Database",
+          "url": "https://www.exploit-db.com/google-hacking-database",
+          "description": "Index of search queries (dorks) for finding publicly available information."
+        }
+      ]
+    }
   ]
 }
 ```
@@ -112,16 +183,44 @@ The primary data source is `awesome-osint.json`, structured as:
 **Notes:**
 - Titles with `[↑](#-table-of-contents)` prefixes are automatically cleaned for display
 - Items within each category are sorted alphabetically (Domain and IP Research section)
+- Nested categories are sorted alphabetically and displayed before flat items
 - All URLs are validated to ensure they are safe HTTP/HTTPS links
 
 ## Customization
 
 ### Modifying Categories
 
-Edit `awesome-osint.json` and add or update category entries. Categories will automatically:
+Edit `awesome-osint.json` to add or update category entries. Categories will automatically:
 - Sort alphabetically on page load
 - Render as searchable cards
 - Display with item counts
+
+### Creating Nested Categories
+
+Add a `categories` array to any category to create sub-categories:
+
+```json
+{
+  "title": "Parent Category",
+  "items": [...],
+  "categories": [
+    {
+      "title": "Child Category 1",
+      "items": [...]
+    },
+    {
+      "title": "Child Category 2",
+      "items": [...]
+    }
+  ]
+}
+```
+
+Nested categories:
+- Display alphabetically before flat items
+- Support multiple nesting levels
+- Are searchable like all other content
+- Have opacity gradients (45% for level 1, 30% for level 2+) for visual hierarchy
 
 ### Styling
 
@@ -170,10 +269,11 @@ Edit `blog.html` to add new `<article class="card post-card">` entries with:
 
 ### Card Navigation
 
-- **Collapse/Expand All** button toggles all category cards
+- **Collapse/Expand All** button toggles all category cards (including nested)
 - Individual cards expand/collapse via `<details>`
 - First category opens by default
-- **Item count** updates dynamically
+- **Item count** updates dynamically across nested levels
+- **Nested categories** appear with reduced opacity for visual hierarchy
 
 ### Blog Features
 
