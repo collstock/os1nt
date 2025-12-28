@@ -1,6 +1,4 @@
 {
-  "source": "https://github.com/collstock/os1nt/blob/main/awesome-osint.json",
-  "readme_raw": "https://github.com/collstock/os1nt/blob/main/README.md",
   "generated_at": "2025-12-28T10:33:19Z",
   "categories": [
     {
@@ -1463,7 +1461,7 @@
       ]
     },
     {
-      "title": "[↑](#-table-of-contents) Real-Time Search, Social Media Search, and General Social Media Tools",
+      "title": "[↑](#-table-of-contents) Social Search Engines and Monitoring Tools",
       "subtitle": "",
       "items": [
         {
