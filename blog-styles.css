@@ -1,0 +1,11 @@
+/* Blog-specific tweaks reusing the existing palette */
+.blog-hero{ display:flex; flex-direction:column; gap:12px; margin-bottom:var(--gap); }
+.blog-hero .stack{ flex-wrap:wrap; }
+.post-card .card-head{ align-items:flex-start; }
+.post-meta{ display:flex; gap:12px; flex-wrap:wrap; color: var(--muted); font-size:12px; }
+.tag-list{ display:flex; gap:8px; flex-wrap:wrap; margin:8px 0 0; }
+.post-card p{ line-height:1.6; }
+.blog-feed{ display:flex; flex-direction:column; gap:var(--gap); }
+.post-card img{ width:100%; border-radius:12px; margin:12px 0; border:1px solid var(--border); }
+.post-card h3{ margin-top:18px; }
+.code{ background:#0b0b0c; color:#f3f3f3; padding:12px; border-radius:10px; font-family:ui-monospace,monospace; font-size:13px; overflow:auto; }
