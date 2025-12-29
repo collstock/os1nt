@@ -6,19 +6,7 @@
   <title>OS1NT R3P0 — Blog</title>
   <link rel="icon" type="image/png" href="search_5177376.png" />
   <link rel="stylesheet" href="styles.css" />
-  <style>
-    /* Blog-specific tweaks reusing the existing palette */
-    .blog-hero{ display:flex; flex-direction:column; gap:12px; margin-bottom:var(--gap); }
-    .blog-hero .stack{ flex-wrap:wrap; }
-    .post-card .card-head{ align-items:flex-start; }
-    .post-meta{ display:flex; gap:12px; flex-wrap:wrap; color: var(--muted); font-size:12px; }
-    .tag-list{ display:flex; gap:8px; flex-wrap:wrap; margin:8px 0 0; }
-    .post-card p{ line-height:1.6; }
-    .blog-feed{ display:flex; flex-direction:column; gap:var(--gap); }
-    .post-card img{ width:100%; border-radius:12px; margin:12px 0; border:1px solid var(--border); }
-    .post-card h3{ margin-top:18px; }
-    .code{ background:#0b0b0c; color:#f3f3f3; padding:12px; border-radius:10px; font-family:ui-monospace,monospace; font-size:13px; overflow:auto; }
-  </style>
+  <link rel="stylesheet" href="blog-styles.css" />
 </head>
 <body>
   <header class="site-header">
@@ -137,61 +125,6 @@ http.favicon.hash:123456789 port:443
     </footer>
   </main>
 
-  <script>
-    const searchInput = document.getElementById('post-search');
-    const searchClear = document.getElementById('post-search-clear');
-    const posts = Array.from(document.querySelectorAll('.post-card'));
-    const countEl = document.getElementById('post-count');
-
-    function filterPosts(){
-      const query = searchInput.value.trim().toLowerCase();
-      let visible = 0;
-      posts.forEach(post => {
-        // Get title from card-title h2 and full text content
-        const titleEl = post.querySelector('.card-title h2');
-        const title = titleEl ? titleEl.innerText.toLowerCase() : '';
-        const fullText = post.innerText.toLowerCase();
-        const match = !query || title.includes(query) || fullText.includes(query);
-        post.style.display = match ? '' : 'none';
-        if(match) visible++;
-      });
-      countEl.textContent = visible;
-    }
-
-    // Show/hide clear button and wire its behavior
-    const updateClear = () => {
-      if (!searchClear || !searchInput) return;
-      if (searchInput.value && searchInput.value.trim().length > 0) {
-        searchClear.removeAttribute('hidden');
-      } else {
-        searchClear.setAttribute('hidden', '');
-      }
-    };
-
-    if (searchInput) {
-      searchInput.addEventListener('input', (e) => { updateClear(); filterPosts(); });
-      searchInput.addEventListener('keydown', (ev) => {
-        if (ev.key === 'Escape') {
-          searchInput.value = '';
-          updateClear();
-          filterPosts();
-        }
-      });
-    }
-
-    if (searchClear) {
-      searchClear.addEventListener('click', () => {
-        if (!searchInput) return;
-        searchInput.value = '';
-        updateClear();
-        searchInput.focus();
-        filterPosts();
-      });
-    }
-
-    // Initialize
-    updateClear();
-    filterPosts();
-  </script>
+  <script src="blog-scripts.js" defer></script>
 </body>
 </html>
