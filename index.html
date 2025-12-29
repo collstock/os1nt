@@ -4,10 +4,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="OS1NT - Explore a curated collection of open-source intelligence tools and resources for OSINT professionals and enthusiasts.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://www.google.com https://*.gstatic.com; connect-src 'self';">
   <title>OSINT Repository</title>
   <link rel="icon" type="image/png" href="search_5177376.png" />
   <link rel="stylesheet" href="styles.css" />
   <script src="osint-cards.js" defer></script>
+  <script src="scripts.js" defer></script>
 </head>
 
 <body>
@@ -132,66 +134,7 @@
     </footer>
   </main>
 
-  <script>
-    function updateItemCount() {
-      const layoutSection = document.querySelector('.layout');
-      const items = layoutSection ? layoutSection.querySelectorAll('li.item') : [];
-      const count = items.length;
-      const countElement = document.getElementById('item-count');
-      if (countElement) {
-        countElement.textContent = count;
-      }
-    }
-
-    updateItemCount();
-
-    const observer = new MutationObserver(updateItemCount);
-    const layoutSection = document.querySelector('.layout');
-    if (layoutSection) {
-      observer.observe(layoutSection, { childList: true, subtree: true });
-    }
-
-    const toggleAllBtn = document.getElementById('toggle-all');
-    if (toggleAllBtn) {
-      toggleAllBtn.addEventListener('click', () => {
-        const allDetails = document.querySelectorAll('.layout details');
-        const anyOpen = Array.from(allDetails).some(d => d.open);
-
-        allDetails.forEach(details => {
-          details.open = !anyOpen;
-        });
-
-        toggleAllBtn.textContent = anyOpen ? 'Expand All' : 'Collapse All';
-      });
-    }
-
-    // Search clear button behavior
-    (function() {
-      const searchInput = document.getElementById('search-input');
-      const searchClear = document.getElementById('search-clear');
-      if (!searchInput || !searchClear) return;
-
-      const updateClear = () => {
-        if (searchInput.value.trim().length > 0) {
-          searchClear.removeAttribute('hidden');
-        } else {
-          searchClear.setAttribute('hidden', '');
-        }
-      };
-
-      searchInput.addEventListener('input', updateClear);
-
-      searchClear.addEventListener('click', () => {
-        searchInput.value = '';
-        updateClear();
-        searchInput.focus();
-        searchInput.dispatchEvent(new Event('input', { bubbles: true }));
-      });
-
-      updateClear();
-    })();
-    
-  </script>
+  
   <script src="contact.js" defer></script>
 </body>
 </html>
