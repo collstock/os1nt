@@ -374,6 +374,11 @@
           "description": "Identify your compromised credentials before others do."
         },
         {
+          "name": "DeHashed",
+          "url": "https://dehashed.com/search#breachCheck",
+          "description": "Data Exposure Search Engine."
+        },
+        {
           "name": "HIB Ransomed",
           "url": "https://haveibeenransom.com/",
           "description": "Because people have the right to know if their data has been leaked."
