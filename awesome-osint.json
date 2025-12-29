@@ -16,6 +16,22 @@
           ]
         },
         {
+          "title": "Archive and Documentation",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Internet Archive",
+              "url": "https://web.archive.org/",
+              "description": "Digital library offering free access to books, movies, software, music, websites, and more"
+            },
+            {
+              "name": "Hunchly",
+              "url": "https://www.hunch.ly/",
+              "description": "Web capture tool for investigators to document and analyze online research"
+            }
+          ]
+        },
+        {
           "title": "People & Profiles",
           "subtitle": "",
           "items": [
@@ -95,6 +111,11 @@
               "name": "SowSearch",
               "url": "https://www.sowsearch.info/",
               "description": "Facebook search query builder"
+            }, 
+            {
+              "name": "StorySaver",
+              "url": "https://www.storysaver.net/en",
+              "description": "Instagram story downloader to save stories, highlights & reels anonymously"
             }
           ]
         },
@@ -104,7 +125,7 @@
           "items": [
             {
               "name": "IntelTechniques",
-              "url": "https://inteltechniques.com/",
+              "url": "https://inteltechniques.com/tools/index.html",
               "description": "OSINT tools and resources for investigators and researchers"
             },
             {
