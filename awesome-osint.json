@@ -858,12 +858,12 @@
               "description": "Columbus Project is an advanced subdomain discovery service with fast, powerful and easy to use API"
             },
             {
-              "name": "pagodo - Passive Google Dork (T)",
+              "name": "pagodo - Passive Google Dork ",
               "url": "https://github.com/opsdisk/pagodo",
               "description": ""
             },
             {
-              "name": "Scanner-inurlbr (T)",
+              "name": "Scanner-inurlbr ",
               "url": "https://github.com/googleinurl/SCANNER-INURLBR",
               "description": ""
             },
@@ -1160,7 +1160,7 @@
               "description": ""
             },
             {
-              "name": "SearchDiggity (T)",
+              "name": "SearchDiggity ",
               "url": "http://www.bishopfox.com/download/405/",
               "description": ""
             },
@@ -1289,7 +1289,7 @@
           "description": ""
         },
         {
-          "name": "docker-onion-nmap (T)",
+          "name": "docker-onion-nmap ",
           "url": "https://github.com/milesrichardson/docker-onion-nmap",
           "description": ""
         },
@@ -1299,7 +1299,7 @@
           "description": "A database of IP addresses that have been part of the Tor network. It answers the question whether there was a Tor relay running on a giv…"
         },
         {
-          "name": "Freenet Project (T)",
+          "name": "Freenet Project ",
           "url": "https://freenetproject.org/pages/download.html",
           "description": ""
         },
@@ -1314,7 +1314,7 @@
           "description": ""
         },
         {
-          "name": "I2P Anonymous Network (T)",
+          "name": "I2P Anonymous Network ",
           "url": "https://geti2p.net/en/",
           "description": ""
         },
@@ -1374,7 +1374,7 @@
           "description": ""
         },
         {
-          "name": "Tor Download (T)",
+          "name": "Tor Download ",
           "url": "https://www.torproject.org/download/download-easy.html.en",
           "description": ""
         },
@@ -1593,7 +1593,7 @@
           "description": ""
         },
         {
-          "name": "Pastebin OSINT Harvester (T)",
+          "name": "Pastebin OSINT Harvester ",
           "url": "https://github.com/needmorecowbell/sniff-paste",
           "description": ""
         },
@@ -1867,7 +1867,7 @@
           "description": "Central resource cataloging malicious file extensions, their risks, OS and mitigations"
         },
         {
-          "name": "Ghidra (T)",
+          "name": "Ghidra ",
           "url": "https://github.com/NationalSecurityAgency/ghidra",
           "description": ""
         },
@@ -1942,12 +1942,12 @@
           "description": "A search engine for open directories. Find millions of publicly available files!"
         },
         {
-          "name": "Office Mal Scanner (T)",
+          "name": "Office Mal Scanner ",
           "url": "http://www.reconstructer.org/",
           "description": ""
         },
         {
-          "name": "OffVis (T)",
+          "name": "OffVis ",
           "url": "http://go.microsoft.com/fwlink/?LinkID=158791",
           "description": ""
         },
@@ -1957,12 +1957,12 @@
           "description": ""
         },
         {
-          "name": "Origami Framework (T)",
+          "name": "Origami Framework ",
           "url": "https://code.google.com/archive/p/origami-pdf/",
           "description": ""
         },
         {
-          "name": "PDF Tools (T)",
+          "name": "PDF Tools ",
           "url": "http://blog.didierstevens.com/programs/pdf-tools/",
           "description": ""
         },
@@ -2361,7 +2361,7 @@
           "description": "The ultimate search engine for finding GitHub repositories"
         },
         {
-          "name": "Github-Dorks (T)",
+          "name": "Github-Dorks ",
           "url": "https://github.com/techgaun/github-dorks",
           "description": ""
         },
@@ -2371,7 +2371,7 @@
           "description": ""
         },
         {
-          "name": "Gitrob (T)",
+          "name": "Gitrob ",
           "url": "https://github.com/michenriksen/gitrob",
           "description": ""
         },
@@ -2432,7 +2432,7 @@
           "description": ""
         },
         {
-          "name": "Birdwatcher (T)",
+          "name": "Birdwatcher ",
           "url": "https://github.com/michenriksen/birdwatcher",
           "description": ""
         },
@@ -2447,7 +2447,7 @@
           "description": ""
         },
         {
-          "name": "DMI-TCAT (T)",
+          "name": "DMI-TCAT ",
           "url": "https://github.com/digitalmethodsinitiative/dmi-tcat",
           "description": ""
         },
@@ -2462,7 +2462,7 @@
           "description": ""
         },
         {
-          "name": "Facebook (T)",
+          "name": "Facebook ",
           "url": "https://play.google.com/store/apps/details?id=com.facebook.katana",
           "description": ""
         },
@@ -2507,7 +2507,7 @@
           "description": "Commonly used social-media platform with a focus on professional profiles and recruitment. Spans a wide variety of industries. Very usefu…"
         },
         {
-          "name": "LinkedIn (T)",
+          "name": "LinkedIn ",
           "url": "https://play.google.com/store/apps/details?id=com.linkedin.android",
           "description": ""
         },
@@ -2542,7 +2542,7 @@
           "description": "is an image sharing social media service used to easly discover, share and save ideas using visual representation"
         },
         {
-          "name": "Pinterest (T)",
+          "name": "Pinterest ",
           "url": "https://play.google.com/store/apps/details?id=com.pinterest",
           "description": ""
         },
@@ -2562,7 +2562,7 @@
           "description": ""
         },
         {
-          "name": "SteamOSINT (T)",
+          "name": "SteamOSINT ",
           "url": "https://github.com/Frontline-Femmes/Steam-OSINT",
           "description": ""
         },
@@ -2597,12 +2597,12 @@
           "description": ""
         },
         {
-          "name": "Tinfoleak.py (T)",
+          "name": "Tinfoleak.py ",
           "url": "http://www.vicenteaguileradiaz.com/tools/",
           "description": ""
         },
         {
-          "name": "Treeverse (T)",
+          "name": "Treeverse ",
           "url": "https://github.com/paulgb/Treeverse",
           "description": ""
         },
@@ -2622,12 +2622,12 @@
           "description": ""
         },
         {
-          "name": "TweetVacuum (T)",
+          "name": "TweetVacuum ",
           "url": "https://github.com/T3hUb3rK1tten/TweetVacuum",
           "description": ""
         },
         {
-          "name": "Twint (T)",
+          "name": "Twint ",
           "url": "https://github.com/twintproject/twint",
           "description": ""
         },
@@ -2637,7 +2637,7 @@
           "description": ""
         },
         {
-          "name": "Twitter (T)",
+          "name": "Twitter ",
           "url": "https://play.google.com/store/apps/details?id=com.twitter.android",
           "description": ""
         },
@@ -3087,7 +3087,7 @@
               "description": "Social Media Tools / X / Twitter resource"
             },
             {
-              "name": "X0rz Tweets_analyzer (T)",
+              "name": "X0rz Tweets_analyzer ",
               "url": "https://github.com/x0rz/tweets_analyzer",
               "description": ""
             }
@@ -3561,7 +3561,7 @@
           "subtitle": "",
           "items": [
             {
-              "name": "InSpy (T)",
+              "name": "InSpy ",
               "url": "https://github.com/leapsecurity/InSpy",
               "description": ""
             },
@@ -3571,17 +3571,17 @@
               "description": "Script to dump/scrape/extract company employees info"
             },
             {
-              "name": "LinkedInt - LinkedIn Recon Tool (T)",
+              "name": "LinkedInt - LinkedIn Recon Tool ",
               "url": "https://github.com/vysec/LinkedInt",
               "description": ""
             },
             {
-              "name": "raven (T)",
+              "name": "raven ",
               "url": "https://github.com/0x09AL/raven",
               "description": ""
             },
             {
-              "name": "ScrapedIn (T)",
+              "name": "ScrapedIn ",
               "url": "https://github.com/dchrastil/ScrapedIn",
               "description": ""
             },
@@ -3789,11 +3789,6 @@
           "description": "Check over 30 domains and more than 90 social media account platforms"
         },
         {
-          "name": "Namechk",
-          "url": "https://namechk.com/",
-          "description": ""
-        },
-        {
           "name": "NameKetchup",
           "url": "https://nameketchup.com/",
           "description": "checks domain name and username in popular social media sites and platforms"
@@ -3834,7 +3829,7 @@
           "description": "API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \\ websites"
         },
         {
-          "name": "Sylva Identity Discovery (T)",
+          "name": "Sylva Identity Discovery ",
           "url": "https://sylva.pfeister.dev/",
           "description": ""
         },
@@ -3874,7 +3869,7 @@
           "description": "check for usernames across many different platforms"
         },
         {
-          "name": "WhatsMyName (T)",
+          "name": "WhatsMyName ",
           "url": "https://github.com/WebBreacher/WhatsMyName",
           "description": ""
         }
@@ -4136,7 +4131,7 @@
           "description": "Hunter lets you find email addresses in seconds and connect with the people that matter for your business"
         },
         {
-          "name": "Infoga (T)",
+          "name": "Infoga ",
           "url": "https://github.com/m4ll0k/infoga",
           "description": ""
         },
@@ -4211,7 +4206,7 @@
           "description": "Real-time email verification API, written in Rust, 100% open-source"
         },
         {
-          "name": "Reacher Github (T)",
+          "name": "Reacher Github ",
           "url": "https://github.com/reacherhq/check-if-email-exists",
           "description": ""
         },
@@ -5076,7 +5071,7 @@
               "description": "Domain and IP Research / Domain Search resource"
             },
             {
-              "name": "AltDNS (T)",
+              "name": "AltDNS ",
               "url": "https://github.com/infosec-au/altdns",
               "description": ""
             },
@@ -5086,12 +5081,12 @@
               "description": ""
             },
             {
-              "name": "Aquatone (T)",
+              "name": "Aquatone ",
               "url": "https://github.com/michenriksen/aquatone",
               "description": ""
             },
             {
-              "name": "assetnote (T)",
+              "name": "assetnote ",
               "url": "https://github.com/infosec-au/assetnote",
               "description": ""
             },
@@ -5101,7 +5096,7 @@
               "description": ""
             },
             {
-              "name": "Belati (T)",
+              "name": "Belati ",
               "url": "https://github.com/aancw/Belati",
               "description": ""
             },
@@ -5111,7 +5106,7 @@
               "description": ""
             },
             {
-              "name": "BlackWidow (T)",
+              "name": "BlackWidow ",
               "url": "https://softbytelabs.com/wp/blackwidow/",
               "description": ""
             },
@@ -5121,7 +5116,7 @@
               "description": "Domain and IP Research / Domain Search resource"
             },
             {
-              "name": "Bluto (T)",
+              "name": "Bluto ",
               "url": "https://github.com/darryllane/Bluto",
               "description": ""
             },
@@ -5131,12 +5126,12 @@
               "description": "is a website that will help you find out all the technologies used to build a particular websites"
             },
             {
-              "name": "Burp Suite (T)",
+              "name": "Burp Suite ",
               "url": "https://portswigger.net/burp/",
               "description": ""
             },
             {
-              "name": "Catphish (T)",
+              "name": "Catphish ",
               "url": "https://github.com/ring0lab/catphish",
               "description": ""
             },
@@ -5151,7 +5146,7 @@
               "description": ""
             },
             {
-              "name": "certgraph (T)",
+              "name": "certgraph ",
               "url": "https://github.com/lanrat/certgraph",
               "description": ""
             },
@@ -5181,7 +5176,7 @@
               "description": ""
             },
             {
-              "name": "CloudScraper (T)",
+              "name": "CloudScraper ",
               "url": "https://github.com/jordanpotti/cloudscraper",
               "description": ""
             },
@@ -5216,7 +5211,7 @@
               "description": ""
             },
             {
-              "name": "DNS Recon (T)",
+              "name": "DNS Recon ",
               "url": "https://github.com/darkoperator/dnsrecon",
               "description": ""
             },
@@ -5226,7 +5221,7 @@
               "description": ""
             },
             {
-              "name": "DNS Twist (T)",
+              "name": "DNS Twist ",
               "url": "https://github.com/elceef/dnstwist",
               "description": ""
             },
@@ -5236,7 +5231,7 @@
               "description": ""
             },
             {
-              "name": "dnspop (T)",
+              "name": "dnspop ",
               "url": "https://github.com/bitquark/dnspop",
               "description": ""
             },
@@ -5291,12 +5286,12 @@
               "description": ""
             },
             {
-              "name": "EyeWitness (T)",
+              "name": "EyeWitness ",
               "url": "https://github.com/ChrisTruncer/EyeWitness",
               "description": ""
             },
             {
-              "name": "Fierce Domain Scanner (T)",
+              "name": "Fierce Domain Scanner ",
               "url": "https://github.com/davidpepper/fierce-domain-scanner",
               "description": ""
             },
@@ -5326,7 +5321,7 @@
               "description": "FullHunt is an OSINT tool focused on identifying and protecting internet-exposed assets"
             },
             {
-              "name": "gdns (T)",
+              "name": "gdns ",
               "url": "https://github.com/hrbrmstr/gdns",
               "description": ""
             },
@@ -5336,7 +5331,7 @@
               "description": ""
             },
             {
-              "name": "Gobuster (T)",
+              "name": "Gobuster ",
               "url": "https://github.com/OJ/gobuster",
               "description": ""
             },
@@ -5371,12 +5366,12 @@
               "description": ""
             },
             {
-              "name": "Hunting-New-Registered-Domains (T)",
+              "name": "Hunting-New-Registered-Domains ",
               "url": "https://github.com/gfek/Hunting-New-Registered-Domains",
               "description": ""
             },
             {
-              "name": "IntelliTamper (T)",
+              "name": "IntelliTamper ",
               "url": "http://www.softpedia.com/get/Internet/Other-Internet-Related/IntelliTamper.shtml",
               "description": ""
             },
@@ -5521,7 +5516,7 @@
               "description": ""
             },
             {
-              "name": "OWASP Maryam (T)",
+              "name": "OWASP Maryam ",
               "url": "https://github.com/saeeddhqan/Maryam",
               "description": ""
             },
@@ -5561,7 +5556,7 @@
               "description": "Domain and IP Research / Domain Search resource .abuse.ch"
             },
             {
-              "name": "Recon-ng (T)",
+              "name": "Recon-ng ",
               "url": "https://github.com/lanmaster53/recon-ng",
               "description": ""
             },
@@ -5581,7 +5576,7 @@
               "description": ""
             },
             {
-              "name": "SecLists DNS Subdomains (T)",
+              "name": "SecLists DNS Subdomains ",
               "url": "https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS",
               "description": ""
             },
@@ -5626,7 +5621,7 @@
               "description": ""
             },
             {
-              "name": "Sn1per (T)",
+              "name": "Sn1per ",
               "url": "https://github.com/1N3/Sn1per",
               "description": ""
             },
@@ -5701,7 +5696,7 @@
               "description": ""
             },
             {
-              "name": "URLCrazy (T)",
+              "name": "URLCrazy ",
               "url": "http://www.morningstarsecurity.com/research/urlcrazy",
               "description": ""
             },
@@ -5741,7 +5736,7 @@
               "description": ""
             },
             {
-              "name": "Wappalyzer (T)",
+              "name": "Wappalyzer ",
               "url": "https://wappalyzer.com/",
               "description": ""
             },
@@ -5913,7 +5908,7 @@
               "description": ""
             },
             {
-              "name": "Masscan (T)",
+              "name": "Masscan ",
               "url": "https://github.com/robertdavidgraham/masscan",
               "description": ""
             },
@@ -5923,7 +5918,7 @@
               "description": ""
             },
             {
-              "name": "Nmap (T)",
+              "name": "Nmap ",
               "url": "https://nmap.org/download.html",
               "description": ""
             },
@@ -5943,7 +5938,7 @@
               "description": ""
             },
             {
-              "name": "Scanless (T)",
+              "name": "Scanless ",
               "url": "https://github.com/vesche/scanless",
               "description": ""
             },
@@ -6044,7 +6039,7 @@
               "description": ""
             },
             {
-              "name": "CloudFail (T)",
+              "name": "CloudFail ",
               "url": "https://github.com/m0rtem/CloudFail",
               "description": ""
             },
@@ -6611,32 +6606,22 @@
           "description": "is a website that"
         },
         {
-          "name": "BlackWidow",
-          "url": "http://softbytelabs.com/wp/blackwidow/",
-          "description": ""
-        },
-        {
           "name": "CachedView",
           "url": "http://cachedview.com/",
           "description": ""
         },
         {
-          "name": "CashedPages",
-          "url": "http://www.cachedpages.com/",
-          "description": ""
-        },
-        {
-          "name": "FRAPS (T)",
+          "name": "FRAPS",
           "url": "http://www.fraps.com/",
           "description": ""
         },
         {
-          "name": "Greenshot (T)",
+          "name": "Greenshot ",
           "url": "https://getgreenshot.org/",
           "description": ""
         },
         {
-          "name": "ShareX (T)",
+          "name": "ShareX ",
           "url": "https://getsharex.com/",
           "description": ""
         },
@@ -6672,12 +6657,12 @@
           "description": ""
         },
         {
-          "name": "Andy Android Emulator (T)",
+          "name": "Andy Android Emulator ",
           "url": "http://www.andyroid.net/",
           "description": ""
         },
         {
-          "name": "AutoOSINT (T)",
+          "name": "AutoOSINT ",
           "url": "https://github.com/bharshbarger/AutOSINT",
           "description": ""
         },
@@ -6692,12 +6677,12 @@
           "description": ""
         },
         {
-          "name": "BlueStacks 2 (T)",
+          "name": "BlueStacks 2 ",
           "url": "http://www.bluestacks.com/",
           "description": ""
         },
         {
-          "name": "Buscador OS (T)",
+          "name": "Buscador OS ",
           "url": "https://inteltechniques.com/buscador/index.html",
           "description": ""
         },
@@ -6707,7 +6692,7 @@
           "description": ""
         },
         {
-          "name": "DataSploit (T)",
+          "name": "DataSploit ",
           "url": "https://github.com/datasploit/datasploit/",
           "description": ""
         },
@@ -6737,7 +6722,7 @@
           "description": ""
         },
         {
-          "name": "Genymotion (T)",
+          "name": "Genymotion ",
           "url": "https://www.genymotion.com/",
           "description": ""
         },
@@ -6762,7 +6747,7 @@
           "description": ""
         },
         {
-          "name": "Inquisitor (T)",
+          "name": "Inquisitor ",
           "url": "https://github.com/penafieljlm/inquisitor",
           "description": ""
         },
@@ -6772,27 +6757,27 @@
           "description": ""
         },
         {
-          "name": "IntRec-Pack (T)",
+          "name": "IntRec-Pack ",
           "url": "https://github.com/NullArray/IntRec-Pack",
           "description": ""
         },
         {
-          "name": "Intrigue.io (T)",
+          "name": "Intrigue.io ",
           "url": "https://intrigue.io/",
           "description": ""
         },
         {
-          "name": "Kali Linux OS (T)",
+          "name": "Kali Linux OS ",
           "url": "https://www.kali.org/",
           "description": ""
         },
         {
-          "name": "Low Hanging Fruit (T)",
+          "name": "Low Hanging Fruit ",
           "url": "https://github.com/blindfuzzy/LHF",
           "description": ""
         },
         {
-          "name": "Microsoft Edge Development OS VMs (T)",
+          "name": "Microsoft Edge Development OS VMs ",
           "url": "https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/",
           "description": ""
         },
@@ -6812,7 +6797,7 @@
           "description": ""
         },
         {
-          "name": "Omnibus (T)",
+          "name": "Omnibus ",
           "url": "https://github.com/InQuest/omnibus",
           "description": ""
         },
@@ -6832,12 +6817,12 @@
           "description": ""
         },
         {
-          "name": "OSINT-SPY (T)",
+          "name": "OSINT-SPY ",
           "url": "https://github.com/SharadKumar97/OSINT-SPY",
           "description": ""
         },
         {
-          "name": "OSRFramework (T)",
+          "name": "OSRFramework ",
           "url": "https://github.com/i3visio/osrframework",
           "description": ""
         },
@@ -6847,17 +6832,17 @@
           "description": ""
         },
         {
-          "name": "OWASP D4N155 (T)",
+          "name": "OWASP D4N155 ",
           "url": "https://github.com/OWASP/D4N155",
           "description": ""
         },
         {
-          "name": "ParrotSec OS (T)",
+          "name": "ParrotSec OS ",
           "url": "https://www.parrotsec.org/",
           "description": ""
         },
         {
-          "name": "ReconDog (T)",
+          "name": "ReconDog ",
           "url": "https://github.com/s0md3v/ReconDog",
           "description": ""
         },
@@ -6872,7 +6857,7 @@
           "description": ""
         },
         {
-          "name": "SpiderFoot (T)",
+          "name": "SpiderFoot ",
           "url": "http://www.spiderfoot.net/",
           "description": ""
         },
@@ -6882,12 +6867,12 @@
           "description": ""
         },
         {
-          "name": "Subgraph OS (T)",
+          "name": "Subgraph OS ",
           "url": "https://subgraph.com/index.en.html",
           "description": ""
         },
         {
-          "name": "ThreatPipes (T)",
+          "name": "ThreatPipes ",
           "url": "https://www.threatpipes.com",
           "description": ""
         },
@@ -6897,12 +6882,12 @@
           "description": ""
         },
         {
-          "name": "VirtualBox (T)",
+          "name": "VirtualBox ",
           "url": "https://www.virtualbox.org/",
           "description": ""
         },
         {
-          "name": "VMware Workstation Player (T)",
+          "name": "VMware Workstation Player ",
           "url": "http://www.vmware.com/products/player/playerpro-evaluation.html",
           "description": ""
         },
@@ -6912,7 +6897,7 @@
           "description": ""
         },
         {
-          "name": "Whonix (T)",
+          "name": "Whonix ",
           "url": "https://www.whonix.org/wiki/Main_Page",
           "description": ""
         },
@@ -8657,7 +8642,7 @@
           "description": ""
         },
         {
-          "name": "Burp Suite (T)",
+          "name": "Burp Suite ",
           "url": "https://portswigger.net/burp/download.html",
           "description": ""
         },
@@ -8697,7 +8682,7 @@
           "description": ""
         },
         {
-          "name": "EZR OSINT Sidebar (T)",
+          "name": "EZR OSINT Sidebar ",
           "url": "https://chromewebstore.google.com/detail/ezr-osint-sidebar/joagbbgciboooipadijeaoidjjigdmof",
           "description": ""
         },
@@ -8737,7 +8722,7 @@
           "description": ""
         },
         {
-          "name": "Fiddler (T)",
+          "name": "Fiddler ",
           "url": "https://www.telerik.com/download/fiddler",
           "description": ""
         },
@@ -8747,17 +8732,17 @@
           "description": ""
         },
         {
-          "name": "Forensic OSINT (T)",
+          "name": "Forensic OSINT ",
           "url": "https://www.forensicosint.com/",
           "description": ""
         },
         {
-          "name": "Full Page Screen Capture Chrome Extension (T)",
+          "name": "Full Page Screen Capture Chrome Extension ",
           "url": "https://github.com/mrcoles/full-page-screen-capture-chrome-extension",
           "description": ""
         },
         {
-          "name": "Hunchly (T)",
+          "name": "Hunchly ",
           "url": "http://www.hunch.ly/",
           "description": ""
         },
@@ -8792,7 +8777,7 @@
           "description": ""
         },
         {
-          "name": "Page2Images (T)",
+          "name": "Page2Images ",
           "url": "http://www.page2images.com/URL-Live-Website-Screenshot-Generator",
           "description": ""
         },
@@ -8837,7 +8822,7 @@
           "description": ""
         },
         {
-          "name": "Snapper (T)",
+          "name": "Snapper ",
           "url": "https://github.com/dxa4481/Snapper",
           "description": ""
         },
@@ -9834,11 +9819,6 @@
           "description": "Flight tracking and aviation intelligence platform providing live, historical, and predictive flight data"
         },
         {
-          "name": "FlightAware - Live Flight Tracker",
-          "url": "http://flightaware.com/live/",
-          "description": ""
-        },
-        {
           "name": "Flightradar24",
           "url": "https://www.flightradar24.com/",
           "description": "Real-time global flight tracking platform useful for aviation OSINT, movement analysis, and aircraft monitoring"
@@ -10161,7 +10141,7 @@
           "description": ""
         },
         {
-          "name": "iocextract (T)",
+          "name": "iocextract ",
           "url": "https://github.com/InQuest/python-iocextract",
           "description": ""
         },
@@ -10271,7 +10251,7 @@
           "description": "A collection of fresh intel and threat actor usernames scraped"
         },
         {
-          "name": "ThreatIngestor (T)",
+          "name": "ThreatIngestor ",
           "url": "https://github.com/InQuest/ThreatIngestor",
           "description": ""
         },
@@ -10409,7 +10389,7 @@
               "description": ""
             },
             {
-              "name": "Ghiro (T)",
+              "name": "Ghiro ",
               "url": "https://github.com/ghirensics/ghiro",
               "description": ""
             },
@@ -10585,7 +10565,7 @@
               "description": ""
             },
             {
-              "name": "RevEye Reverse Image Search (T)",
+              "name": "RevEye Reverse Image Search ",
               "url": "https://chrome.google.com/webstore/detail/reveye-reverse-image-sear/keaaclcjhehbbapnphnmpiklalfhelgf?hl=en",
               "description": "OSINT Videos / Search & Discovery resource"
             },
@@ -10646,7 +10626,7 @@
               "description": ""
             },
             {
-              "name": "Frame by Frame for YouTube (T)",
+              "name": "Frame by Frame for YouTube ",
               "url": "https://chrome.google.com/webstore/detail/frame-by-frame-for-youtub/elkadbdicdciddfkdpmaolomehalghio?hl=en-GB",
               "description": "OSINT Videos / YouTube Tools resource"
             },
@@ -10709,7 +10689,7 @@
           "description": ""
         },
         {
-          "name": "ircsnapshot (T)",
+          "name": "ircsnapshot ",
           "url": "https://github.com/bwall/ircsnapshot",
           "description": ""
         },
@@ -10907,7 +10887,7 @@
       "subtitle": "",
       "items": [
         {
-          "name": "Kik (T)",
+          "name": "Kik ",
           "url": "https://play.google.com/store/apps/details?id=kik.android",
           "description": ""
         },
@@ -10917,7 +10897,7 @@
           "description": ""
         },
         {
-          "name": "LINE (T)",
+          "name": "LINE ",
           "url": "https://play.google.com/store/apps/details?id=jp.naver.line.android",
           "description": ""
         },
@@ -10927,12 +10907,12 @@
           "description": ""
         },
         {
-          "name": "Riot.im - Communicate, your way (T)",
+          "name": "Riot.im - Communicate, your way ",
           "url": "https://play.google.com/store/apps/details?id=im.vector.app",
           "description": ""
         },
         {
-          "name": "Signal Private Messenger (T)",
+          "name": "Signal Private Messenger ",
           "url": "https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms",
           "description": ""
         },
@@ -10947,7 +10927,7 @@
           "description": ""
         },
         {
-          "name": "Snapchat (T)",
+          "name": "Snapchat ",
           "url": "https://play.google.com/store/apps/details?id=com.snapchat.android",
           "description": ""
         },
@@ -10957,17 +10937,17 @@
           "description": ""
         },
         {
-          "name": "Telegram (T)",
+          "name": "Telegram ",
           "url": "https://play.google.com/store/apps/details?id=org.telegram.messenger",
           "description": ""
         },
         {
-          "name": "WhatsApp Messenger (T)",
+          "name": "WhatsApp Messenger ",
           "url": "https://play.google.com/store/apps/details?id=com.whatsapp",
           "description": ""
         },
         {
-          "name": "Yik Yak (T)",
+          "name": "Yik Yak ",
           "url": "https://play.google.com/store/apps/details?id=com.yik.yak",
           "description": ""
         },
@@ -11607,12 +11587,12 @@
       "subtitle": "",
       "items": [
         {
-          "name": "CodeTwo Outlook Export (T)",
+          "name": "CodeTwo Outlook Export ",
           "url": "http://www.codetwo.com/freeware/outlook-export/",
           "description": ""
         },
         {
-          "name": "Metagoofil (T)",
+          "name": "Metagoofil ",
           "url": "http://www.edge-security.com/metagoofil.php",
           "description": ""
         }
@@ -11623,32 +11603,32 @@
       "subtitle": "",
       "items": [
         {
-          "name": "Flickr (T)",
+          "name": "Flickr ",
           "url": "https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.flickr",
           "description": ""
         },
         {
-          "name": "Instagram (T)",
+          "name": "Instagram ",
           "url": "https://play.google.com/store/apps/details?id=com.instagram.android",
           "description": ""
         },
         {
-          "name": "Meerkat (T)",
+          "name": "Meerkat ",
           "url": "https://play.google.com/store/apps/details?id=co.getair.meerkat",
           "description": ""
         },
         {
-          "name": "Periscope (T)",
+          "name": "Periscope ",
           "url": "https://play.google.com/store/apps/details?id=tv.periscope.android",
           "description": ""
         },
         {
-          "name": "Truecaller (T)",
+          "name": "Truecaller ",
           "url": "https://play.google.com/store/apps/details?id=com.truecaller",
           "description": ""
         },
         {
-          "name": "Vine (T)",
+          "name": "Vine ",
           "url": "https://play.google.com/store/apps/details?id=co.vine.android",
           "description": ""
         }
@@ -11741,7 +11721,7 @@
       "subtitle": "",
       "items": [
         {
-          "name": "Balbuzard (T)",
+          "name": "Balbuzard ",
           "url": "https://bitbucket.org/decalage/balbuzard",
           "description": ""
         },
@@ -11756,7 +11736,7 @@
           "description": ""
         },
         {
-          "name": "Firebug (T)",
+          "name": "Firebug ",
           "url": "https://getfirebug.com/downloads/",
           "description": ""
         },
@@ -11766,12 +11746,12 @@
           "description": ""
         },
         {
-          "name": "iheartxor.py (T)",
+          "name": "iheartxor.py ",
           "url": "http://hooked-on-mnemonics.blogspot.com/p/iheartxor.html",
           "description": ""
         },
         {
-          "name": "JavaScript Deobfuscator (T)",
+          "name": "JavaScript Deobfuscator ",
           "url": "https://addons.mozilla.org/en-US/firefox/addon/javascript-deobfuscator/",
           "description": ""
         },
@@ -11786,37 +11766,37 @@
           "description": ""
         },
         {
-          "name": "Kahu Revelo (T)",
+          "name": "Kahu Revelo ",
           "url": "http://www.kahusecurity.com/tools/",
           "description": ""
         },
         {
-          "name": "NoMoreXOR.py (T)",
+          "name": "NoMoreXOR.py ",
           "url": "https://github.com/hiddenillusion/NoMoreXOR",
           "description": ""
         },
         {
-          "name": "SpiderMonkey (T)",
+          "name": "SpiderMonkey ",
           "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey",
           "description": ""
         },
         {
-          "name": "unxor (T)",
+          "name": "unxor ",
           "url": "https://github.com/tomchop/unxor",
           "description": ""
         },
         {
-          "name": "XORBruteForcer.py (T)",
+          "name": "XORBruteForcer.py ",
           "url": "http://eternal-todo.com/var/scripts/xorbruteforcer",
           "description": ""
         },
         {
-          "name": "XORSearch & XORStrings (T)",
+          "name": "XORSearch & XORStrings ",
           "url": "http://blog.didierstevens.com/programs/xorsearch/",
           "description": ""
         },
         {
-          "name": "xortool (T)",
+          "name": "xortool ",
           "url": "https://github.com/hellman/xortool",
           "description": ""
         }
@@ -11943,7 +11923,7 @@
       "subtitle": "",
       "items": [
         {
-          "name": "Anonymouth - Document Anonymization (T)",
+          "name": "Anonymouth - Document Anonymization ",
           "url": "https://github.com/psal/anonymouth",
           "description": ""
         },
@@ -12088,7 +12068,7 @@
           "description": ""
         },
         {
-          "name": "Self-Destructing Cookies (T)",
+          "name": "Self-Destructing Cookies ",
           "url": "https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/",
           "description": ""
         },
