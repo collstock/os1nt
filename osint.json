@@ -44,6 +44,16 @@
           "name": "OpenCorporates",
           "url": "https://opencorporates.com/",
           "description": "The largest open database of companies in the world"
+        }, 
+        {
+          "name": "E-Justice Portal",
+          "url": "https://e-justice.europa.eu/topics/registers-business-insolvency-land/business-registers-search-company-eu_en",
+          "description": "Search for companies across European Union member states"
+        },
+        {
+          "name": "Companies House",
+          "url": "https://www.gov.uk/government/organisations/companies-house",
+          "description": "Official UK government register of companies"
         }
       ]
     },
