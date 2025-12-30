@@ -160,6 +160,53 @@
           "description": "VPN service that encrypts internet traffic and enhances privacy and security"
         }
       ]
+    },
+    {
+      "title": "[\u2191](#-table-of-contents) Image Search",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "Google Reverse Image Search",
+          "url": "https://images.google.com/",
+          "description": "Search by image to find similar images and sources"
+        },
+        {
+          "name": "TinEye",
+          "url": "https://tineye.com/",
+          "description": "Reverse image search engine to find where images appear online"
+        },
+        {
+          "name": "Yandex Images",
+          "url": "https://yandex.com/images/",
+          "description": "Reverse image search engine by Yandex to find similar images and sources"
+        }
+      ]
+    },
+    {
+      "title": "[\u2191](#-table-of-contents) Deep and Dark Web",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "Ahmia",
+          "url": "https://ahmia.fi/",
+          "description": "Search engine for the Tor network, indexing hidden services"
+        },
+        {
+          "name": "OnionLand",
+          "url": "https://onionland.io/",
+          "description": "Onion search engine for discovering Tor hidden services"
+        },
+        {
+          "name": "Tor Watch",
+          "url": "https://torwatch.io/",
+          "description": "Tor network monitoring and analysis tool"
+        },
+        {
+          "name": "Tor Browser",
+          "url": "https://www.torproject.org/download/",
+          "description": "Official browser for accessing the Tor network, enhancing privacy and anonymity"
+        }
+      ]
     }
   ]
 }
