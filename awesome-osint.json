@@ -28,6 +28,11 @@
               "name": "Hunchly",
               "url": "https://www.hunch.ly/",
               "description": "Web capture tool for investigators to document and analyze online research"
+            },
+            {
+              "name": "Common Crawl",
+              "url": "https://commoncrawl.org/",
+              "description": "The corpus contains raw web page data, metadata extracts, and text extracts."
             }
           ]
         },
@@ -298,7 +303,7 @@
           "description": "A search engine for pictures, videos, news and products"
         },
         {
-          "name": "Melissa Data - People Finder (R)",
+          "name": "Melissa Data - People Finder",
           "url": "http://www.melissadata.com/lookups/peoplefinder.asp",
           "description": ""
         },
@@ -743,6 +748,16 @@
           "name": "WhosTalkin",
           "url": "http://www.whostalkin.com/",
           "description": ""
+        },
+        {
+          "name": "CodeTwo Outlook Export ",
+          "url": "http://www.codetwo.com/freeware/outlook-export/",
+          "description": ""
+        },
+        {
+          "name": "Metagoofil ",
+          "url": "http://www.edge-security.com/metagoofil.php",
+          "description": ""
         }
       ]
     },
@@ -766,7 +781,7 @@
           "description": "Data Exposure Search Engine"
         },
         {
-          "name": "DeHashed (R)",
+          "name": "DeHashed",
           "url": "https://dehashed.com/",
           "description": ""
         },
@@ -1274,19 +1289,9 @@
           "description": ""
         },
         {
-          "name": "Candle",
-          "url": "http://gjobqjj7wyczbqie.onion/",
-          "description": ""
-        },
-        {
-          "name": "Core.onion",
-          "url": "http://eqt5g4fuenphqinx.onion/",
-          "description": ""
-        },
-        {
-          "name": "dark.fail",
-          "url": "http://darkfailllnkf4vf.onion/",
-          "description": ""
+          "name": "Tor Watch",
+          "url": "https://tdw.is/",
+          "description": "Marketplace link list and monitoring service for the Tor network"
         },
         {
           "name": "docker-onion-nmap ",
@@ -1309,11 +1314,6 @@
           "description": ""
         },
         {
-          "name": "Hunchly Hidden Services Report",
-          "url": "https://darkweb.hunch.ly/",
-          "description": ""
-        },
-        {
           "name": "I2P Anonymous Network ",
           "url": "https://geti2p.net/en/",
           "description": ""
@@ -1324,23 +1324,8 @@
           "description": ""
         },
         {
-          "name": "Not Evil",
-          "url": "http://hss3uro2hsxfogfq.onion/",
-          "description": ""
-        },
-        {
           "name": "Onioff",
           "url": "https://github.com/k4m4/onioff",
-          "description": ""
-        },
-        {
-          "name": "Onion Cab",
-          "url": "https://onion.cab/",
-          "description": ""
-        },
-        {
-          "name": "Onion Investigator",
-          "url": "https://oint.ctrlbox.com/",
           "description": ""
         },
         {
@@ -1349,43 +1334,13 @@
           "description": "Onion search engine for Tor network"
         },
         {
-          "name": "OnionLink",
-          "url": "http://www.onion.link/",
-          "description": ""
-        },
-        {
           "name": "OnionScan",
           "url": "https://github.com/s-rah/onionscan",
           "description": "Free and open source tool for investigating the Dark Web. Its main goal is to help researchers and investigators monitor and track Dark W…"
         },
         {
-          "name": "Reddit Darknet",
-          "url": "https://www.reddit.com/r/darknet",
-          "description": ""
-        },
-        {
-          "name": "Reddit Deep Web",
-          "url": "https://www.reddit.com/r/deepweb",
-          "description": ""
-        },
-        {
-          "name": "Reddit Onions",
-          "url": "https://www.reddit.com/r/onions",
-          "description": ""
-        },
-        {
           "name": "Tor Download ",
           "url": "https://www.torproject.org/download/download-easy.html.en",
-          "description": ""
-        },
-        {
-          "name": "Tor Scan",
-          "url": "http://www.torscan.io/",
-          "description": ""
-        },
-        {
-          "name": "Tor66",
-          "url": "http://tor66sezptuu2nta.onion/",
           "description": ""
         },
         {
@@ -1396,7 +1351,7 @@
         {
           "name": "Web O Proxy",
           "url": "https://weboproxy.com/",
-          "description": ""
+          "description": "Tor web proxy allowing access to .onion sites without the Tor browser"
         }
       ]
     },
@@ -2353,17 +2308,12 @@
         {
           "name": "AnalyzeID",
           "url": "https://analyzeid.com/",
-          "description": "Find Other Websites Owned By The Same Person"
-        },
-        {
-          "name": "Code Finder",
-          "url": "https://codefinder.dev/",
-          "description": "The ultimate search engine for finding GitHub repositories"
+          "description": "Identify other websites using the same analytics code"
         },
         {
           "name": "Github-Dorks ",
           "url": "https://github.com/techgaun/github-dorks",
-          "description": ""
+          "description": "Search for sensitive data in GitHub repositories"
         },
         {
           "name": "GitLeaks",
@@ -2373,12 +2323,12 @@
         {
           "name": "Gitrob ",
           "url": "https://github.com/michenriksen/gitrob",
-          "description": ""
+          "description": "Gitrob is a tool to help find potentially sensitive files pushed to public repositories on Github"
         },
         {
           "name": "grep.app",
           "url": "https://grep.app/",
-          "description": ""
+          "description": "Code search for GitHub"
         },
         {
           "name": "NerdyData",
@@ -2388,27 +2338,22 @@
         {
           "name": "PublicWWW",
           "url": "https://publicwww.com/",
-          "description": ""
+          "description": "Search for any alphanumeric snippet, signature, or keyword within the HTML, JavaScript, and CSS code of web pages. "
         },
         {
           "name": "Reposearch",
           "url": "http://codefinder.org/",
-          "description": ""
-        },
-        {
-          "name": "SearchCode",
-          "url": "https://searchcode.com/",
-          "description": "Help find real world examples of functions, API's and libraries across 10+ sources"
+          "description": "Reposearch is a source code search engine that helps you find implementation details, example usages or just analyze code."
         },
         {
           "name": "Sourcebot",
           "url": "https://www.sourcebot.dev/",
           "description": "Index thousands of repos on your machine and search through them in a fast, powerful, and modern web interface"
         },
-        {
+        { 
           "name": "SourceGraph",
           "url": "https://sourcegraph.com/search",
-          "description": ""
+          "description": "Search for code or files"
         }
       ]
     },
@@ -2472,7 +2417,7 @@
           "description": ""
         },
         {
-          "name": "Followerwonk (R)",
+          "name": "Followerwonk",
           "url": "https://followerwonk.com/",
           "description": ""
         },
@@ -2567,7 +2512,7 @@
           "description": ""
         },
         {
-          "name": "Talkwalker Social Media Search (R)",
+          "name": "Talkwalker Social Media Search",
           "url": "https://www.talkwalker.com/social-media-analytics-search",
           "description": ""
         },
@@ -3652,19 +3597,9 @@
           "description": ""
         },
         {
-          "name": "Live Journal Seek",
-          "url": "http://ljseek.com/",
-          "description": ""
-        },
-        {
           "name": "Notey",
           "url": "http://www.notey.com/",
           "description": "Blog post search engine"
-        },
-        {
-          "name": "Topix",
-          "url": "http://www.topix.com/search/article?q=",
-          "description": ""
         },
         {
           "name": "Twingly",
@@ -4091,7 +4026,7 @@
           "description": ""
         },
         {
-          "name": "Email to Address (R)",
+          "name": "Email to Address",
           "url": "http://www.melissadata.com/lookups/emails.asp",
           "description": ""
         },
@@ -4244,87 +4179,6 @@
           "name": "VoilaNorbert",
           "url": "https://www.voilanorbert.com/",
           "description": "Find anyone's contact information for lead research or talent acquisition"
-        }
-      ]
-    },
-    {
-      "title": "[↑](#-table-of-contents) Phone Number Research",
-      "subtitle": "",
-      "items": [
-        {
-          "name": "CallerID Test",
-          "url": "https://calleridtest.com/",
-          "description": "Get caller ID and telco carrier information back"
-        },
-        {
-          "name": "EmobileTracker.com",
-          "url": "https://www.emobiletracker.com/",
-          "description": "a service specifically designed to Track Mobile Number, Location on Google Map including information such as the owner's Name,Location,Co…"
-        },
-        {
-          "name": "FreeCarrierLookup",
-          "url": "https://freecarrierlookup.com/",
-          "description": "enter a phone number and we'll return the carrier name and whether the number is wireless or landline. We also return the email-to-SMS an…"
-        },
-        {
-          "name": "Infobel",
-          "url": "https://www.infobel.com/",
-          "description": "Search 164+ million records across 73 countries for companies and individuals. Find places, local service providers, their contact detail…"
-        },
-        {
-          "name": "InMobPrefix",
-          "url": "https://github.com/hstsethi/in-mob-prefix",
-          "description": "Dataset, charts, models about mobile phone numbers prefixes in India along with their respective state, operator"
-        },
-        {
-          "name": "Phone Validator",
-          "url": "https://www.phonevalidator.com/index.aspx",
-          "description": "Pretty accurate phone lookup service, particularly good against Google Voice numbers"
-        },
-        {
-          "name": "PhoneInfoga",
-          "url": "https://github.com/sundowndev/PhoneInfoga",
-          "description": "Advanced information gathering & OSINT framework for phone numbers"
-        },
-        {
-          "name": "Reverse Phone Check",
-          "url": "https://www.reversephonecheck.com/",
-          "description": "Look up names, addresses, phone numbers, or emails and anonymously discover information about yourself, family, friends, or old schoolmat…"
-        },
-        {
-          "name": "Reverse Phone Lookup",
-          "url": "http://www.reversephonelookup.com/",
-          "description": "Detailed information about phone carrier, region, service provider, and switch information"
-        },
-        {
-          "name": "SearchPeopleFREE",
-          "url": "https://www.searchpeoplefree.com/phone-lookup",
-          "description": "a reverse name, address, email address, or phone lookup that"
-        },
-        {
-          "name": "Spy Dialer",
-          "url": "http://spydialer.com/",
-          "description": "Get the voicemail of a cell phone & owner name lookup"
-        },
-        {
-          "name": "Sync.ME",
-          "url": "https://sync.me/",
-          "description": "a caller ID and spam blocker app"
-        },
-        {
-          "name": "Truecaller",
-          "url": "https://truecaller.com/",
-          "description": "Global reverse phone number search"
-        },
-        {
-          "name": "Twilio",
-          "url": "https://www.twilio.com/docs/lookup/v2-api",
-          "description": "Look up a phone numbers carrier type, location, etc. Twilio offers free accounts that come with credits you can use with their API. Each…"
-        },
-        {
-          "name": "USPhoneBook",
-          "url": "https://www.usphonebook.com",
-          "description": "Reverse phone and address lookups and leading data"
         }
       ]
     },
@@ -4495,11 +4349,6 @@
           "description": ""
         },
         {
-          "name": "Bureau Van Dijk",
-          "url": "http://www.bvdinfo.com/",
-          "description": ""
-        },
-        {
           "name": "Business Source",
           "url": "https://www.ebscohost.com/academic/business-source-complete",
           "description": ""
@@ -4518,11 +4367,6 @@
           "name": "Caselaw Access Project",
           "url": "https://case.law/",
           "description": "Collection of full text of historical (not up-to-date) cases"
-        },
-        {
-          "name": "Companies House",
-          "url": "https://beta.companieshouse.gov.uk/",
-          "description": ""
         },
         {
           "name": "Companies In The UK",
@@ -4685,7 +4529,7 @@
           "description": ""
         },
         {
-          "name": "Owler (R)",
+          "name": "Owler",
           "url": "https://www.owler.com/",
           "description": ""
         },
@@ -4758,6 +4602,11 @@
               "name": "Companies House (UK)",
               "url": "https://companieshouse.gov.uk/",
               "description": "UK Official Company Register"
+            },
+            {
+          "name": "E-Justice Portal",
+          "url": "https://e-justice.europa.eu/topics/registers-business-insolvency-land/business-registers-search-company-eu_en",
+          "description": "Search for companies across European Union member states"
             }
           ]
         }
@@ -5181,7 +5030,7 @@
               "description": ""
             },
             {
-              "name": "Critical Stack Intel (R)",
+              "name": "Critical Stack Intel",
               "url": "https://intel.criticalstack.com/",
               "description": "Domain and IP Research / Domain Search resource"
             },
@@ -5201,7 +5050,7 @@
               "description": "Domain and IP Research / Domain Search resource"
             },
             {
-              "name": "Deteque (R)",
+              "name": "Deteque",
               "url": "https://www.deteque.com/",
               "description": ""
             },
@@ -5441,12 +5290,12 @@
               "description": "Domain and IP Research / Domain Search resource"
             },
             {
-              "name": "Malware Patrol (R)",
+              "name": "Malware Patrol",
               "url": "http://www.malware.com.br/open-source.shtml",
               "description": ""
             },
             {
-              "name": "MalwareURL (R)",
+              "name": "MalwareURL",
               "url": "http://www.malwareurl.com/index.php",
               "description": ""
             },
@@ -5496,7 +5345,7 @@
               "description": "Domain and IP Research / Domain Search resource"
             },
             {
-              "name": "ODIN (R)",
+              "name": "ODIN",
               "url": "https://www.getodin.com/",
               "description": ""
             },
@@ -5898,7 +5747,7 @@
           "subtitle": "",
           "items": [
             {
-              "name": "BinaryEdge (R)",
+              "name": "BinaryEdge",
               "url": "https://www.binaryedge.io/",
               "description": ""
             },
@@ -5923,7 +5772,7 @@
               "description": ""
             },
             {
-              "name": "ODIN (R)",
+              "name": "ODIN",
               "url": "https://www.getodin.com/",
               "description": ""
             },
@@ -6274,7 +6123,7 @@
               "description": "Domain and IP Research / IP Searches and Geolocation resource"
             },
             {
-              "name": "ODIN (R)",
+              "name": "ODIN",
               "url": "https://www.getodin.com/",
               "description": ""
             },
@@ -6339,7 +6188,7 @@
               "description": "Domain and IP Research / IP Searches and Geolocation resource"
             },
             {
-              "name": "SkyFi.com - Satellite Open Data (R)",
+              "name": "SkyFi.com - Satellite Open Data",
               "url": "https://app.skyfi.com/explore/open",
               "description": "Domain and IP Research / IP Searches and Geolocation resource"
             },
@@ -6687,7 +6536,7 @@
           "description": ""
         },
         {
-          "name": "ChatGPT (R)",
+          "name": "ChatGPT",
           "url": "https://chatgpt.com/",
           "description": ""
         },
@@ -6912,7 +6761,7 @@
           "description": ""
         },
         {
-          "name": "WormGPT-6 (R)",
+          "name": "WormGPT-6",
           "url": "https://flowgpt.com/p/wormgpt-6",
           "description": ""
         }
@@ -7134,11 +6983,7 @@
           "url": "http://deturl.com/",
           "description": "Download a YouTube video"
         },
-        {
-          "name": "DownloadHelper",
-          "url": "http://www.downloadhelper.net/",
-          "description": "Download any video , it just works!"
-        },
+        
         {
           "name": "Earthcam",
           "url": "http://www.earthcam.com/",
@@ -8741,11 +8586,7 @@
           "url": "https://github.com/mrcoles/full-page-screen-capture-chrome-extension",
           "description": ""
         },
-        {
-          "name": "Hunchly ",
-          "url": "http://www.hunch.ly/",
-          "description": ""
-        },
+        
         {
           "name": "InfoMinder",
           "url": "http://www.infominder.com/webminder",
@@ -8908,6 +8749,11 @@
           "description": ""
         },
         {
+          "name": "Brave Browser",
+          "url": "https://brave.com/",
+          "description": "Brave is a privacy-focused browser that blocks ads and trackers by default"
+        },
+        {
           "name": "Bromite",
           "url": "https://www.bromite.org/",
           "description": "Bromite is a Chromium fork with ad blocking and enhanced privacy; take back your browser. Works only on Android"
@@ -8921,6 +8767,11 @@
           "name": "Chrome",
           "url": "https://www.google.com/chrome",
           "description": ""
+        },
+        {
+          "name": "ChatGPT Atlas Browser",
+          "url": "https://chatgpt.com/atlas/",
+          "description": "Web browser with integrated AI chatbot capabilities for enhanced research and browsing"
         },
         {
           "name": "Comodo Dragon",
@@ -9065,32 +8916,7 @@
         }
       ]
     },
-    {
-      "title": "[↑](#-table-of-contents) VPN Services",
-      "subtitle": "",
-      "items": [
-        {
-          "name": "Cloudflare Warp",
-          "url": "https://one.one.one.one/",
-          "description": "Cloudflare's free VPN service that focuses on privacy and speed"
-        },
-        {
-          "name": "OffShore.cat",
-          "url": "https://offshore.cat/vpn",
-          "description": "list of vpns for the privacy conscious"
-        },
-        {
-          "name": "TorrentFreak List of VPNs",
-          "url": "https://torrentfreak.com/vpn-services-anonymous-review-2017-170304/",
-          "description": ""
-        },
-        {
-          "name": "VPN Comparison by That One Privacy Guy",
-          "url": "https://thatoneprivacysite.net/",
-          "description": "is a summary list of top best VPN services"
-        }
-      ]
-    },
+    
     {
       "title": "[↑](#-table-of-contents) Infographics and Data Visualization",
       "subtitle": "",
@@ -9463,58 +9289,33 @@
       ]
     },
     {
-      "title": "[↑](#-table-of-contents) Social Network Analysis",
+      "title": "[↑](#-table-of-contents) Network Traffic Analysis",
       "subtitle": "",
       "items": [
-        {
-          "name": "Gephi",
-          "url": "https://gephi.org/",
-          "description": "is an open-source graph and network visualization software"
-        },
         {
           "name": "NetworkMiner",
           "url": "https://www.netresec.com/?page=Networkminer",
           "description": ""
         },
         {
-          "name": "NetworkTotal",
-          "url": "https://www.networktotal.com/",
-          "description": ""
+          "name": "Cisco Packet Tracer",
+          "url": "https://www.netacad.com/about-networking-academy/packet-tracer/",
+          "description": "Network packet analysis tool"
         },
         {
-          "name": "ORA",
-          "url": "http://www.casos.cs.cmu.edu/projects/ora/software.php",
-          "description": ""
+          "name": "Suricata",
+          "url": "https://suricata.io/",
+          "description": "Open source network analysis and threat detection software"
         },
         {
-          "name": "Packet Total",
-          "url": "http://www.packettotal.com/",
-          "description": ""
-        },
-        {
-          "name": "Reddit (M)",
-          "url": "https://www.reddit.com/domain/%3CURLhere%3E",
-          "description": ""
-        },
-        {
-          "name": "Sentinel Visualizer",
-          "url": "http://www.fmsasg.com/",
-          "description": ""
-        },
-        {
-          "name": "Visual Investigative Scenarios",
-          "url": "https://vis.occrp.org/",
-          "description": ""
+          "name": "Snort",
+          "url": "https://www.snort.org/downloads",
+          "description": "Network packet analysis tool"
         },
         {
           "name": "Wireshark",
           "url": "https://www.wireshark.org/download.html",
-          "description": ""
-        },
-        {
-          "name": "Wynyard Group",
-          "url": "https://wynyardgroup.com/",
-          "description": ""
+          "description": "Network packet analysis tool"
         }
       ]
     },
@@ -9914,11 +9715,7 @@
           "url": "https://github.com/shadawck/glit",
           "description": "Retrieve all mails of users related to a git repository, a git user or a git organization"
         },
-        {
-          "name": "Hunchly",
-          "url": "https://www.hunch.ly/",
-          "description": "Hunchly is a web capture tool designed specifically for online investigations"
-        },
+        
         {
           "name": "IntelHub",
           "url": "https://github.com/tomsec8/IntelHub",
@@ -9948,6 +9745,11 @@
           "name": "Maltego",
           "url": "https://www.maltego.com/",
           "description": "Maltego is an open source intelligence (OSINT) and graphical link analysis tool for gathering and connecting information for investigativ…"
+        },
+        {
+          "name": "Gephi",
+          "url": "https://gephi.org/",
+          "description": "is an open-source graph and network visualization software"
         },
         {
           "name": "Mozilla HTTP Observatory",
@@ -11038,7 +10840,7 @@
           "description": ""
         },
         {
-          "name": "Tinder (R)",
+          "name": "Tinder",
           "url": "https://tinder.com/",
           "description": ""
         },
@@ -11055,7 +10857,7 @@
       ]
     },
     {
-      "title": "[↑](#-telephone-numbers) Telephone Numbers",
+      "title": "[↑](#-phone-numbers) Phone Numbers",
       "subtitle": "",
       "items": [
         {
@@ -11064,14 +10866,24 @@
           "description": ""
         },
         {
-          "name": "CallerIDService.com (R)",
+          "name": "CallerID Test",
+          "url": "https://calleridtest.com/",
+          "description": "Get caller ID and telco carrier information back"
+        },
+        {
+          "name": "CallerIDService.com",
           "url": "http://www.calleridservice.com/",
           "description": ""
         },
         {
-          "name": "Data24-7 (R)",
+          "name": "Data24-7",
           "url": "https://www.data24-7.com/signup.php",
           "description": ""
+        },
+        {
+          "name": "EmobileTracker.com",
+          "url": "https://www.emobiletracker.com/",
+          "description": "a service specifically designed to Track Mobile Number, Location on Google Map including information such as the owner's Name,Location,Co…"
         },
         {
           "name": "Fone Finder",
@@ -11081,12 +10893,22 @@
         {
           "name": "Free Carrier Lookup",
           "url": "http://freecarrierlookup.com/",
+          "description": "enter a phone number and we'll return the carrier name and whether the number is wireless or landline. We also return the email-to-SMS an…"
+        },
+        {
+          "name": "HLR Lookup Portal",
+          "url": "https://www.hlr-lookups.com/",
           "description": ""
         },
         {
-          "name": "HLR Lookup Portal (R)",
-          "url": "https://www.hlr-lookups.com/",
-          "description": ""
+          "name": "Infobel",
+          "url": "https://www.infobel.com/",
+          "description": "Search 164+ million records across 73 countries for companies and individuals. Find places, local service providers, their contact detail…"
+        },
+        {
+          "name": "InMobPrefix",
+          "url": "https://github.com/hstsethi/in-mob-prefix",
+          "description": "Dataset, charts, models about mobile phone numbers prefixes in India along with their respective state, operator"
         },
         {
           "name": "Mr. Number (M)",
@@ -11094,7 +10916,7 @@
           "description": ""
         },
         {
-          "name": "Next Caller (R)",
+          "name": "Next Caller",
           "url": "https://nextcaller.com/",
           "description": ""
         },
@@ -11119,9 +10941,14 @@
           "description": ""
         },
         {
-          "name": "OpenCNAM API",
-          "url": "http://api.opencnam.com/v2/phone/+19073372323",
-          "description": ""
+          "name": "Phone Validator",
+          "url": "https://www.phonevalidator.com/index.aspx",
+          "description": "Pretty accurate phone lookup service, particularly good against Google Voice numbers"
+        },
+        {
+          "name": "PhoneInfoga",
+          "url": "https://github.com/sundowndev/PhoneInfoga",
+          "description": "Advanced information gathering & OSINT framework for phone numbers"
         },
         {
           "name": "Reverse Genie",
@@ -11129,14 +10956,34 @@
           "description": ""
         },
         {
+          "name": "Reverse Phone Check",
+          "url": "https://www.reversephonecheck.com/",
+          "description": "Look up names, addresses, phone numbers, or emails and anonymously discover information about yourself, family, friends, or old schoolmat…"
+        },
+        {
+          "name": "Reverse Phone Lookup",
+          "url": "http://www.reversephonelookup.com/",
+          "description": "Detailed information about phone carrier, region, service provider, and switch information"
+        },
+        {
+          "name": "SearchPeopleFREE",
+          "url": "https://www.searchpeoplefree.com/phone-lookup",
+          "description": "a reverse name, address, email address, or phone lookup that"
+        },
+        {
           "name": "Slydial",
           "url": "https://www.slydial.com/",
           "description": ""
         },
         {
-          "name": "SpyDialer",
-          "url": "http://www.spydialer.com/default.aspx",
-          "description": ""
+          "name": "Spy Dialer",
+          "url": "http://spydialer.com/",
+          "description": "Get the voicemail of a cell phone & owner name lookup"
+        },
+        {
+          "name": "Sync.ME",
+          "url": "https://sync.me/",
+          "description": "a caller ID and spam blocker app"
         },
         {
           "name": "ThatsThem - Reverse Phone Lookup",
@@ -11152,6 +10999,11 @@
           "name": "Twilio Lookup",
           "url": "https://www.twilio.com/lookup",
           "description": ""
+        },
+        {
+          "name": "USPhoneBook",
+          "url": "https://www.usphonebook.com",
+          "description": "Reverse phone and address lookups and leading data"
         },
         {
           "name": "WhoCalld",
@@ -11553,7 +11405,7 @@
               "description": ""
             },
             {
-              "name": "Melissa Data - Property Viewer (R)",
+              "name": "Melissa Data - Property Viewer",
               "url": "http://www.melissadata.com/lookups/propertyviewer.asp",
               "description": ""
             }
@@ -11582,22 +11434,7 @@
         }
       ]
     },
-    {
-      "title": "[↑](#-metadata) Metadata",
-      "subtitle": "",
-      "items": [
-        {
-          "name": "CodeTwo Outlook Export ",
-          "url": "http://www.codetwo.com/freeware/outlook-export/",
-          "description": ""
-        },
-        {
-          "name": "Metagoofil ",
-          "url": "http://www.edge-security.com/metagoofil.php",
-          "description": ""
-        }
-      ]
-    },
+    
     {
       "title": "[↑](#-mobile-emulation) Mobile Emulation",
       "subtitle": "",
@@ -11728,7 +11565,7 @@
         {
           "name": "CyberChef",
           "url": "https://gchq.github.io/CyberChef/",
-          "description": ""
+          "description": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis."
         },
         {
           "name": "DDecode - PHP Decoder",
@@ -11919,223 +11756,293 @@
       ]
     },
     {
-      "title": "[↑](#-opsec) OpSec",
+      "title": "[↑](#-operational-security) Operational Security",
       "subtitle": "",
-      "items": [
+      "items": [],
+      "categories": [
         {
-          "name": "Anonymouth - Document Anonymization ",
-          "url": "https://github.com/psal/anonymouth",
-          "description": ""
+          "title": "Browser Tests & Fingerprinting",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Browser Statistics",
+              "url": "https://www.w3schools.com/browsers/default.asp",
+              "description": ""
+            },
+            {
+              "name": "Browserscope",
+              "url": "http://www.browserscope.org/",
+              "description": ""
+            },
+            {
+              "name": "BrowserSpy.dk",
+              "url": "http://browserspy.dk/",
+              "description": ""
+            },
+            {
+              "name": "BrowserSpy.dk Browser Information",
+              "url": "http://browserspy.dk/browser.php",
+              "description": ""
+            },
+            {
+              "name": "User Agent String Decoder",
+              "url": "http://tools.tracemyip.org/user-agent-string-decoder/",
+              "description": ""
+            },
+            {
+              "name": "UserAgentString.com",
+              "url": "http://www.useragentstring.com/pages/useragentstring.php",
+              "description": ""
+            },
+            {
+              "name": "WebRTC Leak Test",
+              "url": "https://www.perfect-privacy.com/webrtc-leaktest/",
+              "description": ""
+            },
+            {
+              "name": "What browser am I using.co",
+              "url": "http://www.whatbrowseramiusing.co/",
+              "description": ""
+            },
+            {
+              "name": "What Browser?",
+              "url": "https://whatbrowser.org/",
+              "description": ""
+            },
+            {
+              "name": "WhatIsMyBrowser.com",
+              "url": "https://www.whatismybrowser.com/",
+              "description": ""
+            },
+            {
+              "name": "WhatsMyBrowser.org",
+              "url": "http://www.whatsmybrowser.org/",
+              "description": ""
+            }
+          ]
         },
         {
-          "name": "Browser Statistics",
-          "url": "https://www.w3schools.com/browsers/default.asp",
-          "description": ""
+          "title": "Leak Tests & Network Checks",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "DNS leak test",
+              "url": "https://www.dnsleaktest.com/",
+              "description": ""
+            },
+            {
+              "name": "DNS Leak Tests",
+              "url": "http://dnsleak.com/",
+              "description": ""
+            },
+            {
+              "name": "IP / DNS Leak Detection",
+              "url": "https://ipleak.net/",
+              "description": ""
+            },
+            {
+              "name": "IPv6 Leak Tests",
+              "url": "http://ipv6leak.com/",
+              "description": ""
+            },
+            {
+              "name": "IP2Proxy",
+              "url": "https://www.ip2proxy.com/",
+              "description": ""
+            },
+            {
+              "name": "Trace My IP",
+              "url": "http://www.tracemyip.org/",
+              "description": ""
+            },
+            {
+              "name": "JonDonym",
+              "url": "http://ip-check.info/?lang=en",
+              "description": ""
+            },
+            {
+              "name": "Perfect Privacy",
+              "url": "https://www.perfect-privacy.com/check-ip/",
+              "description": ""
+            }
+          ]
         },
         {
-          "name": "Browserscope",
-          "url": "http://www.browserscope.org/",
-          "description": ""
+          "title": "VPN Services",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Cloudflare Warp",
+              "url": "https://one.one.one.one/",
+              "description": "Cloudflare's free VPN service that focuses on privacy and speed"
+            },
+            {
+              "name": "OffShore.cat",
+              "url": "https://offshore.cat/vpn",
+              "description": "list of vpns for the privacy conscious"
+            },
+            {
+              "name": "TorrentFreak List of VPNs",
+              "url": "https://torrentfreak.com/vpn-services-anonymous-review-2017-170304/",
+              "description": ""
+            },
+            {
+              "name": "VPN Comparison by That One Privacy Guy",
+              "url": "https://thatoneprivacysite.net/",
+              "description": "is a summary list of top best VPN services"
+            },
+            {
+              "name": "TorGuard",
+              "url": "https://torguard.net/vpn-dns-leak-test.php",
+              "description": ""
+            }
+          ]
         },
         {
-          "name": "BrowserSpy.dk",
-          "url": "http://browserspy.dk/",
-          "description": ""
+          "title": "Privacy Tools & Guides",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Privacy Guides",
+              "url": "https://www.privacyguides.org/en/",
+              "description": ""
+            },
+            {
+              "name": "Privacy Tools",
+              "url": "https://www.privacytools.io/",
+              "description": ""
+            },
+            {
+              "name": "The Internet Privacy Handbook",
+              "url": "https://www.safeshepherd.com/handbook",
+              "description": ""
+            },
+            {
+              "name": "The Many Hats Club - Privacy Resources",
+              "url": "https://themanyhats.club/centralised-place-for-privacy-resources/",
+              "description": ""
+            },
+            {
+              "name": "The Hitchhiker’s Guide to Online Anonymity",
+              "url": "https://anonymousplanet.org/guide/",
+              "description": ""
+            }
+          ]
         },
         {
-          "name": "BrowserSpy.dk Browser Information",
-          "url": "http://browserspy.dk/browser.php",
-          "description": ""
+          "title": "Privacy Extensions & Utilities",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Self-Destructing Cookies ",
+              "url": "https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/",
+              "description": ""
+            },
+            {
+              "name": "Proxychecker",
+              "url": "https://proxycheck.haschek.at/",
+              "description": ""
+            },
+            {
+              "name": "Faker.js",
+              "url": "https://cdn.rawgit.com/Marak/faker.js/master/examples/browser/index.html",
+              "description": ""
+            },
+            {
+              "name": "Firefox-debloat",
+              "url": "https://github.com/amq/firefox-debloat",
+              "description": ""
+            }
+          ]
         },
         {
-          "name": "Credit Freeze",
-          "url": "https://inteltechniques.com/blog/2018/09/28/complete-credit-freeze-tutorial-update/",
-          "description": ""
+          "title": "Identity & OpSec Generators / Removal",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Fake Identity Generator",
+              "url": "http://justdelete.me/fake-identity-generator/",
+              "description": ""
+            },
+            {
+              "name": "Fake Name Generator",
+              "url": "http://www.fakenamegenerator.com/",
+              "description": ""
+            },
+            {
+              "name": "Fake US Identities",
+              "url": "http://xdd2.org/",
+              "description": ""
+            },
+            {
+              "name": "Just Delete Me",
+              "url": "http://backgroundchecks.org/justdeleteme/",
+              "description": ""
+            },
+            {
+              "name": "OptOut Credit Prescreen",
+              "url": "https://www.optoutprescreen.com/?rf=t",
+              "description": ""
+            },
+            {
+              "name": "Random User Generator",
+              "url": "https://randomuser.me/",
+              "description": ""
+            },
+            {
+              "name": "Credit Freeze",
+              "url": "https://inteltechniques.com/blog/2018/09/28/complete-credit-freeze-tutorial-update/",
+              "description": ""
+            }
+          ]
         },
         {
-          "name": "DNS leak test",
-          "url": "https://www.dnsleaktest.com/",
-          "description": ""
+          "title": "Resources & Media",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Pexels",
+              "url": "https://www.pexels.com/",
+              "description": ""
+            },
+            {
+              "name": "Social Media Fingerprint",
+              "url": "https://robinlinus.github.io/socialmedia-leak/",
+              "description": ""
+            },
+            {
+              "name": "Intel Techniques - Hiding from the Internet",
+              "url": "https://inteltechniques.com/data/workbook.pdf",
+              "description": ""
+            }
+          ]
         },
         {
-          "name": "DNS Leak Tests",
-          "url": "http://dnsleak.com/",
-          "description": ""
+          "title": "Other / Misc Tools",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Anonymouth - Document Anonymization ",
+              "url": "https://github.com/psal/anonymouth",
+              "description": ""
+            },
+            {
+              "name": "LocaBrowser.com",
+              "url": "http://www.locabrowser.com",
+              "description": ""
+            }
+          ]
         },
         {
-          "name": "Email Leak Tests",
-          "url": "http://emailipleak.com/",
-          "description": ""
-        },
-        {
-          "name": "Fake Identity Generator",
-          "url": "http://justdelete.me/fake-identity-generator/",
-          "description": ""
-        },
-        {
-          "name": "Fake Name Generator",
-          "url": "http://www.fakenamegenerator.com/",
-          "description": ""
-        },
-        {
-          "name": "Fake US Identities",
-          "url": "http://xdd2.org/",
-          "description": ""
-        },
-        {
-          "name": "Faker.js",
-          "url": "https://cdn.rawgit.com/Marak/faker.js/master/examples/browser/index.html",
-          "description": ""
-        },
-        {
-          "name": "Firefox-debloat",
-          "url": "https://github.com/amq/firefox-debloat",
-          "description": ""
-        },
-        {
-          "name": "Intel Techniques - Hiding from the Internet",
-          "url": "https://inteltechniques.com/data/workbook.pdf",
-          "description": ""
-        },
-        {
-          "name": "IP / DNS Leak Detection",
-          "url": "https://ipleak.net/",
-          "description": ""
-        },
-        {
-          "name": "IP2Proxy",
-          "url": "https://www.ip2proxy.com/",
-          "description": ""
-        },
-        {
-          "name": "IPv6 Leak Tests",
-          "url": "http://ipv6leak.com/",
-          "description": ""
-        },
-        {
-          "name": "JonDonym",
-          "url": "http://ip-check.info/?lang=en",
-          "description": ""
-        },
-        {
-          "name": "Just Delete Me",
-          "url": "http://backgroundchecks.org/justdeleteme/",
-          "description": ""
-        },
-        {
-          "name": "LetMeCheck.it",
-          "url": "http://letmecheck.it/",
-          "description": ""
-        },
-        {
-          "name": "LocaBrowser.com",
-          "url": "http://www.locabrowser.com",
-          "description": ""
-        },
-        {
-          "name": "OptOut Credit Prescreen",
-          "url": "https://www.optoutprescreen.com/?rf=t",
-          "description": ""
-        },
-        {
-          "name": "Perfect Privacy",
-          "url": "https://www.perfect-privacy.com/check-ip/",
-          "description": ""
-        },
-        {
-          "name": "Pexels",
-          "url": "https://www.pexels.com/",
-          "description": ""
-        },
-        {
-          "name": "Privacy Guides",
-          "url": "https://www.privacyguides.org/en/",
-          "description": ""
-        },
-        {
-          "name": "Privacy Tools",
-          "url": "https://www.privacytools.io/",
-          "description": ""
-        },
-        {
-          "name": "Proxychecker",
-          "url": "https://proxycheck.haschek.at/",
-          "description": ""
-        },
-        {
-          "name": "Random User Generator",
-          "url": "https://randomuser.me/",
-          "description": ""
-        },
-        {
-          "name": "Self-Destructing Cookies ",
-          "url": "https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/",
-          "description": ""
-        },
-        {
-          "name": "Social Media Fingerprint",
-          "url": "https://robinlinus.github.io/socialmedia-leak/",
-          "description": ""
-        },
-        {
-          "name": "The Hitchhiker’s Guide to Online Anonymity",
-          "url": "https://anonymousplanet.org/guide/",
-          "description": ""
-        },
-        {
-          "name": "The Internet Privacy Handbook",
-          "url": "https://www.safeshepherd.com/handbook",
-          "description": ""
-        },
-        {
-          "name": "The Many Hats Club - Privacy Resources",
-          "url": "https://themanyhats.club/centralised-place-for-privacy-resources/",
-          "description": ""
-        },
-        {
-          "name": "TorGuard",
-          "url": "https://torguard.net/vpn-dns-leak-test.php",
-          "description": ""
-        },
-        {
-          "name": "Trace My IP",
-          "url": "http://www.tracemyip.org/",
-          "description": ""
-        },
-        {
-          "name": "User Agent String Decoder",
-          "url": "http://tools.tracemyip.org/user-agent-string-decoder/",
-          "description": ""
-        },
-        {
-          "name": "UserAgentString.com",
-          "url": "http://www.useragentstring.com/pages/useragentstring.php",
-          "description": ""
-        },
-        {
-          "name": "WebRTC Leak Test",
-          "url": "https://www.perfect-privacy.com/webrtc-leaktest/",
-          "description": ""
-        },
-        {
-          "name": "What browser am I using.co",
-          "url": "http://www.whatbrowseramiusing.co/",
-          "description": ""
-        },
-        {
-          "name": "What Browser?",
-          "url": "https://whatbrowser.org/",
-          "description": ""
-        },
-        {
-          "name": "WhatIsMyBrowser.com",
-          "url": "https://www.whatismybrowser.com/",
-          "description": ""
-        },
-        {
-          "name": "WhatsMyBrowser.org",
-          "url": "http://www.whatsmybrowser.org/",
-          "description": ""
+          "title": "Virtual Machines",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "VirtualBox",
+              "url": "https://www.virtualbox.org/",
+              "description": ""
+            }
+          ]
         }
       ]
     },
@@ -12147,6 +12054,16 @@
           "name": "Teehan+Lax Labs - Hyperlapse",
           "url": "http://labs.teehanlax.com/project/hyperlapse",
           "description": ""
+        },
+        {
+          "name": "DownloadHelper",
+          "url": "http://www.downloadhelper.net/",
+          "description": "Download any video, it just works!"
+        },
+        {
+          "name": "Hunchly",
+          "url": "https://www.hunch.ly/",
+          "description": "Hunchly is a web capture tool designed specifically for online investigations"
         }
       ]
     },

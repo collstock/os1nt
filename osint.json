@@ -256,6 +256,11 @@
           "name": "MISP",
           "url": "https://www.misp-project.org/",
           "description": "Open source threat intelligence platform for sharing, storing and correlating Indicators of Compromise"
+        },
+        {
+          "name": "CyberChef",
+          "url": "https://gchq.github.io/CyberChef/",
+          "description": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis."
         }
       ]
     }
