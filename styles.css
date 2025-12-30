@@ -432,7 +432,7 @@ input[type="text"], input[type="search"], select{
   border-radius: 12px;
   cursor: pointer;
   white-space: nowrap;
-  transition: transform .12s ease, border-color .12s ease, background .12s ease;
+  transition: transform .12s ease, border-color .12s ease, background .12s ease, color .12s ease;
   display:inline-flex;
   align-items:center;
   justify-content:center;
