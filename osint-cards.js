@@ -225,6 +225,8 @@
 
   const initSearch = () => {
     if (!searchInput) return;
+    // Make applyFilter available globally so other scripts can trigger it
+    window.applyOsintFilter = applyFilter;
     searchInput.addEventListener("input", () => applyFilter(searchInput.value));
   };
 
