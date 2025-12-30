@@ -50,7 +50,12 @@ if (toggleAllBtn) {
     searchInput.value = '';
     updateClear();
     searchInput.focus();
+    // Trigger input event for search filtering
     searchInput.dispatchEvent(new Event('input', { bubbles: true }));
+    // Also directly call the filter if it's available
+    if (window.applyOsintFilter) {
+      window.applyOsintFilter('');
+    }
   });
 
   updateClear();
