@@ -1,11 +1,14 @@
 /* osint-cards.js
-   Renders category cards from a locally stored awesome-osint.json file.
+   Renders category cards from a locally stored awesome-osint.json or osint.json file.
+   Supports both nested and simplified views.
    No remote network calls are made (except favicon retrieval from Google S2).
 */
 (() => {
   "use strict";
 
-  const JSON_PATH = "awesome-osint.json";
+  // Determine which JSON file to load based on view mode
+  const isSimplified = sessionStorage.getItem('osintSimplified') === 'true';
+  const JSON_PATH = isSimplified ? "osint.json" : "awesome-osint.json";
   const containers = [
     document.getElementById("osint-cards"),
     document.getElementById("osint-cards-middle"),
@@ -80,7 +83,15 @@
     
     // Separate actual items from sub-categories
     const actualItems = items.filter(item => !item.categories);
-    const itemsHtml = actualItems.map(renderItem).join("");
+    
+    // Sort items alphabetically by name
+    const sortedItems = actualItems.sort((a, b) => {
+      const nameA = (a.name || "").toLowerCase();
+      const nameB = (b.name || "").toLowerCase();
+      return nameA.localeCompare(nameB);
+    });
+    
+    const itemsHtml = sortedItems.map(renderItem).join("");
     
     // Sort sub-categories alphabetically before rendering
     const sortedSubCats = subCategories.sort((a, b) => {
@@ -140,11 +151,19 @@
     // Otherwise, use flat rendering
     const subtitle = (cat.subtitle || "").trim();
     const items = Array.isArray(cat.items) ? cat.items : [];
-    const list = items.map(renderItem).join("");
+    
+    // Sort items alphabetically by name
+    const sortedItems = items.sort((a, b) => {
+      const nameA = (a.name || "").toLowerCase();
+      const nameB = (b.name || "").toLowerCase();
+      return nameA.localeCompare(nameB);
+    });
+    
+    const list = sortedItems.map(renderItem).join("");
 
     return `
       <section class="card" data-category="${escapeHtml(title)}" data-index="${idx}">
-        <details ${idx === 0 ? "open" : ""}>
+        <details>
           <summary>
             <div class="card-title">
               <h2>${escapeHtml(title)}</h2>

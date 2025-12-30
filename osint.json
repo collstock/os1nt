@@ -1,0 +1,165 @@
+{
+  "categories": [
+    {
+      "title": "[\u2191](#-table-of-contents) Person Search",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "What's My Name",
+          "url": "https://whatsmyname.app/",
+          "description": "People search engine for finding social media profiles, contact info, and public records"
+        },
+        {
+          "name": "Epieos",
+          "url": "https://www.epieos.com/",
+          "description": "People search engine for finding social media profiles and online presence"
+        },
+        {
+          "name": "Have I Been Pwned",
+          "url": "https://haveibeenpwned.com/",
+          "description": "Service that allows users to check if their personal data has been compromised in data breaches"
+        },
+        {
+          "name": "That's Them",
+          "url": "https://thatsthem.com/",
+          "description": "People search engine for finding social media profiles, contact info, and public records"
+        },
+        {
+          "name": "Sherlock",
+          "url": "https://github.com/sherlock-project/sherlock",
+          "description": "Username search tool that finds usernames across social media platforms"
+        },
+        {
+          "name": "GHunt",
+          "url": "https://github.com/mxrch/GHunt",
+          "description": "GHunt searches Google accounts for information such as last modifications, connected services, and more."
+        }
+      ]
+    },
+    {
+      "title": "[\u2191](#-table-of-contents) Company Search",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "OpenCorporates",
+          "url": "https://opencorporates.com/",
+          "description": "The largest open database of companies in the world"
+        }
+      ]
+    },
+    {
+      "title": "[\u2191](#-table-of-contents) General Search",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "DuckDuckGo",
+          "url": "https://duckduckgo.com/",
+          "description": "Privacy-focused search engine that does not track users"
+        },
+        {
+          "name": "Google NCR",
+          "url": "https://www.google.com/ncr",
+          "description": "Google search without regional redirects"
+        },
+        {
+          "name": "Wayback Machine",
+          "url": "https://archive.org/web/",
+          "description": "Digital archive of the World Wide Web and other information on the Internet"
+        },
+        {
+          "name": "SpiderFoot",
+          "url": "https://www.spiderfoot.net/",
+          "description": "Open source intelligence automation tool for gathering information from various sources"
+        }
+      ]
+    },
+    {
+      "title": "[\u2191](#-table-of-contents) Domain and IP Search",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "Central Ops",
+          "url": "http://centralops.net/",
+          "description": "Domain and IP research tools including traceroute, DNS, whois lookups"
+        },
+        {
+          "name": "Shodan",
+          "url": "https://www.shodan.io/",
+          "description": "Search engine for internet-connected devices with banner grabbing and vulnerability data"
+        },
+        {
+          "name": "ipinfo.io",
+          "url": "https://ipinfo.io/",
+          "description": "IP address intelligence platform providing geolocation, ASN, and privacy data"
+        },
+        {
+          "name": "host.io",
+          "url": "https://host.io/",
+          "description": "Host discovery and domain intelligence platform for subdomains, IPs, and technologies"
+        },
+        {
+          "name": "DNSDumpster",
+          "url": "https://dnsdumpster.com/",
+          "description": "Domain reconnaissance tool for discovering subdomains and DNS records"
+        },
+        {
+          "name": "WhoisXML API",
+          "url": "https://www.whoisxmlapi.com/",
+          "description": "Comprehensive WHOIS, DNS, IP, and domain intelligence APIs with historical records"
+        },
+        {
+          "name": "ViewDNS.info",
+          "url": "http://viewdns.info/",
+          "description": "DNS lookup and domain research tools including reverse IP and reverse DNS lookup"
+        },
+        {
+          "name": "urlscan.io",
+          "url": "https://urlscan.io/search/#*",
+          "description": "URL and website scanner that analyzes page content and detects security threats"
+        }
+      ]
+    },
+    {
+      "title": "[\u2191](#-table-of-contents) Documentation",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "Hunchly",
+          "url": "https://hunch.ly/",
+          "description": "Hunchly is a web capture tool designed for online investigations."
+        },
+        {
+          "name": "Video DownloadHelper",
+          "url": "https://www.downloadhelper.net/",
+          "description": "Browser extension for downloading videos and images from websites"
+        },
+        {
+          "name": "StorySaver",
+          "url": "https://storysaver.net/",
+          "description": "Instagram story viewer and downloader for saving stories anonymously"
+        }
+      ]
+    },
+    {
+      "title": "[\u2191](#-table-of-contents) Operational Security",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "Tails",
+          "url": "https://tails.boum.org/",
+          "description": "Live operating system focused on privacy and anonymity"
+        },
+        {
+          "name": "Oracle VirtualBox",
+          "url": "https://www.virtualbox.org/",
+          "description": "Virtualization software for running multiple operating systems on a single machine."
+        },
+        {
+          "name": "Cloudflare WARP",
+          "url": "https://www.cloudflare.com/warp/",
+          "description": "VPN service that encrypts internet traffic and enhances privacy and security"
+        }
+      ]
+    }
+  ]
+}
