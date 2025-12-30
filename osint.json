@@ -251,6 +251,11 @@
           "name": "Mitre ATT&CK",
           "url": "https://attack.mitre.org/",
           "description": "Knowledge base of adversary tactics and techniques based on real-world observations"
+        },
+        {
+          "name": "MISP",
+          "url": "https://www.misp-project.org/",
+          "description": "Open source threat intelligence platform for sharing, storing and correlating Indicators of Compromise"
         }
       ]
     }
