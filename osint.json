@@ -227,6 +227,32 @@
           "description": "Official browser for accessing the Tor network, enhancing privacy and anonymity"
         }
       ]
+    },
+    {
+      "title": "[\u2191](#-table-of-contents) IoC Analysis and Cyber Threat Intelligence",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "Virustotal",
+          "url": "https://www.virustotal.com/",
+          "description": "Analyze files and URLs for viruses, worms, trojans, and other kinds of malicious content"
+        },
+        {
+          "name": "Hybrid Analysis",
+          "url": "https://www.hybrid-analysis.com/",
+          "description": "Free malware analysis service for the community"
+        },
+        {
+          "name": "Any Run",
+          "url": "https://any.run/",
+          "description": "Interactive malware analysis sandbox"
+        },
+        {
+          "name": "Mitre ATT&CK",
+          "url": "https://attack.mitre.org/",
+          "description": "Knowledge base of adversary tactics and techniques based on real-world observations"
+        }
+      ]
     }
   ]
 }
