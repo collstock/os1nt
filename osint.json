@@ -179,6 +179,16 @@
           "name": "Yandex Images",
           "url": "https://yandex.com/images/",
           "description": "Reverse image search engine by Yandex to find similar images and sources"
+        },
+        {
+          "name": "Face Check ID",
+          "url": "https://facecheck.id/",
+          "description": "Reverse search for faces to find social media profiles and online presence"
+        },
+        {
+          "name": "PimEyes",
+          "url": "https://pimeyes.com/",
+          "description": "Reverse image search engine to find image matches and sources"
         }
       ]
     },
