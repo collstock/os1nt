@@ -168,6 +168,31 @@
           "name": "Cloudflare WARP",
           "url": "https://www.cloudflare.com/warp/",
           "description": "VPN service that encrypts internet traffic and enhances privacy and security"
+        },
+        {
+          "name": "Genymotion",
+          "url": "https://www.genymotion.com/",
+          "description": "Android emulator for app testing and development"
+        },
+        {
+          "name": "VMware",
+          "url": "https://www.vmware.com/products/workstation-player.html",
+          "description": "Virtualization framework for running multiple operating systems as virtual machines"
+        },
+        {
+          "name": "Kali Linux",
+          "url": "https://www.kali.org/",
+          "description": "Debian-based distribution for penetration testing and security research"
+        },
+        {
+          "name": "ParrotSec OS",
+          "url": "https://www.parrotsec.org/",
+          "description": "Security-oriented operating system for penetration testing and privacy"
+        },
+        {
+          "name": "Whonix",
+          "url": "https://www.whonix.org/wiki/Main_Page",
+          "description": "Privacy-focused operating system built on top of Tor"
         }
       ]
     },
