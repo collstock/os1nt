@@ -566,6 +566,16 @@
           "name": "Perplexity AI",
           "url": "https://www.perplexity.ai/",
           "description": "AI-powered answer engine combining large language models with real-time web search and source citation"
+        },
+        {
+          "name": "DuckDuckGo AI Chat",
+          "url": "https://duckduckgo.com/aichat",
+          "description": "Privacy-focused chat interface that routes to multiple large language models"
+        },
+        {
+          "name": "WormGPT-6",
+          "url": "https://flowgpt.com/p/wormgpt-6",
+          "description": "Community-shared large language model prompt with offensive capabilities"
         }
       ]
     },
@@ -814,6 +824,11 @@
           "name": "Vigilante.pw",
           "url": "https://www.vigilante.pw/",
           "description": "Data Breach Search Engines resource .pw"
+        },
+        {
+          "name": "IntelligenceX",
+          "url": "https://intelx.io/",
+          "description": "Search engine for leaked data, darknet content, and public records"
         }
       ]
     },
@@ -4319,6 +4334,11 @@
       "subtitle": "",
       "items": [
         {
+          "name": "Analyst Research Tools",
+          "url": "https://analystresearchtools.com",
+          "description": "Research utilities and datasets for company and market analysis"
+        },
+        {
           "name": "AIHIT",
           "url": "https://www.aihitdata.com/",
           "description": ""
@@ -4801,11 +4821,6 @@
         {
           "name": "OpenLinkProfiler",
           "url": "http://www.openlinkprofiler.org/",
-          "description": ""
-        },
-        {
-          "name": "PageGlimpse",
-          "url": "http://www.pageglimpse.com/",
           "description": ""
         },
         {
@@ -6452,27 +6467,27 @@
         {
           "name": "Archive.is",
           "url": "http://archive.is/",
-          "description": "is a website that"
+          "description": "Web archive and capture service"
         },
         {
           "name": "CachedView",
           "url": "http://cachedview.com/",
-          "description": ""
+          "description": "View cached versions of web pages"
         },
         {
           "name": "FRAPS",
           "url": "http://www.fraps.com/",
-          "description": ""
+          "description": "Screen capture and recording software"
         },
         {
           "name": "Greenshot ",
           "url": "https://getgreenshot.org/",
-          "description": ""
+          "description": "Screenshot software tool for Windows"
         },
         {
           "name": "ShareX ",
           "url": "https://getsharex.com/",
-          "description": ""
+          "description": "Screenshot and screen recording software for Windows"
         },
         {
           "name": "stored.website",
@@ -6487,7 +6502,7 @@
         {
           "name": "Wayback Machine Archiver",
           "url": "https://github.com/jsvine/waybackpack",
-          "description": ""
+          "description": "Command-line tool to download and archive content from the Wayback Machine"
         },
         {
           "name": "waybackpy",
@@ -6499,271 +6514,103 @@
     {
       "title": "[↑](#-table-of-contents) Language Tools",
       "subtitle": "",
-      "items": [
+      "categories": [
         {
-          "name": "Analyst Research Tools",
-          "url": "https://analystresearchtools.com",
-          "description": ""
+          "title": "Translation & Dictionaries",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Awesome Translations list",
+              "url": "https://github.com/mbiesiad/awesome-translations#tools",
+              "description": "Curated list of translation tools and resources"
+            },
+            {
+              "name": "Bing Translate",
+              "url": "http://www.bing.com/translator/",
+              "description": ""
+            },
+            {
+              "name": "DeepL Translator",
+              "url": "https://www.deepl.com/",
+              "description": "Translation service using neural networks for high-quality translations"
+            },
+            {
+              "name": "Dictionary.com Translator",
+              "url": "http://translate.reference.com/",
+              "description": ""
+            },
+            {
+              "name": "Free Online Translation",
+              "url": "http://www.worldlingo.com/en/products_services/worldlingo_translator.html",
+              "description": ""
+            },
+            {
+              "name": "Free Translation",
+              "url": "https://www.freetranslation.com/",
+              "description": ""
+            },
+            {
+              "name": "Google Input Tools",
+              "url": "https://www.google.com/inputtools/try/",
+              "description": ""
+            },
+            {
+              "name": "Google Translate",
+              "url": "https://translate.google.com/",
+              "description": ""
+            },
+            {
+              "name": "Slang Dictionary & Translator",
+              "url": "http://www.noslang.com/",
+              "description": ""
+            },
+            {
+              "name": "Slangit - The Slang Dictionary",
+              "url": "https://slangit.com/",
+              "description": ""
+            },
+            {
+              "name": "Urban Dictionary",
+              "url": "http://www.urbandictionary.com/",
+              "description": ""
+            },
+            {
+              "name": "Wiktionary",
+              "url": "https://www.wiktionary.org/",
+              "description": ""
+            },
+            {
+              "name": "Word Reference",
+              "url": "https://www.wordreference.com/",
+              "description": ""
+            }
+          ]
         },
         {
-          "name": "Andy Android Emulator ",
-          "url": "http://www.andyroid.net/",
-          "description": ""
-        },
-        {
-          "name": "AutoOSINT ",
-          "url": "https://github.com/bharshbarger/AutOSINT",
-          "description": ""
-        },
-        {
-          "name": "Awesome Translations list",
-          "url": "https://github.com/mbiesiad/awesome-translations#tools",
-          "description": ""
-        },
-        {
-          "name": "Bing Translate",
-          "url": "http://www.bing.com/translator/",
-          "description": ""
-        },
-        {
-          "name": "BlueStacks 2 ",
-          "url": "http://www.bluestacks.com/",
-          "description": ""
-        },
-        {
-          "name": "Buscador OS ",
-          "url": "https://inteltechniques.com/buscador/index.html",
-          "description": ""
-        },
-        {
-          "name": "ChatGPT",
-          "url": "https://chatgpt.com/",
-          "description": ""
-        },
-        {
-          "name": "DataSploit ",
-          "url": "https://github.com/datasploit/datasploit/",
-          "description": ""
-        },
-        {
-          "name": "DeepL Translator",
-          "url": "https://www.deepl.com/",
-          "description": ""
-        },
-        {
-          "name": "Dictionary.com Translator",
-          "url": "http://translate.reference.com/",
-          "description": ""
-        },
-        {
-          "name": "DuckDuckGo AI Chat",
-          "url": "https://duckduckgo.com/aichat",
-          "description": ""
-        },
-        {
-          "name": "Free Online Translation",
-          "url": "http://www.worldlingo.com/en/products_services/worldlingo_translator.html",
-          "description": ""
-        },
-        {
-          "name": "Free Translation",
-          "url": "https://www.freetranslation.com/",
-          "description": ""
-        },
-        {
-          "name": "Genymotion ",
-          "url": "https://www.genymotion.com/",
-          "description": ""
-        },
-        {
-          "name": "Google Input Tools",
-          "url": "https://www.google.com/inputtools/try/",
-          "description": ""
-        },
-        {
-          "name": "Google Translate",
-          "url": "https://translate.google.com/",
-          "description": ""
-        },
-        {
-          "name": "i2OCR",
-          "url": "http://www.i2ocr.com/",
-          "description": ""
-        },
-        {
-          "name": "IFTTT",
-          "url": "https://ifttt.com/",
-          "description": ""
-        },
-        {
-          "name": "Inquisitor ",
-          "url": "https://github.com/penafieljlm/inquisitor",
-          "description": ""
-        },
-        {
-          "name": "IntelligenceX",
-          "url": "https://intelx.io/",
-          "description": ""
-        },
-        {
-          "name": "IntRec-Pack ",
-          "url": "https://github.com/NullArray/IntRec-Pack",
-          "description": ""
-        },
-        {
-          "name": "Intrigue.io ",
-          "url": "https://intrigue.io/",
-          "description": ""
-        },
-        {
-          "name": "Kali Linux OS ",
-          "url": "https://www.kali.org/",
-          "description": ""
-        },
-        {
-          "name": "Low Hanging Fruit ",
-          "url": "https://github.com/blindfuzzy/LHF",
-          "description": ""
-        },
-        {
-          "name": "Microsoft Edge Development OS VMs ",
-          "url": "https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/",
-          "description": ""
-        },
-        {
-          "name": "Microsoft Flow",
-          "url": "https://flow.microsoft.com/en-us/",
-          "description": ""
-        },
-        {
-          "name": "New OCR",
-          "url": "https://www.newocr.com/",
-          "description": ""
-        },
-        {
-          "name": "Nox App Player",
-          "url": "https://www.bignox.com/",
-          "description": ""
-        },
-        {
-          "name": "Omnibus ",
-          "url": "https://github.com/InQuest/omnibus",
-          "description": ""
-        },
-        {
-          "name": "Online Nikto scanner",
-          "url": "https://nikto.online/",
-          "description": ""
-        },
-        {
-          "name": "Online OCR",
-          "url": "http://www.free-ocr.com/",
-          "description": ""
-        },
-        {
-          "name": "Online OCR",
-          "url": "http://www.onlineocr.net/",
-          "description": ""
-        },
-        {
-          "name": "OSINT-SPY ",
-          "url": "https://github.com/SharadKumar97/OSINT-SPY",
-          "description": ""
-        },
-        {
-          "name": "OSRFramework ",
-          "url": "https://github.com/i3visio/osrframework",
-          "description": ""
-        },
-        {
-          "name": "Overview",
-          "url": "https://www.overviewdocs.com/",
-          "description": ""
-        },
-        {
-          "name": "OWASP D4N155 ",
-          "url": "https://github.com/OWASP/D4N155",
-          "description": ""
-        },
-        {
-          "name": "ParrotSec OS ",
-          "url": "https://www.parrotsec.org/",
-          "description": ""
-        },
-        {
-          "name": "ReconDog ",
-          "url": "https://github.com/s0md3v/ReconDog",
-          "description": ""
-        },
-        {
-          "name": "Slang Dictionary & Translator",
-          "url": "http://www.noslang.com/",
-          "description": ""
-        },
-        {
-          "name": "Slangit - The Slang Dictionary",
-          "url": "https://slangit.com/",
-          "description": ""
-        },
-        {
-          "name": "SpiderFoot ",
-          "url": "http://www.spiderfoot.net/",
-          "description": ""
-        },
-        {
-          "name": "Stringify",
-          "url": "https://www.stringify.com/",
-          "description": ""
-        },
-        {
-          "name": "Subgraph OS ",
-          "url": "https://subgraph.com/index.en.html",
-          "description": ""
-        },
-        {
-          "name": "ThreatPipes ",
-          "url": "https://www.threatpipes.com",
-          "description": ""
-        },
-        {
-          "name": "Urban Dictionary",
-          "url": "http://www.urbandictionary.com/",
-          "description": ""
-        },
-        {
-          "name": "VirtualBox ",
-          "url": "https://www.virtualbox.org/",
-          "description": ""
-        },
-        {
-          "name": "VMware Workstation Player ",
-          "url": "http://www.vmware.com/products/player/playerpro-evaluation.html",
-          "description": ""
-        },
-        {
-          "name": "W Generator",
-          "url": "https://app.wgen.io/",
-          "description": ""
-        },
-        {
-          "name": "Whonix ",
-          "url": "https://www.whonix.org/wiki/Main_Page",
-          "description": ""
-        },
-        {
-          "name": "Wiktionary",
-          "url": "https://www.wiktionary.org/",
-          "description": ""
-        },
-        {
-          "name": "Word Reference",
-          "url": "https://www.wordreference.com/",
-          "description": ""
-        },
-        {
-          "name": "WormGPT-6",
-          "url": "https://flowgpt.com/p/wormgpt-6",
-          "description": ""
+          "title": "OCR & Text Extraction",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "i2OCR",
+              "url": "http://www.i2ocr.com/",
+              "description": ""
+            },
+            {
+              "name": "New OCR",
+              "url": "https://www.newocr.com/",
+              "description": ""
+            },
+            {
+              "name": "Online OCR (free-ocr)",
+              "url": "http://www.free-ocr.com/",
+              "description": ""
+            },
+            {
+              "name": "Online OCR (onlineocr.net)",
+              "url": "http://www.onlineocr.net/",
+              "description": ""
+            }
+          ]
         }
       ]
     },
@@ -9772,6 +9619,61 @@
           "description": "Web based framework for OSINT"
         },
         {
+          "name": "AutoOSINT",
+          "url": "https://github.com/bharshbarger/AutOSINT",
+          "description": "Automated OSINT collection toolkit"
+        },
+        {
+          "name": "OSINT-SPY",
+          "url": "https://github.com/SharadKumar97/OSINT-SPY",
+          "description": "OSINT automation and reconnaissance tool"
+        },
+        {
+          "name": "OSRFramework",
+          "url": "https://github.com/i3visio/osrframework",
+          "description": "Framework for username, domain, and phone OSINT collection"
+        },
+        {
+          "name": "ReconDog",
+          "url": "https://github.com/s0md3v/ReconDog",
+          "description": "Reconnaissance helper scripts and automation"
+        },
+        {
+          "name": "Inquisitor",
+          "url": "https://github.com/penafieljlm/inquisitor",
+          "description": "OSINT-focused reconnaissance tool"
+        },
+        {
+          "name": "IntRec-Pack",
+          "url": "https://github.com/NullArray/IntRec-Pack",
+          "description": "Collection of intelligence reconnaissance tools"
+        },
+        {
+          "name": "Intrigue.io",
+          "url": "https://intrigue.io/",
+          "description": "Attack surface mapping and asset discovery platform"
+        },
+        {
+          "name": "Omnibus",
+          "url": "https://github.com/InQuest/omnibus",
+          "description": "Collection of tools for file and URL analysis"
+        },
+        {
+          "name": "Online Nikto scanner",
+          "url": "https://nikto.online/",
+          "description": "Online instance of the Nikto web server scanner"
+        },
+        {
+          "name": "Low Hanging Fruit",
+          "url": "https://github.com/blindfuzzy/LHF",
+          "description": "Quick-win OSINT techniques and scripts"
+        },
+        {
+          "name": "Overview",
+          "url": "https://www.overviewdocs.com/",
+          "description": "Document analysis and visualization for large text collections"
+        },
+        {
           "name": "OSINT-Tool",
           "url": "https://www.osint-tool.com/",
           "description": "A browser extension that gives you access to a suite of OSINT utilities (Dehashed, Epieos, Domaintools, Exif data, Reverse image search,…"
@@ -9880,6 +9782,21 @@
           "name": "Zen",
           "url": "https://github.com/s0md3v/Zen",
           "description": "Find email addresses of Github users urls and other data effortlessly"
+        },
+        {
+          "name": "IFTTT",
+          "url": "https://ifttt.com/",
+          "description": "No-code automation and integrations across apps and services"
+        },
+        {
+          "name": "Microsoft Power Automate (Flow)",
+          "url": "https://flow.microsoft.com/en-us/",
+          "description": "Automation platform to connect services and build workflows"
+        },
+        {
+          "name": "Stringify",
+          "url": "https://www.stringify.com/",
+          "description": "Multi-service automation and workflow tool"
         }
       ]
     },
@@ -9887,6 +9804,11 @@
       "title": "[↑](#-table-of-contents) Threat Intelligence",
       "subtitle": "",
       "items": [
+        {
+          "name": "ThreatPipes",
+          "url": "https://www.threatpipes.com",
+          "description": "Attack surface and threat intelligence automation"
+        },
         {
           "name": "APTnotes",
           "url": "https://github.com/aptnotes/data",
@@ -10785,16 +10707,6 @@
           "description": ""
         },
         {
-          "name": "BeautifulPeople.com",
-          "url": "https://www.beautifulpeople.com/en-US",
-          "description": ""
-        },
-        {
-          "name": "BlackPeopleMeet",
-          "url": "http://www.blackpeoplemeet.com/",
-          "description": ""
-        },
-        {
           "name": "Bumble",
           "url": "https://bumble.com/",
           "description": ""
@@ -11438,36 +11350,68 @@
     {
       "title": "[↑](#-mobile-emulation) Mobile Emulation",
       "subtitle": "",
-      "items": [
+      "categories": [
         {
-          "name": "Flickr ",
-          "url": "https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.flickr",
-          "description": ""
+          "title": "Android Emulators",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Andy Android Emulator",
+              "url": "http://www.andyroid.net/",
+              "description": ""
+            },
+            {
+              "name": "BlueStacks",
+              "url": "http://www.bluestacks.com/",
+              "description": ""
+            },
+            {
+              "name": "Genymotion",
+              "url": "https://www.genymotion.com/",
+              "description": "Android emulator for app testing and development"
+            },
+            {
+              "name": "Nox App Player",
+              "url": "https://www.bignox.com/",
+              "description": ""
+            }
+          ]
         },
         {
-          "name": "Instagram ",
-          "url": "https://play.google.com/store/apps/details?id=com.instagram.android",
-          "description": ""
-        },
-        {
-          "name": "Meerkat ",
-          "url": "https://play.google.com/store/apps/details?id=co.getair.meerkat",
-          "description": ""
-        },
-        {
-          "name": "Periscope ",
-          "url": "https://play.google.com/store/apps/details?id=tv.periscope.android",
-          "description": ""
-        },
-        {
-          "name": "Truecaller ",
-          "url": "https://play.google.com/store/apps/details?id=com.truecaller",
-          "description": ""
-        },
-        {
-          "name": "Vine ",
-          "url": "https://play.google.com/store/apps/details?id=co.vine.android",
-          "description": ""
+          "title": "Android Apps (Play Store)",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Flickr",
+              "url": "https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.flickr",
+              "description": ""
+            },
+            {
+              "name": "Instagram",
+              "url": "https://play.google.com/store/apps/details?id=com.instagram.android",
+              "description": ""
+            },
+            {
+              "name": "Meerkat",
+              "url": "https://play.google.com/store/apps/details?id=co.getair.meerkat",
+              "description": ""
+            },
+            {
+              "name": "Periscope",
+              "url": "https://play.google.com/store/apps/details?id=tv.periscope.android",
+              "description": ""
+            },
+            {
+              "name": "Truecaller",
+              "url": "https://play.google.com/store/apps/details?id=com.truecaller",
+              "description": ""
+            },
+            {
+              "name": "Vine",
+              "url": "https://play.google.com/store/apps/details?id=co.vine.android",
+              "description": ""
+            }
+          ]
         }
       ]
     },
@@ -11502,18 +11446,8 @@
           "description": ""
         },
         {
-          "name": "Flippity",
-          "url": "http://www.flippity.com/",
-          "description": ""
-        },
-        {
           "name": "francais-a-londres.org - French Classifieds",
           "url": "http://francais-a-londres.org/",
-          "description": ""
-        },
-        {
-          "name": "Goofbid",
-          "url": "http://www.goofbid.com/",
           "description": ""
         },
         {
@@ -11544,11 +11478,6 @@
         {
           "name": "SearchAllJunk",
           "url": "http://www.searchalljunk.com/",
-          "description": ""
-        },
-        {
-          "name": "TotalCraigSearch",
-          "url": "http://www.totalcraigsearch.com/",
           "description": ""
         }
       ]
@@ -12040,7 +11969,47 @@
             {
               "name": "VirtualBox",
               "url": "https://www.virtualbox.org/",
-              "description": ""
+              "description": "Open-source virtualization software for running multiple operating systems as virtual machines"
+            },
+            {
+              "name": "Genymotion",
+              "url": "https://www.genymotion.com/",
+              "description": "Android emulator for app testing and development"
+            },
+            {
+              "name": "VMware",
+              "url": "https://www.vmware.com/products/workstation-player.html",
+              "description": "Virtualization framework for running multiple operating systems as virtual machines"
+            },
+            {
+              "name": "Kali Linux",
+              "url": "https://www.kali.org/",
+              "description": "Debian-based distribution for penetration testing and security research"
+            },
+            {
+              "name": "ParrotSec OS",
+              "url": "https://www.parrotsec.org/",
+              "description": "Security-oriented operating system for penetration testing and privacy"
+            },
+            {
+              "name": "Whonix",
+              "url": "https://www.whonix.org/wiki/Main_Page",
+              "description": "Privacy-focused operating system built on top of Tor"
+            },
+            {
+              "name": "Microsoft Edge Development OS VMs",
+              "url": "https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/",
+              "description": "Prebuilt virtual machines for browser testing with Microsoft Edge"
+            },
+            {
+              "name": "Buscador OS",
+              "url": "https://inteltechniques.com/buscador/index.html",
+              "description": "Linux virtual machine preloaded with OSINT tools"
+            },
+            {
+              "name": "Subgraph OS",
+              "url": "https://subgraph.com/index.en.html",
+              "description": "Security-hardened Linux distribution focused on privacy"
             }
           ]
         }
