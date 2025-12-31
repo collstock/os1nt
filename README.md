@@ -321,5 +321,9 @@ https://github.com/collstock/os1nt
 
 ---
 
-**Last Updated**: December 28, 2025  
+**Last Updated**: December 31, 2025  
 **Maintained by**: OS1NT R3P0 Community
+
+## Recent Changes
+
+- **Merged categories**: Combined "Other Tools" and "Other Resources" into a single "Other Tools and Resources" category for better organization and reduced redundancy
