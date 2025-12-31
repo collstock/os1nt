@@ -9484,7 +9484,7 @@
       ]
     },
     {
-      "title": "[↑](#-table-of-contents) Other Tools",
+      "title": "[↑](#-table-of-contents) Other Tools and Resources",
       "subtitle": "",
       "items": [
         {
@@ -9749,11 +9749,6 @@
           "description": "SpiderFoot Github repository"
         },
         {
-          "name": "SpiderFoot",
-          "url": "https://www.spiderfoot.net/",
-          "description": "SpiderFoot is an open source intelligence (OSINT) automation platform with over 200 modules for threat intelligence, attack surface monit…"
-        },
-        {
           "name": "SpiderSuite",
           "url": "https://github.com/3nock/SpiderSuite",
           "description": "An advance, cross-platform, GUI web security crawler"
@@ -9797,6 +9792,26 @@
           "name": "Stringify",
           "url": "https://www.stringify.com/",
           "description": "Multi-service automation and workflow tool"
+        },
+        {
+          "name": "Bellingcat's Online Investigation Toolkit",
+          "url": "http://bit.ly/bcattools",
+          "description": ""
+        },
+        {
+          "name": "Cipherstick",
+          "url": "https://cipherstick.tech/",
+          "description": "Free OSINT Puzzles - No Account Needed!"
+        },
+        {
+          "name": "OSINT Dojo",
+          "url": "https://www.osintdojo.com/resources/",
+          "description": ""
+        },
+        {
+          "name": "OSINT Updates - a free weekly newsletter for OSINTers",
+          "url": "https://osintupdates.com/",
+          "description": ""
         }
       ]
     },
@@ -10471,47 +10486,6 @@
           "name": "Social Links",
           "url": "https://blog.sociallinks.io/",
           "description": ""
-        }
-      ]
-    },
-    {
-      "title": "[↑](#-table-of-contents) Other Resources",
-      "subtitle": "",
-      "items": [
-        {
-          "name": "Bellingcat Online Researcher Survey: Tool Wishes",
-          "url": "https://docs.google.com/spreadsheets/d/1vNJRMrlwI7i06diBJtRJWrvt4YuPOqlbUV5o00P_YmE/edit#gid=1378107220",
-          "description": "Wishlist of OSINT tools"
-        },
-        {
-          "name": "Bellingcat's Online Investigation Toolkit",
-          "url": "http://bit.ly/bcattools",
-          "description": ""
-        },
-        {
-          "name": "Cipherstick",
-          "url": "https://cipherstick.tech/",
-          "description": "Free OSINT Puzzles - No Account Needed!"
-        },
-        {
-          "name": "OSINT Belarus",
-          "url": "https://t.me/s/osintby",
-          "description": ""
-        },
-        {
-          "name": "OSINT Dojo",
-          "url": "https://www.osintdojo.com/resources/",
-          "description": ""
-        },
-        {
-          "name": "OSINT Updates - a free weekly newsletter for OSINTers",
-          "url": "https://osintupdates.com/",
-          "description": ""
-        },
-        {
-          "name": "These Are the Tools Open Source Researchers Say They Need",
-          "url": "https://www.bellingcat.com/resources/2022/08/12/these-are-the-tools-open-source-researchers-say-they-need/",
-          "description": "Results of a survey Bellingcat conducted in February 2022"
         }
       ]
     },
