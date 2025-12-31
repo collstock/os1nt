@@ -1304,8 +1304,8 @@
           "description": "A database of IP addresses that have been part of the Tor network. It answers the question whether there was a Tor relay running on a giv…"
         },
         {
-          "name": "Freenet Project ",
-          "url": "https://freenetproject.org/pages/download.html",
+          "name": "Hyphanet",
+          "url": "https://hyphanet.org/",
           "description": ""
         },
         {
@@ -8746,7 +8746,7 @@
         {
           "name": "Atom",
           "url": "https://browser.ru/",
-          "description": ""
+          "description": "Atom is a web browser developed by the Russian company Atom Ltd."
         },
         {
           "name": "Brave Browser",
@@ -8761,12 +8761,12 @@
         {
           "name": "CentBrowser",
           "url": "http://www.centbrowser.com/",
-          "description": ""
+          "description": "CentBrowser is a Chromium-based web browser with additional features and customization options."
         },
         {
           "name": "Chrome",
           "url": "https://www.google.com/chrome",
-          "description": ""
+          "description": "Google's fast, simple, and secure web browser, built for the modern web"
         },
         {
           "name": "ChatGPT Atlas Browser",
@@ -8776,72 +8776,72 @@
         {
           "name": "Comodo Dragon",
           "url": "https://www.comodo.com/home/browsers-toolbars/browser.php",
-          "description": ""
+          "description": "Comodo Dragon is a Chromium-based web browser with enhanced security and privacy features."
         },
         {
           "name": "Coowon",
           "url": "http://coowon.com/",
-          "description": ""
+          "description": "Coowon is a web browser designed for gamers with features like gamepad support and video recording."
         },
         {
           "name": "Edge",
           "url": "https://www.microsoft.com/en-us/windows/microsoft-edge/microsoft-edge",
-          "description": ""
+          "description": "Microsoft Edge is a fast and secure web browser developed by Microsoft, integrated with Windows."
         },
         {
           "name": "Firefox",
           "url": "https://www.mozilla.org/",
-          "description": ""
+          "description": "Mozilla Firefox is a free and open-source web browser developed by the Mozilla Foundation."
         },
         {
           "name": "Gnu Icecat",
           "url": "https://icecatbrowser.org/",
-          "description": ""
+          "description": "Gnu Icecat is a free and open-source web browser based on Mozilla Firefox, focusing on privacy and freedom."
         },
         {
           "name": "Maxthon",
           "url": "http://www.maxthon.com/",
-          "description": ""
+          "description": "Maxthon is a cloud-based web browser known for its speed and features."
         },
         {
           "name": "Opera",
           "url": "http://www.opera.com/",
-          "description": ""
+          "description": "Opera is a fast and secure web browser with a built-in ad blocker and VPN."
         },
         {
           "name": "Safari",
           "url": "http://www.apple.com/safari",
-          "description": ""
+          "description": "Safari is a fast and energy-efficient web browser developed by Apple."
         },
         {
           "name": "Sleipnir",
           "url": "http://www.fenrir-inc.com/jp/sleipnir",
-          "description": ""
+          "description": "Sleipnir is a web browser known for its customization options and unique user interface."
         },
         {
           "name": "Slimjet",
           "url": "http://www.slimjet.com/",
-          "description": ""
+          "description": "Slimjet is a fast, smart and powerful web browser based on the Blink engine."
         },
         {
           "name": "SRWare Iron",
           "url": "http://www.srware.net/en/software_srware_iron.php",
-          "description": ""
+          "description": "Privacy-focused web browser based on the Chromium source code"
         },
         {
           "name": "Tor Browser",
           "url": "https://www.torproject.org/projects/torbrowser.html.en",
-          "description": "Tor is a free software that prevents people"
+          "description": "Access onion sites, and browse the internet anonymously and evade censorship."
         },
         {
           "name": "Torch",
           "url": "http://www.torchbrowser.com/",
-          "description": ""
+          "description": "Torch is a web browser with built-in media downloading and sharing features."
         },
         {
           "name": "UCBrowser",
           "url": "http://www.ucweb.com/",
-          "description": ""
+          "description": "UC Browser is a mobile web browser developed by the Chinese mobile Internet company UCWeb."
         },
         {
           "name": "Vivaldi",
@@ -8856,7 +8856,7 @@
         {
           "name": "Yandex Browser",
           "url": "https://browser.yandex.com/desktop/main",
-          "description": ""
+          "description": "Yandex Browser is a fast and secure web browser developed by the Russian internet company Yandex."
         }
       ]
     },
