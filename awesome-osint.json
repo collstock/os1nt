@@ -116,7 +116,7 @@
               "name": "SowSearch",
               "url": "https://www.sowsearch.info/",
               "description": "Facebook search query builder"
-            }, 
+            },
             {
               "name": "StorySaver",
               "url": "https://www.storysaver.net/en",
@@ -1773,208 +1773,189 @@
       ]
     },
     {
-      "title": "[↑](#-table-of-contents) File Search",
+      "title": "[↑](#-table-of-contents) File Search & Analysis incl. Malware Analysis",
       "subtitle": "",
-      "items": [
+      "items": [],
+      "categories": [
         {
-          "name": "#totalhash",
-          "url": "https://totalhash.cymru.com/",
-          "description": ""
+          "title": "File Search Engines",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "de digger",
+              "url": "https://www.dedigger.com/",
+              "description": "Find public files in Google Drive"
+            },
+            {
+              "name": "eyedex",
+              "url": "https://www.eyedex.org/",
+              "description": "File search engine"
+            },
+            {
+              "name": "Meawfy",
+              "url": "https://meawfy.com/",
+              "description": "Advanced Mega.nz File Search Engine. Search and discover files .nz with our intelligent crawler technology. Access over 9 million indexed…"
+            },
+            {
+              "name": "NAPALM FTP Indexer",
+              "url": "https://www.searchftps.net/",
+              "description": ""
+            },
+            {
+              "name": "ODCrawler",
+              "url": "https://odcrawler.xyz/",
+              "description": "A search engine for open directories. Find millions of publicly available files!"
+            }
+          ]
         },
         {
-          "name": "Akana Android Malware",
-          "url": "http://akana.mobiseclab.org/",
-          "description": ""
+          "title": "Malware Analysis Platforms & Sandboxes",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Akana Android Malware",
+              "url": "http://akana.mobiseclab.org/",
+              "description": "Android malware analysis platform"
+            },
+            {
+              "name": "Any Run",
+              "url": "https://app.any.run/",
+              "description": "Interactive malware analysis sandbox"
+            },
+            {
+              "name": "Blueliv Sandbox",
+              "url": "https://community.blueliv.com/#!/sandbox",
+              "description": "Malware analysis sandbox"
+            },
+            {
+              "name": "Joe APK Analyzer",
+              "url": "https://www.apk-analyzer.net/",
+              "description": "Analyze APK files for security and malware detection"
+            },
+            {
+              "name": "Joe File Analyzer",
+              "url": "https://www.file-analyzer.net/",
+              "description": "Analyze files for security and malware detection"
+            },
+            {
+              "name": "JoeSandbox Document Analyzer",
+              "url": "http://www.document-analyzer.net/",
+              "description": "Analyze documents for security and malware detection"
+            },
+            {
+              "name": "Koodous",
+              "url": "https://koodous.com",
+              "description": "Collaborative platform for Android malware analysis"
+            },
+            {
+              "name": "OPSWAT Meta Defender",
+              "url": "https://metadefender.opswat.com/#!/",
+              "description": "Requires an account to upload and analyze files using multiple antivirus engines"
+            },
+            {
+              "name": "Pikker.ee Cuckoo Sandbox",
+              "url": "http://sandbox.pikker.ee/",
+              "description": "File analysis and malware sandbox"
+            }
+          ]
         },
         {
-          "name": "Any Run",
-          "url": "https://app.any.run/",
-          "description": ""
+          "title": "File Hash & Scanning Services",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "#totalhash",
+              "url": "https://totalhash.cymru.com/",
+              "description": "File hash search and analysis platform"
+            },
+            {
+              "name": "Filesec.io",
+              "url": "https://filesec.io/",
+              "description": "Central resource cataloging malicious file extensions, their risks, OS and mitigations"
+            },
+            {
+              "name": "ID Ransomware",
+              "url": "https://id-ransomware.malwarehunterteam.com/",
+              "description": "Identify ransomware by uploading ransom notes or encrypted files"
+            },
+            {
+              "name": "InQuest Labs DFI/MalDoc Search",
+              "url": "https://labs.inquest.net/dfi",
+              "description": "Search engine for detecting malicious documents and files"
+            },
+            {
+              "name": "Jotti's Malware Scanner",
+              "url": "https://virusscan.jotti.org/en-US/scan-file",
+              "description": "Free service that analyzes suspicious files using multiple antivirus engines"
+            },
+            {
+              "name": "virustotal",
+              "url": "https://www.virustotal.com/gui/home/upload",
+              "description": "Free online service that analyzes files and URLs for viruses, worms, trojans, and other kinds of malicious content using multiple antivirus engines"
+            }
+          ]
         },
         {
-          "name": "Blueliv Sandbox",
-          "url": "https://community.blueliv.com/#!/sandbox",
-          "description": ""
+          "title": "Document & PDF Analysis",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Origami Framework ",
+              "url": "https://code.google.com/archive/p/origami-pdf/",
+              "description": "A scripting tool to generate and analyze malicious PDF files"
+            },
+            {
+              "name": "PDF Tools ",
+              "url": "http://blog.didierstevens.com/programs/pdf-tools/",
+              "description": "Malicious PDF analysis tools"
+            },
+            {
+              "name": "TYLabs QuickSand Framework",
+              "url": "https://scan.tylabs.com/",
+              "description": "A Python-based analysis framework to analyze suspected malware documents to identify exploits in streams of different encodings or compressions"
+            }
+          ]
         },
         {
-          "name": "de digger",
-          "url": "https://www.dedigger.com/",
-          "description": "is a website that"
-        },
-        {
-          "name": "Decalage Malware Search",
-          "url": "http://decalage.info/en/mwsearch",
-          "description": ""
-        },
-        {
-          "name": "detux Linux Sandbox",
-          "url": "https://detux.org/",
-          "description": ""
-        },
-        {
-          "name": "Ether",
-          "url": "http://ether.gtisc.gatech.edu/web_unpack",
-          "description": ""
-        },
-        {
-          "name": "eyedex",
-          "url": "https://www.eyedex.org/",
-          "description": "Open directory search engine"
-        },
-        {
-          "name": "FileListing",
-          "url": "https://filelisting.com/",
-          "description": ""
-        },
-        {
-          "name": "FilePursuit",
-          "url": "https://filepursuit.com/",
-          "description": ""
-        },
-        {
-          "name": "Filesec.io",
-          "url": "https://filesec.io/",
-          "description": "Central resource cataloging malicious file extensions, their risks, OS and mitigations"
-        },
-        {
-          "name": "Ghidra ",
-          "url": "https://github.com/NationalSecurityAgency/ghidra",
-          "description": ""
-        },
-        {
-          "name": "ID Ransomware",
-          "url": "https://id-ransomware.malwarehunterteam.com/",
-          "description": ""
-        },
-        {
-          "name": "InQuest Labs DFI/MalDoc Search",
-          "url": "https://labs.inquest.net/dfi",
-          "description": ""
-        },
-        {
-          "name": "Joe APK Analyzer",
-          "url": "https://www.apk-analyzer.net/",
-          "description": ""
-        },
-        {
-          "name": "Joe File Analyzer",
-          "url": "https://www.file-analyzer.net/",
-          "description": ""
-        },
-        {
-          "name": "JoeSandbox Document Analyzer",
-          "url": "http://www.document-analyzer.net/",
-          "description": ""
-        },
-        {
-          "name": "Jotti's Malware Scanner",
-          "url": "https://virusscan.jotti.org/en-US/scan-file",
-          "description": ""
-        },
-        {
-          "name": "Koodous",
-          "url": "https://koodous.com",
-          "description": ""
-        },
-        {
-          "name": "Malware Analysis Tools",
-          "url": "http://malwareanalysis.tools/",
-          "description": ""
-        },
-        {
-          "name": "Malware Config",
-          "url": "https://malwareconfig.com/",
-          "description": ""
-        },
-        {
-          "name": "Malware-Traffic-Analysis.net",
-          "url": "http://www.malware-traffic-analysis.net/index.html",
-          "description": ""
-        },
-        {
-          "name": "Meawfy",
-          "url": "https://meawfy.com/",
-          "description": "Advanced Mega.nz File Search Engine. Search and discover files .nz with our intelligent crawler technology. Access over 9 million indexed…"
-        },
-        {
-          "name": "NAPALM FTP Indexer",
-          "url": "https://www.searchftps.net/",
-          "description": ""
-        },
-        {
-          "name": "National Software Reference Library",
-          "url": "http://nsrl.hashsets.com/national_software_reference_library1_search.php",
-          "description": ""
-        },
-        {
-          "name": "ODCrawler",
-          "url": "https://odcrawler.xyz/",
-          "description": "A search engine for open directories. Find millions of publicly available files!"
-        },
-        {
-          "name": "Office Mal Scanner ",
-          "url": "http://www.reconstructer.org/",
-          "description": ""
-        },
-        {
-          "name": "OffVis ",
-          "url": "http://go.microsoft.com/fwlink/?LinkID=158791",
-          "description": ""
-        },
-        {
-          "name": "OPSWAT Meta Defender",
-          "url": "https://metadefender.opswat.com/#!/",
-          "description": ""
-        },
-        {
-          "name": "Origami Framework ",
-          "url": "https://code.google.com/archive/p/origami-pdf/",
-          "description": ""
-        },
-        {
-          "name": "PDF Tools ",
-          "url": "http://blog.didierstevens.com/programs/pdf-tools/",
-          "description": ""
-        },
-        {
-          "name": "Pikker.ee Cuckoo Sandbox",
-          "url": "http://sandbox.pikker.ee/",
-          "description": ""
-        },
-        {
-          "name": "SearchFiles.de",
-          "url": "https://searchfiles.de/",
-          "description": ""
-        },
-        {
-          "name": "TYLabs QuickSand Framework",
-          "url": "https://scan.tylabs.com/",
-          "description": ""
-        },
-        {
-          "name": "Uncover It",
-          "url": "https://www.uncoverit.org/",
-          "description": ""
-        },
-        {
-          "name": "Valkyrie File Analysis",
-          "url": "https://consumer.valkyrie.comodo.com/",
-          "description": ""
-        },
-        {
-          "name": "VirusShare.com",
-          "url": "https://virusshare.com/",
-          "description": ""
-        },
-        {
-          "name": "virustotal",
-          "url": "https://www.virustotal.com/gui/home/upload",
-          "description": ""
-        },
-        {
-          "name": "VX Vault",
-          "url": "http://vxvault.net/ViriList.php",
-          "description": ""
+          "title": "Malware Repositories & Resources",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Ether",
+              "url": "http://ether.gtisc.gatech.edu/web_unpack",
+              "description": "Malware Analysis via Hardware Virtualization Extensions"
+            },
+            {
+              "name": "Ghidra ",
+              "url": "https://github.com/NationalSecurityAgency/ghidra",
+              "description": "Ghidra is a software reverse engineering (SRE) framework"
+            },
+            {
+              "name": "Malware Analysis Tools",
+              "url": "http://malwareanalysis.tools/",
+              "description": "Collection of tools for malware analysis"
+            },
+            {
+              "name": "Malware-Traffic-Analysis.net",
+              "url": "http://www.malware-traffic-analysis.net/index.html",
+              "description": "A site for sharing packet capture (pcap) files and malware samples."
+            },
+            {
+              "name": "Uncover It",
+              "url": "https://www.uncoverit.org/",
+              "description": "Get C2's and other data with static analysis"
+            },
+            {
+              "name": "VirusShare.com",
+              "url": "https://virusshare.com/",
+              "description": "A repository of malware samples for research and analysis"
+            },
+            {
+              "name": "VX Vault",
+              "url": "http://vxvault.net/ViriList.php",
+              "description": "A repository of malware samples for research and analysis"
+            }
+          ]
         }
       ]
     },
@@ -2365,7 +2346,7 @@
           "url": "https://www.sourcebot.dev/",
           "description": "Index thousands of repos on your machine and search through them in a fast, powerful, and modern web interface"
         },
-        { 
+        {
           "name": "SourceGraph",
           "url": "https://sourcegraph.com/search",
           "description": "Search for code or files"
@@ -4014,186 +3995,227 @@
     {
       "title": "[↑](#-table-of-contents) Email Search / Email Check",
       "subtitle": "",
-      "items": [
+      "items": [],
+      "categories": [
         {
-          "name": "Email Address Validator",
-          "url": "http://www.email-validator.net/",
-          "description": "Improve deliverability, reduce bounce rates, prevent fraud and minimize funnel leaks"
+          "title": "Email Finding & Discovery",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Email Format",
+              "url": "http://email-format.com/",
+              "description": "is a website that"
+            },
+            {
+              "name": "Email Permutator",
+              "url": "http://metricsparrow.com/toolkit/email-permutator/",
+              "description": ""
+            },
+            {
+              "name": "Email Permutator",
+              "url": "https://www.polished.app/email-permutator/",
+              "description": "a powerful tool designed to aid professionals in generating a range of potential email addresses for a specific contact"
+            },
+            {
+              "name": "Email to Address",
+              "url": "http://www.melissadata.com/lookups/emails.asp",
+              "description": ""
+            },
+            {
+              "name": "Ghunt",
+              "url": "https://github.com/mxrch/GHunt",
+              "description": "Investigate Google emails and documents"
+            },
+            {
+              "name": "Gitrecon",
+              "url": "https://github.com/atiilla/gitrecon",
+              "description": "Node.js tool to scan GitHub repositories for exposed email addresses and names"
+            },
+            {
+              "name": "Hunter",
+              "url": "https://hunter.io/",
+              "description": "Hunter lets you find email addresses in seconds and connect with the people that matter for your business"
+            },
+            {
+              "name": "Infoga ",
+              "url": "https://github.com/m4ll0k/infoga",
+              "description": ""
+            },
+            {
+              "name": "Minerva OSINT",
+              "url": "https://minervaosint.com/",
+              "description": "Email search tool that finds and aggregates data on a target email"
+            },
+            {
+              "name": "Snov.io",
+              "url": "https://snov.io/email-finder",
+              "description": "Find email addresses on any website"
+            },
+            {
+              "name": "Toofr",
+              "url": "https://www.toofr.com/",
+              "description": "Find Anyone's Email Address in Seconds"
+            },
+            {
+              "name": "VoilaNorbert",
+              "url": "https://www.voilanorbert.com/",
+              "description": "Find anyone's contact information for lead research or talent acquisition"
+            }
+          ]
         },
         {
-          "name": "Email Format",
-          "url": "http://email-format.com/",
-          "description": "is a website that"
+          "title": "Email Validation & Verification",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Email Address Validator",
+              "url": "http://www.email-validator.net/",
+              "description": "Improve deliverability, reduce bounce rates, prevent fraud and minimize funnel leaks"
+            },
+            {
+              "name": "Email Reputation",
+              "url": "https://emailrep.io/",
+              "description": ""
+            },
+            {
+              "name": "EmailHippo",
+              "url": "https://tools.verifyemailaddress.io/",
+              "description": "is an email address verification platform that will check whether a given email address exist or not"
+            },
+            {
+              "name": "MailboxValidator",
+              "url": "https://www.mailboxvalidator.com/demo",
+              "description": ""
+            },
+            {
+              "name": "MailTester",
+              "url": "http://mailtester.com/",
+              "description": "hunt for emails and improve your email deliverability"
+            },
+            {
+              "name": "Reacher Demo",
+              "url": "https://reacher.email",
+              "description": "Real-time email verification API, written in Rust, 100% open-source"
+            },
+            {
+              "name": "Reacher Github ",
+              "url": "https://github.com/reacherhq/check-if-email-exists",
+              "description": ""
+            },
+            {
+              "name": "Verify Email",
+              "url": "http://verify-email.org/",
+              "description": "The fastest and most accurate email verification tool"
+            }
+          ]
         },
         {
-          "name": "Email Permutator",
-          "url": "http://metricsparrow.com/toolkit/email-permutator/",
-          "description": ""
+          "title": "Email Breach & Reputation Checking",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "h8mail",
+              "url": "https://github.com/khast3x/h8mail",
+              "description": "Password Breach Hunting and Email OSINT, locally or using premium services. Supports chasing down related email"
+            },
+            {
+              "name": "Have I Been Pwned",
+              "url": "https://haveibeenpwned.com/",
+              "description": "Search across multiple data breaches to see if your email address has been compromised"
+            },
+            {
+              "name": "Holehe",
+              "url": "https://github.com/megadose/holehe",
+              "description": ""
+            },
+            {
+              "name": "InfoStealers",
+              "url": "https://infostealers.info/en/info",
+              "description": "Indexes darknet-exposed infostealer logs and makes them searchable and actionable for security teams, investigators, researchers, and dig…"
+            },
+            {
+              "name": "LeakCheck",
+              "url": "https://leakcheck.io/",
+              "description": "Data Breach Search Engine with 7.5B+ entries collected . Search by e-mail, username, keyword, password or corporate domain name"
+            },
+            {
+              "name": "LeakRadar",
+              "url": "https://leakradar.io/",
+              "description": "Scans for compromised emails and domains in stealer logs, offering proactive breach prevention and real-time alerts"
+            },
+            {
+              "name": "Spamhaus",
+              "url": "https://check.spamhaus.org/",
+              "description": "Lookup Reputation Checker"
+            }
+          ]
         },
         {
-          "name": "Email Permutator",
-          "url": "https://www.polished.app/email-permutator/",
-          "description": "a powerful tool designed to aid professionals in generating a range of potential email addresses for a specific contact"
+          "title": "Email Header Analysis",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Google Administrator's Toolbox Header Analyzer",
+              "url": "https://toolbox.googleapps.com/apps/checkmx/",
+              "description": "Analyze email headers and check mail server configuration using Google's email admin toolbox"
+            },
+            {
+              "name": "Microsoft Message Header Analyzer",
+              "url": "https://mha.azurewebsites.net/",
+              "description": "Microsoft's tool to analyze email message headers and diagnose mail flow issues"
+            },
+            {
+              "name": "MxToolbox",
+              "url": "http://mxtoolbox.com/",
+              "description": "Email header analyzer and mail server diagnostic tools including DNS, MX, and SMTP checks"
+            }
+          ]
         },
         {
-          "name": "Email Reputation",
-          "url": "https://emailrep.io/",
-          "description": ""
-        },
-        {
-          "name": "Email to Address",
-          "url": "http://www.melissadata.com/lookups/emails.asp",
-          "description": ""
-        },
-        {
-          "name": "EmailHippo",
-          "url": "https://tools.verifyemailaddress.io/",
-          "description": "is an email address verification platform that will check whether a given email address exist or not"
-        },
-        {
-          "name": "Ghunt",
-          "url": "https://github.com/mxrch/GHunt",
-          "description": "Investigate Google emails and documents"
-        },
-        {
-          "name": "Gitrecon",
-          "url": "https://github.com/atiilla/gitrecon",
-          "description": "Node.js tool to scan GitHub repositories for exposed email addresses and names"
-        },
-        {
-          "name": "h8mail",
-          "url": "https://github.com/khast3x/h8mail",
-          "description": "Password Breach Hunting and Email OSINT, locally or using premium services. Supports chasing down related email"
-        },
-        {
-          "name": "Have I Been Pwned",
-          "url": "https://haveibeenpwned.com/",
-          "description": "Search across multiple data breaches to see if your email address has been compromised"
-        },
-        {
-          "name": "Holehe",
-          "url": "https://github.com/megadose/holehe",
-          "description": ""
-        },
-        {
-          "name": "Hunter",
-          "url": "https://hunter.io/",
-          "description": "Hunter lets you find email addresses in seconds and connect with the people that matter for your business"
-        },
-        {
-          "name": "Infoga ",
-          "url": "https://github.com/m4ll0k/infoga",
-          "description": ""
-        },
-        {
-          "name": "InfoStealers",
-          "url": "https://infostealers.info/en/info",
-          "description": "Indexes darknet-exposed infostealer logs and makes them searchable and actionable for security teams, investigators, researchers, and dig…"
-        },
-        {
-          "name": "LeakCheck",
-          "url": "https://leakcheck.io/",
-          "description": "Data Breach Search Engine with 7.5B+ entries collected . Search by e-mail, username, keyword, password or corporate domain name"
-        },
-        {
-          "name": "LeakRadar",
-          "url": "https://leakradar.io/",
-          "description": "Scans for compromised emails and domains in stealer logs, offering proactive breach prevention and real-time alerts"
-        },
-        {
-          "name": "MailboxValidator",
-          "url": "https://www.mailboxvalidator.com/demo",
-          "description": ""
-        },
-        {
-          "name": "MailScrap",
-          "url": "https://mailscrap.com/",
-          "description": ""
-        },
-        {
-          "name": "MailTester",
-          "url": "http://mailtester.com/",
-          "description": "hunt for emails and improve your email deliverability"
-        },
-        {
-          "name": "Minerva OSINT",
-          "url": "https://minervaosint.com/",
-          "description": "Email search tool that finds and aggregates data on a target email"
-        },
-        {
-          "name": "Multirbl",
-          "url": "https://multirbl.valli.org/dnsbl-lookup",
-          "description": "MultiRBL Valli checks if an IP or domain is listed on multiple public RBLs (blacklists) simultaneously"
-        },
-        {
-          "name": "MxToolbox",
-          "url": "http://mxtoolbox.com/",
-          "description": ""
-        },
-        {
-          "name": "OSINT Industries",
-          "url": "https://osint.industries/",
-          "description": "Email Search / Email Check resource .industries"
-        },
-        {
-          "name": "OSINTEye",
-          "url": "https://github.com/atiilla/OsintEye",
-          "description": "OSINT Eye: A WPF Desktop Application for GitHub Intelligence, Social Media Reconnaissance, and Subdomain Discovery"
-        },
-        {
-          "name": "Peepmail",
-          "url": "http://www.samy.pl/peepmail",
-          "description": ""
-        },
-        {
-          "name": "Pipl",
-          "url": "https://pipl.com/",
-          "description": "a provider of identity solutions"
-        },
-        {
-          "name": "Reacher Demo",
-          "url": "https://reacher.email",
-          "description": "Real-time email verification API, written in Rust, 100% open-source"
-        },
-        {
-          "name": "Reacher Github ",
-          "url": "https://github.com/reacherhq/check-if-email-exists",
-          "description": ""
-        },
-        {
-          "name": "Read Notify",
-          "url": "http://www.readnotify.com/",
-          "description": ""
-        },
-        {
-          "name": "Skymem",
-          "url": "http://www.skymem.info/",
-          "description": ""
-        },
-        {
-          "name": "Snov.io",
-          "url": "https://snov.io/email-finder",
-          "description": "Find email addresses on any website"
-        },
-        {
-          "name": "Spamhaus",
-          "url": "https://check.spamhaus.org/",
-          "description": "Lookup Reputation Checker"
-        },
-        {
-          "name": "Toofr",
-          "url": "https://www.toofr.com/",
-          "description": "Find Anyone’s Email Address in Seconds"
-        },
-        {
-          "name": "Verify Email",
-          "url": "http://verify-email.org/",
-          "description": "The fastest and most accurate email verification tool"
-        },
-        {
-          "name": "VoilaNorbert",
-          "url": "https://www.voilanorbert.com/",
-          "description": "Find anyone's contact information for lead research or talent acquisition"
+          "title": "Email OSINT Tools & Resources",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "MailScrap",
+              "url": "https://mailscrap.com/",
+              "description": ""
+            },
+            {
+              "name": "Multirbl",
+              "url": "https://multirbl.valli.org/dnsbl-lookup",
+              "description": "MultiRBL Valli checks if an IP or domain is listed on multiple public RBLs (blacklists) simultaneously"
+            },
+            {
+              "name": "OSINT Industries",
+              "url": "https://osint.industries/",
+              "description": "Email Search / Email Check resource .industries"
+            },
+            {
+              "name": "OSINTEye",
+              "url": "https://github.com/atiilla/OsintEye",
+              "description": "OSINT Eye: A WPF Desktop Application for GitHub Intelligence, Social Media Reconnaissance, and Subdomain Discovery"
+            },
+            {
+              "name": "Peepmail",
+              "url": "http://www.samy.pl/peepmail",
+              "description": ""
+            },
+            {
+              "name": "Pipl",
+              "url": "https://pipl.com/",
+              "description": "a provider of identity solutions"
+            },
+            {
+              "name": "Read Notify",
+              "url": "http://www.readnotify.com/",
+              "description": ""
+            },
+            {
+              "name": "Skymem",
+              "url": "http://www.skymem.info/",
+              "description": ""
+            }
+          ]
         }
       ]
     },
@@ -4624,9 +4646,9 @@
               "description": "UK Official Company Register"
             },
             {
-          "name": "E-Justice Portal",
-          "url": "https://e-justice.europa.eu/topics/registers-business-insolvency-land/business-registers-search-company-eu_en",
-          "description": "Search for companies across European Union member states"
+              "name": "E-Justice Portal",
+              "url": "https://e-justice.europa.eu/topics/registers-business-insolvency-land/business-registers-search-company-eu_en",
+              "description": "Search for companies across European Union member states"
             }
           ]
         }
@@ -6508,7 +6530,52 @@
           "name": "waybackpy",
           "url": "https://github.com/akamhy/waybackpy",
           "description": "Python package & CLI tool that interfaces the Wayback Machine APIs"
-        }
+        },
+        {
+              "name": "Anna's Archive",
+              "url": "https://annas-archive.org/",
+              "description": ""
+            },
+            {
+              "name": "Full Page Screen Capture Chrome Extension ",
+              "url": "https://github.com/mrcoles/full-page-screen-capture-chrome-extension",
+              "description": ""
+            },
+            {
+              "name": "Page2Images ",
+              "url": "http://www.page2images.com/URL-Live-Website-Screenshot-Generator",
+              "description": ""
+            },
+            {
+              "name": "PDF My URL",
+              "url": "http://pdfmyurl.com/",
+              "description": ""
+            },
+            {
+              "name": "Snapper ",
+              "url": "https://github.com/dxa4481/Snapper",
+              "description": ""
+            },
+            {
+              "name": "UK Web Archive",
+              "url": "http://www.webarchive.org.uk/ukwa/",
+              "description": ""
+            },
+            {
+              "name": "Web Archive-RU",
+              "url": "https://web-arhive.ru/",
+              "description": ""
+            },
+            {
+              "name": "Web Page Saver",
+              "url": "https://www.magnetforensics.com/free-tool-web-page-saver/",
+              "description": ""
+            },
+            {
+              "name": "WebCite",
+              "url": "http://webcitation.org/query",
+              "description": ""
+            }
       ]
     },
     {
@@ -6830,7 +6897,6 @@
           "url": "http://deturl.com/",
           "description": "Download a YouTube video"
         },
-        
         {
           "name": "Earthcam",
           "url": "http://www.earthcam.com/",
@@ -8302,287 +8368,258 @@
     {
       "title": "[↑](#-table-of-contents) Web Monitoring",
       "subtitle": "",
-      "items": [
+      "items": [],
+      "categories": [
         {
-          "name": "Alltop",
-          "url": "http://alltop.com/",
-          "description": ""
+          "title": "RSS Readers & Feed Aggregators",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Deltafeed",
+              "url": "http://bitreading.com/deltafeed",
+              "description": ""
+            },
+            {
+              "name": "DiggReader",
+              "url": "http://digg.com/login?next=%2Freader",
+              "description": ""
+            },
+            {
+              "name": "Feed Exileed",
+              "url": "http://feed.exileed.com/",
+              "description": ""
+            },
+            {
+              "name": "Feed Filter Maker",
+              "url": "http://feed.janicek.co/",
+              "description": ""
+            },
+            {
+              "name": "FeedBooster",
+              "url": "http://www.qsensei.com/",
+              "description": ""
+            },
+            {
+              "name": "Feederator",
+              "url": "http://www.feederator.org/",
+              "description": ""
+            },
+            {
+              "name": "Feedly",
+              "url": "http://www.feedly.com/",
+              "description": ""
+            },
+            {
+              "name": "FeedReader",
+              "url": "http://www.feedreader.com/",
+              "description": ""
+            },
+            {
+              "name": "Newsblur",
+              "url": "http://newsblur.com/",
+              "description": ""
+            },
+            {
+              "name": "OmeaReader",
+              "url": "http://www.jetbrains.com/omea/reader",
+              "description": ""
+            },
+            {
+              "name": "RSS Feed Reader",
+              "url": "https://chrome.google.com/webstore/detail/rss-feed-reader/pnjaodmkngahhkoihejjehlcdlnohgmp",
+              "description": ""
+            },
+            {
+              "name": "RSSOwl",
+              "url": "http://www.rssowl.org/",
+              "description": ""
+            },
+            {
+              "name": "The Old Reader",
+              "url": "http://theoldreader.com/",
+              "description": ""
+            },
+            {
+              "name": "WebReader",
+              "url": "http://www.getwebreader.com/",
+              "description": ""
+            },
+            {
+              "name": "Winds",
+              "url": "http://winds.getstream.io/",
+              "description": ""
+            }
+          ]
         },
         {
-          "name": "Anna's Archive",
-          "url": "https://annas-archive.org/",
-          "description": ""
+          "title": "Website Change Detection",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "ChangeDetect",
+              "url": "http://www.changedetect.com/",
+              "description": ""
+            },
+            {
+              "name": "ChangeDetection",
+              "url": "http://www.changedetection.com/",
+              "description": ""
+            },
+            {
+              "name": "ChangeDetection.io",
+              "url": "https://changedetection.io/",
+              "description": ""
+            },
+            {
+              "name": "ChangeDetection.io Open Source",
+              "url": "https://github.com/dgtlmoon/changedetection.io",
+              "description": ""
+            },
+            {
+              "name": "FollowThatPage",
+              "url": "http://www.followthatpage.com/",
+              "description": ""
+            },
+            {
+              "name": "InfoMinder",
+              "url": "http://www.infominder.com/webminder",
+              "description": ""
+            },
+            {
+              "name": "OnWebChange",
+              "url": "http://onwebchange.com/",
+              "description": ""
+            },
+            {
+              "name": "versionista",
+              "url": "http://versionista.com/",
+              "description": ""
+            },
+            {
+              "name": "visualping",
+              "url": "https://visualping.io/",
+              "description": ""
+            }
+          ]
         },
         {
-          "name": "Awasu",
-          "url": "http://www.awasu.com/",
-          "description": ""
+          "title": "RSS Tools & Utilities",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Bridge.Leslibres",
+              "url": "https://bridge.leslibres.org/",
+              "description": ""
+            },
+            {
+              "name": "Bridge.Suumitsu",
+              "url": "https://bridge.suumitsu.eu/",
+              "description": ""
+            },
+            {
+              "name": "Feed Filter Maker",
+              "url": "http://feed.janicek.co/",
+              "description": ""
+            },
+            {
+              "name": "FetchRSS",
+              "url": "http://fetchrss.com/",
+              "description": ""
+            },
+            {
+              "name": "RSS Feed Reader",
+              "url": "https://chrome.google.com/webstore/detail/rss-feed-reader/pnjaodmkngahhkoihejjehlcdlnohgmp",
+              "description": ""
+            },
+            {
+              "name": "RSS Micro",
+              "url": "http://www.rssmicro.com/",
+              "description": ""
+            },
+            {
+              "name": "RSS Search Engine",
+              "url": "http://ctrlq.org/rss",
+              "description": ""
+            },
+            {
+              "name": "RSS Search Hub",
+              "url": "http://www.rsssearchhub.com/",
+              "description": ""
+            }
+          ]
         },
         {
-          "name": "Bridge.Leslibres",
-          "url": "https://bridge.leslibres.org/",
-          "description": ""
+          "title": "Web Monitoring & Mentions",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Forensic OSINT ",
+              "url": "https://www.forensicosint.com/",
+              "description": ""
+            },
+            {
+              "name": "Mention",
+              "url": "https://en.mention.com/",
+              "description": ""
+            },
+            {
+              "name": "Talkwalker",
+              "url": "http://www.talkwalker.com/",
+              "description": ""
+            }
+          ]
         },
         {
-          "name": "Bridge.Suumitsu",
-          "url": "https://bridge.suumitsu.eu/",
-          "description": ""
+          "title": "Web Analysis & Proxy Tools",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Burp Suite ",
+              "url": "https://portswigger.net/burp/download.html",
+              "description": ""
+            },
+            {
+              "name": "EZR OSINT Sidebar ",
+              "url": "https://chromewebstore.google.com/detail/ezr-osint-sidebar/joagbbgciboooipadijeaoidjjigdmof",
+              "description": ""
+            },
+            {
+              "name": "Fiddler ",
+              "url": "https://www.telerik.com/download/fiddler",
+              "description": ""
+            }
+          ]
         },
         {
-          "name": "Browsershots",
-          "url": "http://browsershots.org/",
-          "description": ""
-        },
-        {
-          "name": "Burp Suite ",
-          "url": "https://portswigger.net/burp/download.html",
-          "description": ""
-        },
-        {
-          "name": "ChangeDetect",
-          "url": "http://www.changedetect.com/",
-          "description": ""
-        },
-        {
-          "name": "ChangeDetection",
-          "url": "http://www.changedetection.com/",
-          "description": ""
-        },
-        {
-          "name": "ChangeDetection.io",
-          "url": "https://changedetection.io/",
-          "description": ""
-        },
-        {
-          "name": "ChangeDetection.io Open Source",
-          "url": "https://github.com/dgtlmoon/changedetection.io",
-          "description": ""
-        },
-        {
-          "name": "Common Crawl",
-          "url": "http://commoncrawl.org/",
-          "description": ""
-        },
-        {
-          "name": "Deltafeed",
-          "url": "http://bitreading.com/deltafeed",
-          "description": ""
-        },
-        {
-          "name": "DiggReader",
-          "url": "http://digg.com/login?next=%2Freader",
-          "description": ""
-        },
-        {
-          "name": "EZR OSINT Sidebar ",
-          "url": "https://chromewebstore.google.com/detail/ezr-osint-sidebar/joagbbgciboooipadijeaoidjjigdmof",
-          "description": ""
-        },
-        {
-          "name": "Feed Exileed",
-          "url": "http://feed.exileed.com/",
-          "description": ""
-        },
-        {
-          "name": "Feed Filter Maker",
-          "url": "http://feed.janicek.co/",
-          "description": ""
-        },
-        {
-          "name": "FeedBooster",
-          "url": "http://www.qsensei.com/",
-          "description": ""
-        },
-        {
-          "name": "Feederator",
-          "url": "http://www.feederator.org/",
-          "description": ""
-        },
-        {
-          "name": "Feedly",
-          "url": "http://www.feedly.com/",
-          "description": ""
-        },
-        {
-          "name": "FeedReader",
-          "url": "http://www.feedreader.com/",
-          "description": ""
-        },
-        {
-          "name": "FetchRSS",
-          "url": "http://fetchrss.com/",
-          "description": ""
-        },
-        {
-          "name": "Fiddler ",
-          "url": "https://www.telerik.com/download/fiddler",
-          "description": ""
-        },
-        {
-          "name": "FollowThatPage",
-          "url": "http://www.followthatpage.com/",
-          "description": ""
-        },
-        {
-          "name": "Forensic OSINT ",
-          "url": "https://www.forensicosint.com/",
-          "description": ""
-        },
-        {
-          "name": "Full Page Screen Capture Chrome Extension ",
-          "url": "https://github.com/mrcoles/full-page-screen-capture-chrome-extension",
-          "description": ""
-        },
-        
-        {
-          "name": "InfoMinder",
-          "url": "http://www.infominder.com/webminder",
-          "description": ""
-        },
-        {
-          "name": "Internet Archive: Wayback Machine",
-          "url": "https://archive.org/web/",
-          "description": ""
-        },
-        {
-          "name": "Mention",
-          "url": "https://en.mention.com/",
-          "description": ""
-        },
-        {
-          "name": "Newsblur",
-          "url": "http://newsblur.com/",
-          "description": ""
-        },
-        {
-          "name": "OmeaReader",
-          "url": "http://www.jetbrains.com/omea/reader",
-          "description": ""
-        },
-        {
-          "name": "OnWebChange",
-          "url": "http://onwebchange.com/",
-          "description": ""
-        },
-        {
-          "name": "Page2Images ",
-          "url": "http://www.page2images.com/URL-Live-Website-Screenshot-Generator",
-          "description": ""
-        },
-        {
-          "name": "PDF My URL",
-          "url": "http://pdfmyurl.com/",
-          "description": ""
-        },
-        {
-          "name": "RSS Feed Reader",
-          "url": "https://chrome.google.com/webstore/detail/rss-feed-reader/pnjaodmkngahhkoihejjehlcdlnohgmp",
-          "description": ""
-        },
-        {
-          "name": "RSS Micro",
-          "url": "http://www.rssmicro.com/",
-          "description": ""
-        },
-        {
-          "name": "RSS Search Engine",
-          "url": "http://ctrlq.org/rss",
-          "description": ""
-        },
-        {
-          "name": "RSS Search Hub",
-          "url": "http://www.rsssearchhub.com/",
-          "description": ""
-        },
-        {
-          "name": "RSSOwl",
-          "url": "http://www.rssowl.org/",
-          "description": ""
-        },
-        {
-          "name": "Screenshots.com",
-          "url": "http://www.screenshots.com/",
-          "description": ""
-        },
-        {
-          "name": "Selfoss",
-          "url": "http://selfoss.aditu.de/",
-          "description": ""
-        },
-        {
-          "name": "Snapper ",
-          "url": "https://github.com/dxa4481/Snapper",
-          "description": ""
-        },
-        {
-          "name": "Talkwalker",
-          "url": "http://www.talkwalker.com/",
-          "description": ""
-        },
-        {
-          "name": "Textfiles.com",
-          "url": "http://textfiles.com/",
-          "description": ""
-        },
-        {
-          "name": "The Old Reader",
-          "url": "http://theoldreader.com/",
-          "description": ""
-        },
-        {
-          "name": "UK Web Archive",
-          "url": "http://www.webarchive.org.uk/ukwa/",
-          "description": ""
-        },
-        {
-          "name": "versionista",
-          "url": "http://versionista.com/",
-          "description": ""
-        },
-        {
-          "name": "visualping",
-          "url": "https://visualping.io/",
-          "description": ""
-        },
-        {
-          "name": "Wayback Machine - Beta Search",
-          "url": "https://web-beta.archive.org/#/",
-          "description": ""
-        },
-        {
-          "name": "Wayback Machine Chrome Extension",
-          "url": "https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak",
-          "description": ""
-        },
-        {
-          "name": "Web Archive-RU",
-          "url": "https://web-arhive.ru/",
-          "description": ""
-        },
-        {
-          "name": "Web Page Saver",
-          "url": "https://www.magnetforensics.com/free-tool-web-page-saver/",
-          "description": ""
-        },
-        {
-          "name": "WebCite",
-          "url": "http://webcitation.org/query",
-          "description": ""
-        },
-        {
-          "name": "WebReader",
-          "url": "http://www.getwebreader.com/",
-          "description": ""
-        },
-        {
-          "name": "WebSite Watcher",
-          "url": "http://www.aignes.com/index.htm",
-          "description": ""
-        },
-        {
-          "name": "Winds",
-          "url": "http://winds.getstream.io/",
-          "description": ""
+          "title": "Other Web Tools & Resources",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Alltop",
+              "url": "http://alltop.com/",
+              "description": ""
+            },
+            {
+              "name": "Awasu",
+              "url": "http://www.awasu.com/",
+              "description": ""
+            },
+            {
+              "name": "Common Crawl",
+              "url": "http://commoncrawl.org/",
+              "description": ""
+            },
+            {
+              "name": "Selfoss",
+              "url": "http://selfoss.aditu.de/",
+              "description": ""
+            },
+            {
+              "name": "Textfiles.com",
+              "url": "http://textfiles.com/",
+              "description": ""
+            }
+          ]
         }
       ]
     },
@@ -8763,7 +8800,6 @@
         }
       ]
     },
-    
     {
       "title": "[↑](#-table-of-contents) Infographics and Data Visualization",
       "subtitle": "",
@@ -9562,7 +9598,6 @@
           "url": "https://github.com/shadawck/glit",
           "description": "Retrieve all mails of users related to a git repository, a git user or a git organization"
         },
-        
         {
           "name": "IntelHub",
           "url": "https://github.com/tomsec8/IntelHub",
@@ -11320,7 +11355,6 @@
         }
       ]
     },
-    
     {
       "title": "[↑](#-mobile-emulation) Mobile Emulation",
       "subtitle": "",
