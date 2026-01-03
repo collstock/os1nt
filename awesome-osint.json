@@ -791,11 +791,6 @@
           "description": "Data Exposure Search Engine"
         },
         {
-          "name": "DeHashed",
-          "url": "https://dehashed.com/",
-          "description": ""
-        },
-        {
           "name": "HEROIC.NOW",
           "url": "https://heroic.com/",
           "description": "Has your data been leaked on the dark web? Scan your identities for FREE"
@@ -844,11 +839,6 @@
             {
               "name": "arXiv.org",
               "url": "https://arxiv.org/",
-              "description": ""
-            },
-            {
-              "name": "Bielefeld Academic Search Engine",
-              "url": "https://www.base-search.net/Search/Advanced",
               "description": ""
             },
             {
@@ -1367,6 +1357,11 @@
           "name": "Web O Proxy",
           "url": "https://weboproxy.com/",
           "description": "Tor web proxy allowing access to .onion sites without the Tor browser"
+        },
+        {
+          "name": "ZeroNET",
+          "url": "https://zeronet.io/",
+          "description": "Decentralized web platform using Bitcoin cryptography and BitTorrent network"
         }
       ]
     },
@@ -1420,29 +1415,14 @@
           "description": ""
         },
         {
-          "name": "Blockr.io",
-          "url": "http://blockr.io/",
-          "description": ""
-        },
-        {
           "name": "Blockstream Explorer",
           "url": "https://blockstream.info/",
           "description": "Open-source Bitcoin blockchain explorer with support for testnet and Liquid"
         },
         {
-          "name": "Blocktrail",
-          "url": "https://www.blocktrail.com/BTC",
-          "description": ""
-        },
-        {
           "name": "BTCScan",
           "url": "https://btcscan.org/",
           "description": "Bitcoin blockchain explorer with real-time transaction and address data"
-        },
-        {
-          "name": "Chain Radar",
-          "url": "https://chainradar.com/xmr/blocks",
-          "description": ""
         },
         {
           "name": "Chainalysis",
@@ -1481,8 +1461,8 @@
         },
         {
           "name": "Graphsense",
-          "url": "https://graphsense.info/",
-          "description": ""
+          "url": "https://github.com/graphsense",
+          "description": "GraphSense is a cryptoasset analytics platform emphasizing full data sovereignty, algorithmic transparency, and scalability. "
         },
         {
           "name": "MetaSleuth",
@@ -1500,11 +1480,6 @@
           "description": "Multi-crypto blockchain explorer providing chain data, transaction details, and address insights"
         },
         {
-          "name": "OXT",
-          "url": "https://oxt.me",
-          "description": ""
-        },
-        {
           "name": "Polygonscan",
           "url": "https://polygonscan.com/",
           "description": "Polygon network explorer derived"
@@ -1513,11 +1488,6 @@
           "name": "Solscan",
           "url": "https://solscan.io/",
           "description": "Fast and detailed explorer for the Solana blockchain"
-        },
-        {
-          "name": "Tokenview",
-          "url": "https://tokenview.com/",
-          "description": "Multi-chain blockchain explorer offering real-time tracking of transactions and wallet balances"
         },
         {
           "name": "TRM Labs",
@@ -1532,7 +1502,7 @@
         {
           "name": "XMRChain.net",
           "url": "https://xmrchain.net/",
-          "description": ""
+          "description": "Monero blockchain explorer"
         }
       ],
       "categories": []
@@ -1584,7 +1554,7 @@
       "subtitle": "",
       "items": [
         {
-          "name": "Find-pdf-doc",
+          "name": "Find PDF Doc",
           "url": "http://www.findpdfdoc.com/",
           "description": ""
         },
@@ -3655,11 +3625,6 @@
       "subtitle": "",
       "items": [
         {
-          "name": "Amazon Usernames (M)",
-          "url": "https://www.google.com/search?q=site:amazon.com+%3Cusername%3E",
-          "description": ""
-        },
-        {
           "name": "Blackbird",
           "url": "https://github.com/p1ngul1n0/blackbird",
           "description": "Search for accounts associated with a given email across various platforms"
@@ -3680,19 +3645,14 @@
           "description": "Check for registered username on 100s of sites for free"
         },
         {
-          "name": "Github User (M)",
+          "name": "Github User Public Events",
           "url": "https://api.github.com/users/%3Cusername%3E/events/public",
-          "description": ""
+          "description": "Add username to the URL to fetch public events for that user"
         },
         {
           "name": "Instant Username Search",
           "url": "https://instantusername.com/",
-          "description": ""
-        },
-        {
-          "name": "Keybase",
-          "url": "https://keybase.io/",
-          "description": ""
+          "description": "Search for usernames across multiple platforms instantly"
         },
         {
           "name": "Maigret",
@@ -3702,7 +3662,7 @@
         {
           "name": "MIT PGP Key Server",
           "url": "http://pgp.mit.edu/",
-          "description": ""
+          "description": "Search PGP public keys by email or name"
         },
         {
           "name": "Name Checkr",
@@ -3767,11 +3727,6 @@
         {
           "name": "Thats Them",
           "url": "https://thatsthem.com/",
-          "description": ""
-        },
-        {
-          "name": "Tinder Usernames (M)",
-          "url": "https://www.gotinder.com/@%3Cusername%3E",
           "description": ""
         },
         {
@@ -6874,122 +6829,6 @@
       ]
     },
     {
-      "title": "[↑](#-table-of-contents) Video Search and Other Video Tools",
-      "subtitle": "",
-      "items": [
-        {
-          "name": "Bing Videos",
-          "url": "http://www.bing.com/?scope=video",
-          "description": ""
-        },
-        {
-          "name": "Clip Blast",
-          "url": "http://www.clipblast.com/",
-          "description": ""
-        },
-        {
-          "name": "DailyMotion",
-          "url": "http://www.dailymotion.com/",
-          "description": ""
-        },
-        {
-          "name": "Deturl",
-          "url": "http://deturl.com/",
-          "description": "Download a YouTube video"
-        },
-        {
-          "name": "Earthcam",
-          "url": "http://www.earthcam.com/",
-          "description": "EarthCam is the leading network of live streaming webcams for tourism and entertainment"
-        },
-        {
-          "name": "Filmot",
-          "url": "https://filmot.com/",
-          "description": "Search within YouTube subtitles. Indexing over 573 million captions across 528 million videos and 45 million channels"
-        },
-        {
-          "name": "Find YouTube Video",
-          "url": "https://findyoutubevideo.thetechrobo.ca/",
-          "description": "Searches currently 5 YouTube archives for specific videos by ID, which is really useful for finding deleted or private YouTube videos"
-        },
-        {
-          "name": "Frame by Frame",
-          "url": "https://chrome.google.com/webstore/detail/frame-by-frame/cclnaabdfgnehogonpeddbgejclcjneh/",
-          "description": "Browser plugin that"
-        },
-        {
-          "name": "Geosearch",
-          "url": "http://www.geosearchtool.com/",
-          "description": ""
-        },
-        {
-          "name": "Insecam",
-          "url": "http://insecam.org/",
-          "description": "Live cameras directory"
-        },
-        {
-          "name": "Internet Archive: Open Source Videos",
-          "url": "https://archive.org/details/opensource_movies",
-          "description": ""
-        },
-        {
-          "name": "Metacafe",
-          "url": "http://www.metacafe.com/",
-          "description": ""
-        },
-        {
-          "name": "Metatube",
-          "url": "http://www.metatube.com/",
-          "description": ""
-        },
-        {
-          "name": "Tubuep",
-          "url": "https://github.com/bibanon/tubeup",
-          "description": "Downloads online videos via yt-dlp, then reuploads them to the Internet Archive for preservation. Note: if you would like to archive comm…"
-        },
-        {
-          "name": "Veoh",
-          "url": "http://www.veoh.com/",
-          "description": ""
-        },
-        {
-          "name": "Video Stabilization Methods",
-          "url": "https://github.com/yaochih/awesome-video-stabilization",
-          "description": ""
-        },
-        {
-          "name": "Vimeo",
-          "url": "https://vimeo.com/",
-          "description": ""
-        },
-        {
-          "name": "Yahoo Video Search",
-          "url": "http://video.search.yahoo.com/",
-          "description": "Video Search and Other Video Tools resource .search"
-        },
-        {
-          "name": "YouTube",
-          "url": "https://www.youtube.com/",
-          "description": ""
-        },
-        {
-          "name": "YouTube Geofind",
-          "url": "https://mattw.io/youtube-geofind/",
-          "description": ""
-        },
-        {
-          "name": "YouTube Metadata",
-          "url": "https://mattw.io/youtube-metadata/",
-          "description": ""
-        },
-        {
-          "name": "yt-dlp",
-          "url": "https://github.com/yt-dlp/yt-dlp/",
-          "description": "Downloads videos , along with information, thumbnails, subtitles, descriptions, and comments (comments only on a select few sites like Yo…"
-        }
-      ]
-    },
-    {
       "title": "[↑](#-table-of-contents) Academic Resources and Grey Literature",
       "subtitle": "",
       "items": [
@@ -7039,11 +6878,6 @@
           "description": ""
         },
         {
-          "name": "Grey Literature Strategies",
-          "url": "http://greylitstrategies.info/",
-          "description": ""
-        },
-        {
           "name": "Grey Literature – List of Gateways",
           "url": "http://csulb.libguides.com/graylit",
           "description": ""
@@ -7051,11 +6885,6 @@
         {
           "name": "GreyNet International",
           "url": "http://www.greynet.org/",
-          "description": ""
-        },
-        {
-          "name": "HighWire: Free Online Full-text Articles",
-          "url": "http://highwire.stanford.edu/lists/freeart.dtl",
           "description": ""
         },
         {
@@ -7087,11 +6916,6 @@
           "name": "NRC Research Press",
           "url": "http://www.nrcresearchpress.com/",
           "description": ""
-        },
-        {
-          "name": "OA.mg",
-          "url": "http://oa.mg/",
-          "description": "A database of over 240 million scientific works, with PDFs for all Open Access papers in their catalogue (~ 40 million)"
         },
         {
           "name": "Open Access Scientific Journals",
@@ -7960,11 +7784,6 @@
         {
           "name": "Verification Handbook",
           "url": "http://verificationhandbook.com/",
-          "description": ""
-        },
-        {
-          "name": "Verification Junkie",
-          "url": "http://verificationjunkie.com/",
           "description": ""
         }
       ]
@@ -9203,287 +9022,6 @@
       ]
     },
     {
-      "title": "[↑](#-table-of-contents) Privacy and Encryption Tools",
-      "subtitle": "",
-      "items": [
-        {
-          "name": "Abine",
-          "url": "https://www.abine.com/",
-          "description": ""
-        },
-        {
-          "name": "Adium",
-          "url": "https://adium.im/",
-          "description": "Privacy and Encryption Tools resource .im"
-        },
-        {
-          "name": "boxcryptor",
-          "url": "https://www.boxcryptor.com/",
-          "description": ""
-        },
-        {
-          "name": "CCleaner",
-          "url": "https://www.piriform.com/ccleaner",
-          "description": ""
-        },
-        {
-          "name": "Chatsecure",
-          "url": "https://chatsecure.org/",
-          "description": ""
-        },
-        {
-          "name": "Disconnect",
-          "url": "https://disconnect.me/",
-          "description": ""
-        },
-        {
-          "name": "Do Not Track",
-          "url": "http://donottrack.us/",
-          "description": "Privacy and Encryption Tools resource .us"
-        },
-        {
-          "name": "Duck Duck Go Search Engine",
-          "url": "https://duckduckgo.com/",
-          "description": ""
-        },
-        {
-          "name": "EncSF MP",
-          "url": "http://encfsmp.sourceforge.net/",
-          "description": ""
-        },
-        {
-          "name": "Epic Privacy Browser",
-          "url": "https://www.epicbrowser.com/",
-          "description": ""
-        },
-        {
-          "name": "Eraser",
-          "url": "http://eraser.heidi.ie/",
-          "description": "Privacy and Encryption Tools resource .heidi.ie"
-        },
-        {
-          "name": "FileVault",
-          "url": "https://support.apple.com/en-us/HT204837",
-          "description": ""
-        },
-        {
-          "name": "Ghostery",
-          "url": "https://www.ghostery.com/",
-          "description": ""
-        },
-        {
-          "name": "GNU PG",
-          "url": "https://www.gnupg.org/download/index.html",
-          "description": ""
-        },
-        {
-          "name": "GPG Tools",
-          "url": "https://gpgtools.org/",
-          "description": ""
-        },
-        {
-          "name": "Guardian Project",
-          "url": "https://guardianproject.info/",
-          "description": ""
-        },
-        {
-          "name": "Guerrilla Mail",
-          "url": "https://www.guerrillamail.com/",
-          "description": ""
-        },
-        {
-          "name": "Hotspot Shield",
-          "url": "https://www.hotspotshield.com/",
-          "description": ""
-        },
-        {
-          "name": "HTTPs Everywhere",
-          "url": "https://www.eff.org/https-everywhere/",
-          "description": ""
-        },
-        {
-          "name": "I2P",
-          "url": "https://geti2p.net/",
-          "description": ""
-        },
-        {
-          "name": "justdeleteme",
-          "url": "http://justdelete.me/",
-          "description": ""
-        },
-        {
-          "name": "KeePass Password Safe",
-          "url": "http://keepass.info/",
-          "description": "is a free and open-source password manager that uses the most secure encryption algorithms to safegard your passwords"
-        },
-        {
-          "name": "Lastpass",
-          "url": "https://lastpass.com/",
-          "description": ""
-        },
-        {
-          "name": "Lockbin",
-          "url": "https://lockbin.com/",
-          "description": ""
-        },
-        {
-          "name": "Mailbox",
-          "url": "https://mailbox.org/",
-          "description": ""
-        },
-        {
-          "name": "Mailvelope",
-          "url": "https://www.mailvelope.com/",
-          "description": ""
-        },
-        {
-          "name": "Master Password",
-          "url": "http://masterpasswordapp.com/",
-          "description": ""
-        },
-        {
-          "name": "Nixory",
-          "url": "http://nixory.sourceforge.net/",
-          "description": ""
-        },
-        {
-          "name": "NoScript",
-          "url": "https://noscript.net/",
-          "description": ""
-        },
-        {
-          "name": "Open DNS",
-          "url": "https://www.opendns.com/home-internet-security",
-          "description": ""
-        },
-        {
-          "name": "Open PGP",
-          "url": "https://www.enigmail.net/index.php/en",
-          "description": ""
-        },
-        {
-          "name": "Oscobo Search Engine",
-          "url": "https://oscobo.co.uk/",
-          "description": ""
-        },
-        {
-          "name": "OSSEC",
-          "url": "https://ossec.github.io/",
-          "description": ""
-        },
-        {
-          "name": "Panopticlick",
-          "url": "https://panopticlick.eff.org/",
-          "description": ""
-        },
-        {
-          "name": "Peerblock",
-          "url": "http://forums.peerblock.com/",
-          "description": ""
-        },
-        {
-          "name": "Pidgin",
-          "url": "https://www.pidgin.im/",
-          "description": "Privacy and Encryption Tools resource .im"
-        },
-        {
-          "name": "Pixel Block",
-          "url": "https://chrome.google.com/webstore/detail/pixelblock/jmpmfcjnflbcoidlgapblgpgbilinlem",
-          "description": ""
-        },
-        {
-          "name": "Privacy Badger",
-          "url": "https://www.eff.org/privacybadger",
-          "description": ""
-        },
-        {
-          "name": "Privazer",
-          "url": "http://privazer.com/",
-          "description": ""
-        },
-        {
-          "name": "Proton Mail",
-          "url": "https://protonmail.com/",
-          "description": ""
-        },
-        {
-          "name": "Qubes",
-          "url": "https://www.qubes-os.org/",
-          "description": "a security-focused desktop operating system that aims to"
-        },
-        {
-          "name": "Script Safe",
-          "url": "https://chrome.google.com/webstore/detail/scriptsafe/oiigbmnaadbkfbmpbfijlflahbdbdgdf?hl=en",
-          "description": ""
-        },
-        {
-          "name": "Securesha",
-          "url": "https://securesha.re/",
-          "description": "Privacy and Encryption Tools resource .re"
-        },
-        {
-          "name": "Silent circle",
-          "url": "https://www.silentcircle.com/",
-          "description": ""
-        },
-        {
-          "name": "Snort",
-          "url": "https://www.snort.org/",
-          "description": ""
-        },
-        {
-          "name": "Spideroak",
-          "url": "https://spideroak.com/",
-          "description": ""
-        },
-        {
-          "name": "Steganography Online Codec",
-          "url": "https://www.pelock.com/products/steganography-online-codec",
-          "description": ""
-        },
-        {
-          "name": "Surveilliance Self Defense",
-          "url": "https://ssd.eff.org/",
-          "description": ""
-        },
-        {
-          "name": "Tails",
-          "url": "https://tails.boum.org/",
-          "description": ""
-        },
-        {
-          "name": "Thunderbird",
-          "url": "https://www.thunderbird.net/en-US/",
-          "description": ""
-        },
-        {
-          "name": "Tor Project",
-          "url": "https://www.torproject.org/",
-          "description": ""
-        },
-        {
-          "name": "uBlock Origin",
-          "url": "https://github.com/gorhill/uBlock",
-          "description": ""
-        },
-        {
-          "name": "Wickr",
-          "url": "https://wickr.com/",
-          "description": ""
-        },
-        {
-          "name": "WOT",
-          "url": "https://www.mywot.com/",
-          "description": ""
-        },
-        {
-          "name": "ZMail",
-          "url": "http://zmail.sourceforge.net/",
-          "description": ""
-        }
-      ]
-    },
-    {
       "title": "[↑](#-table-of-contents) Maritime and Air Traffic Tracking",
       "subtitle": "",
       "items": [
@@ -10084,7 +9622,7 @@
       ]
     },
     {
-      "title": "[↑](#-table-of-contents) OSINT Videos",
+      "title": "[↑](#-table-of-contents) Videos",
       "subtitle": "",
       "items": [],
       "categories": [
@@ -10265,7 +9803,123 @@
           ]
         },
         {
-          "title": "Search & Discovery",
+        "title": "Video Search and Other Video Tools",
+        "subtitle": "",
+        "items": [
+          {
+            "name": "Bing Videos",
+            "url": "http://www.bing.com/?scope=video",
+            "description": ""
+          },
+          {
+            "name": "Clip Blast",
+            "url": "http://www.clipblast.com/",
+            "description": ""
+          },
+          {
+            "name": "DailyMotion",
+            "url": "http://www.dailymotion.com/",
+            "description": ""
+          },
+          {
+            "name": "Deturl",
+            "url": "http://deturl.com/",
+            "description": "Download a YouTube video"
+          },
+          {
+            "name": "Earthcam",
+            "url": "http://www.earthcam.com/",
+            "description": "EarthCam is the leading network of live streaming webcams for tourism and entertainment"
+          },
+          {
+            "name": "Filmot",
+            "url": "https://filmot.com/",
+            "description": "Search within YouTube subtitles. Indexing over 573 million captions across 528 million videos and 45 million channels"
+          },
+          {
+            "name": "Find YouTube Video",
+            "url": "https://findyoutubevideo.thetechrobo.ca/",
+            "description": "Searches currently 5 YouTube archives for specific videos by ID, which is really useful for finding deleted or private YouTube videos"
+          },
+          {
+            "name": "Frame by Frame",
+            "url": "https://chrome.google.com/webstore/detail/frame-by-frame/cclnaabdfgnehogonpeddbgejclcjneh/",
+            "description": "Browser plugin that"
+          },
+          {
+            "name": "Geosearch",
+            "url": "http://www.geosearchtool.com/",
+            "description": ""
+          },
+          {
+            "name": "Insecam",
+            "url": "http://insecam.org/",
+            "description": "Live cameras directory"
+          },
+          {
+            "name": "Internet Archive: Open Source Videos",
+            "url": "https://archive.org/details/opensource_movies",
+            "description": ""
+          },
+          {
+            "name": "Metacafe",
+            "url": "http://www.metacafe.com/",
+            "description": ""
+          },
+          {
+            "name": "Metatube",
+            "url": "http://www.metatube.com/",
+            "description": ""
+          },
+          {
+            "name": "Tubuep",
+            "url": "https://github.com/bibanon/tubeup",
+            "description": "Downloads online videos via yt-dlp, then reuploads them to the Internet Archive for preservation. Note: if you would like to archive comm…"
+          },
+          {
+            "name": "Veoh",
+            "url": "http://www.veoh.com/",
+            "description": ""
+          },
+          {
+            "name": "Video Stabilization Methods",
+            "url": "https://github.com/yaochih/awesome-video-stabilization",
+            "description": ""
+          },
+          {
+            "name": "Vimeo",
+            "url": "https://vimeo.com/",
+            "description": ""
+          },
+          {
+            "name": "Yahoo Video Search",
+            "url": "http://video.search.yahoo.com/",
+            "description": "Video Search and Other Video Tools resource .search"
+          },
+          {
+            "name": "YouTube",
+            "url": "https://www.youtube.com/",
+            "description": ""
+          },
+          {
+            "name": "YouTube Geofind",
+            "url": "https://mattw.io/youtube-geofind/",
+            "description": ""
+          },
+          {
+            "name": "YouTube Metadata",
+            "url": "https://mattw.io/youtube-metadata/",
+            "description": ""
+          },
+          {
+            "name": "yt-dlp",
+            "url": "https://github.com/yt-dlp/yt-dlp/",
+            "description": "Downloads videos , along with information, thumbnails, subtitles, descriptions, and comments (comments only on a select few sites like Yo…"
+          }
+        ]
+      },
+        {
+          "title": "Video Discovery",
           "subtitle": "",
           "items": [
             {
@@ -11507,7 +11161,7 @@
         {
           "name": "DDecode - PHP Decoder",
           "url": "http://ddecode.com/phpdecoder/",
-          "description": ""
+          "description": "PHP decoder"
         },
         {
           "name": "Firebug ",
@@ -11698,6 +11352,277 @@
       "items": [],
       "categories": [
         {
+          "title": "Privacy and Encryption Tools",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Abine",
+              "url": "https://www.abine.com/",
+              "description": ""
+            },
+            {
+              "name": "Adium",
+              "url": "https://adium.im/",
+              "description": "Privacy and Encryption Tools resource .im"
+            },
+            {
+              "name": "boxcryptor",
+              "url": "https://www.boxcryptor.com/",
+              "description": ""
+            },
+            {
+              "name": "CCleaner",
+              "url": "https://www.piriform.com/ccleaner",
+              "description": ""
+            },
+            {
+              "name": "Chatsecure",
+              "url": "https://chatsecure.org/",
+              "description": ""
+            },
+            {
+              "name": "Disconnect",
+              "url": "https://disconnect.me/",
+              "description": ""
+            },
+            {
+              "name": "Do Not Track",
+              "url": "http://donottrack.us/",
+              "description": "Privacy and Encryption Tools resource .us"
+            },
+            {
+              "name": "Duck Duck Go Search Engine",
+              "url": "https://duckduckgo.com/",
+              "description": "Search engine that does not track you"
+            },
+            {
+              "name": "EncSF MP",
+              "url": "http://encfsmp.sourceforge.net/",
+              "description": ""
+            },
+            {
+              "name": "Epic Privacy Browser",
+              "url": "https://www.epicbrowser.com/",
+              "description": "Privacy-focused web browser"
+            },
+            {
+              "name": "Eraser",
+              "url": "http://eraser.heidi.ie/",
+              "description": "Privacy and Encryption Tools resource .heidi.ie"
+            },
+            {
+              "name": "FileVault",
+              "url": "https://support.apple.com/en-us/HT204837",
+              "description": "Disk encryption program available in macOS"
+            },
+            {
+              "name": "Ghostery",
+              "url": "https://www.ghostery.com/",
+              "description": "Privacy and Encryption Tools resource .ghostery.com"
+            },
+            {
+              "name": "GNU PG",
+              "url": "https://www.gnupg.org/download/index.html",
+              "description": "Free implementation of the OpenPGP standard"
+            },
+            {
+              "name": "GPG Tools",
+              "url": "https://gpgtools.org/",
+              "description": "Tools for managing OpenPGP encryption on macOS"
+            },
+            {
+              "name": "GPG4Win",
+              "url": "https://gpg4win.org/",
+              "description": "Tools for managing OpenPGP encryption on Windows"
+            },
+            {
+              "name": "Guardian Project",
+              "url": "https://guardianproject.info/",
+              "description": ""
+            },
+            {
+              "name": "Guerrilla Mail",
+              "url": "https://www.guerrillamail.com/",
+              "description": ""
+            },
+            {
+              "name": "Hotspot Shield",
+              "url": "https://www.hotspotshield.com/",
+              "description": ""
+            },
+            {
+              "name": "HTTPs Everywhere",
+              "url": "https://www.eff.org/https-everywhere/",
+              "description": ""
+            },
+            {
+              "name": "justdeleteme",
+              "url": "http://justdelete.me/",
+              "description": ""
+            },
+            {
+              "name": "KeePass Password Safe",
+              "url": "http://keepass.info/",
+              "description": "is a free and open-source password manager that uses the most secure encryption algorithms to safegard your passwords"
+            },
+            {
+              "name": "Lastpass",
+              "url": "https://lastpass.com/",
+              "description": ""
+            },
+            {
+              "name": "Lockbin",
+              "url": "https://lockbin.com/",
+              "description": ""
+            },
+            {
+              "name": "Mailbox",
+              "url": "https://mailbox.org/",
+              "description": ""
+            },
+            {
+              "name": "Mailvelope",
+              "url": "https://www.mailvelope.com/",
+              "description": ""
+            },
+            {
+              "name": "Master Password",
+              "url": "http://masterpasswordapp.com/",
+              "description": ""
+            },
+            {
+              "name": "Nixory",
+              "url": "http://nixory.sourceforge.net/",
+              "description": ""
+            },
+            {
+              "name": "NoScript",
+              "url": "https://noscript.net/",
+              "description": ""
+            },
+            {
+              "name": "Open DNS",
+              "url": "https://www.opendns.com/home-internet-security",
+              "description": ""
+            },
+            {
+              "name": "Open PGP",
+              "url": "https://www.enigmail.net/index.php/en",
+              "description": ""
+            },
+            {
+              "name": "Oscobo Search Engine",
+              "url": "https://oscobo.co.uk/",
+              "description": ""
+            },
+            {
+              "name": "OSSEC",
+              "url": "https://ossec.github.io/",
+              "description": ""
+            },
+            {
+              "name": "Panopticlick",
+              "url": "https://panopticlick.eff.org/",
+              "description": ""
+            },
+            {
+              "name": "Peerblock",
+              "url": "http://forums.peerblock.com/",
+              "description": ""
+            },
+            {
+              "name": "Pidgin",
+              "url": "https://www.pidgin.im/",
+              "description": "Privacy and Encryption Tools resource .im"
+            },
+            {
+              "name": "Pixel Block",
+              "url": "https://chrome.google.com/webstore/detail/pixelblock/jmpmfcjnflbcoidlgapblgpgbilinlem",
+              "description": ""
+            },
+            {
+              "name": "Privacy Badger",
+              "url": "https://www.eff.org/privacybadger",
+              "description": ""
+            },
+            {
+              "name": "Privazer",
+              "url": "http://privazer.com/",
+              "description": ""
+            },
+            {
+              "name": "Proton Mail",
+              "url": "https://protonmail.com/",
+              "description": ""
+            },
+            {
+              "name": "Qubes",
+              "url": "https://www.qubes-os.org/",
+              "description": "a security-focused desktop operating system that aims to"
+            },
+            {
+              "name": "Script Safe",
+              "url": "https://chrome.google.com/webstore/detail/scriptsafe/oiigbmnaadbkfbmpbfijlflahbdbdgdf?hl=en",
+              "description": ""
+            },
+            {
+              "name": "Securesha",
+              "url": "https://securesha.re/",
+              "description": "Privacy and Encryption Tools resource .re"
+            },
+            {
+              "name": "Silent circle",
+              "url": "https://www.silentcircle.com/",
+              "description": ""
+            },
+            {
+              "name": "Spideroak",
+              "url": "https://spideroak.com/",
+              "description": ""
+            },
+            {
+              "name": "Steganography Online Codec",
+              "url": "https://www.pelock.com/products/steganography-online-codec",
+              "description": ""
+            },
+            {
+              "name": "Surveilliance Self Defense",
+              "url": "https://ssd.eff.org/",
+              "description": ""
+            },
+            {
+              "name": "Tails",
+              "url": "https://tails.boum.org/",
+              "description": "A security-focused live operating system aimed at preserving privacy and anonymity"
+            },
+            {
+              "name": "Thunderbird",
+              "url": "https://www.thunderbird.net/en-US/",
+              "description": ""
+            },
+            {
+              "name": "uBlock Origin",
+              "url": "https://github.com/gorhill/uBlock",
+              "description": "Efficient and customizable content blocker"
+            },
+            {
+              "name": "Wickr",
+              "url": "https://wickr.com/",
+              "description": ""
+            },
+            {
+              "name": "WOT",
+              "url": "https://www.mywot.com/",
+              "description": ""
+            },
+            {
+              "name": "ZMail",
+              "url": "http://zmail.sourceforge.net/",
+              "description": ""
+            }
+          ]
+        },
+        {
           "title": "Browser Tests & Fingerprinting",
           "subtitle": "",
           "items": [
@@ -11727,18 +11652,8 @@
               "description": ""
             },
             {
-              "name": "UserAgentString.com",
-              "url": "http://www.useragentstring.com/pages/useragentstring.php",
-              "description": ""
-            },
-            {
               "name": "WebRTC Leak Test",
               "url": "https://www.perfect-privacy.com/webrtc-leaktest/",
-              "description": ""
-            },
-            {
-              "name": "What browser am I using.co",
-              "url": "http://www.whatbrowseramiusing.co/",
               "description": ""
             },
             {
@@ -11822,21 +11737,11 @@
               "name": "TorrentFreak List of VPNs",
               "url": "https://torrentfreak.com/vpn-services-anonymous-review-2017-170304/",
               "description": ""
-            },
-            {
-              "name": "VPN Comparison by That One Privacy Guy",
-              "url": "https://thatoneprivacysite.net/",
-              "description": "is a summary list of top best VPN services"
-            },
-            {
-              "name": "TorGuard",
-              "url": "https://torguard.net/vpn-dns-leak-test.php",
-              "description": ""
             }
           ]
         },
         {
-          "title": "Privacy Tools & Guides",
+          "title": "Privacy Guides",
           "subtitle": "",
           "items": [
             {
@@ -11860,6 +11765,11 @@
               "description": ""
             },
             {
+              "name": "VPN Comparison by That One Privacy Guy",
+              "url": "https://thatoneprivacysite.net/",
+              "description": "is a summary list of top best VPN services"
+            },
+            {
               "name": "The Hitchhiker’s Guide to Online Anonymity",
               "url": "https://anonymousplanet.org/guide/",
               "description": ""
@@ -11867,7 +11777,7 @@
           ]
         },
         {
-          "title": "Privacy Extensions & Utilities",
+          "title": "Privacy Browser Extensions",
           "subtitle": "",
           "items": [
             {
