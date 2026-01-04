@@ -1932,338 +1932,316 @@
     {
       "title": "[↑](#-table-of-contents) Pastebins",
       "subtitle": "",
-      "items": [],
-      "categories": [
+      "items": [
         {
-          "title": "Paste Services & Other",
-          "subtitle": "",
-          "items": [
-            {
-              "name": "0bin",
-              "url": "https://0bin.net/",
-              "description": ""
-            },
-            {
-              "name": "BeanPaste",
-              "url": "https://beanpaste.fun/",
-              "description": "A tiny way to share text"
-            },
-            {
-              "name": "bpaste",
-              "url": "https://bpa.st/",
-              "description": "Welcome to bpaste, this site is a pastebin. It"
-            },
-            {
-              "name": "CentOS Pastebin Service",
-              "url": "https://paste.centos.org/",
-              "description": "Stikked is an Open-Source PHP Pastebin, with the aim of keeping a simple and easy to use user interface"
-            },
-            {
-              "name": "cl1p",
-              "url": "https://cl1p.net/",
-              "description": "The Internet Clipboard"
-            },
-            {
-              "name": "commie",
-              "url": "https://commie.io/",
-              "description": "commie is a pastebin script with line commenting support"
-            },
-            {
-              "name": "Context",
-              "url": "https://ctxt.io/",
-              "description": "Share whatever you see with others in seconds"
-            },
-            {
-              "name": "ControlC Pastebin",
-              "url": "https://controlc.com/",
-              "description": "The easiest way to host your text"
-            },
-            {
-              "name": "Cryptobin",
-              "url": "https://cryptobin.co/",
-              "description": "The Ultimate Secure Pastebin"
-            },
-            {
-              "name": "Cutapaste",
-              "url": "https://cutapaste.net/",
-              "description": "Short Code and Share"
-            },
-            {
-              "name": "Defuse",
-              "url": "https://defuse.ca/pastebin.htm",
-              "description": "Encrypted Pastebin - Keep your data private and secure!"
-            },
-            {
-              "name": "doxbin",
-              "url": "https://doxbin.net/",
-              "description": "A dox style pastebin ran by hackers"
-            },
-            {
-              "name": "dpaste",
-              "url": "https://dpaste.com/",
-              "description": ""
-            },
-            {
-              "name": "dpaste2",
-              "url": "https://dpaste.org/",
-              "description": ""
-            },
-            {
-              "name": "Etusivu",
-              "url": "https://pastebin.fi/",
-              "description": "It's an open source clone of . Default Language is Finnish"
-            },
-            {
-              "name": "Friendpaste",
-              "url": "https://friendpaste.com/",
-              "description": "Paste stuff to your friends"
-            },
-            {
-              "name": "GitHub gist",
-              "url": "https://gist.github.com/",
-              "description": "Pastebins / Paste Services & Other resource"
-            },
-            {
-              "name": "HashBin",
-              "url": "https://hashb.in/#Q===",
-              "description": "HashBin is a paste bin that never sees the contents of its pastes"
-            },
-            {
-              "name": "hastebin",
-              "url": "https://www.toptal.com/developers/hastebin/",
-              "description": ""
-            },
-            {
-              "name": "ideone",
-              "url": "https://ideone.com/",
-              "description": ""
-            },
-            {
-              "name": "ivpaste",
-              "url": "https://ivpaste.com/",
-              "description": ""
-            },
-            {
-              "name": "jsbin",
-              "url": "https://jsbin.com/",
-              "description": ""
-            },
-            {
-              "name": "justpaste",
-              "url": "https://justpaste.it/",
-              "description": "Pastebins / Paste Services & Other resource .it"
-            },
-            {
-              "name": "Katbin",
-              "url": "https://katb.in/",
-              "description": "Small, lightweight pastebin"
-            },
-            {
-              "name": "lesma.eu",
-              "url": "https://lesma.eu/",
-              "description": "Simple paste app friendly with browser and command line"
-            },
-            {
-              "name": "Linkode(alpha)",
-              "url": "https://linkode.org/",
-              "description": "Linkode is the useful pastebin!"
-            },
-            {
-              "name": "Logpasta",
-              "url": "https://logpasta.com/",
-              "description": "Simple, secure log paste service. Command line mode based"
-            },
-            {
-              "name": "n0paste",
-              "url": "https://n0paste.eu/",
-              "description": "Paste and share your code online"
-            },
-            {
-              "name": "Nachricht",
-              "url": "https://nachricht.co/",
-              "description": "With you can send self-destructive and encrypted one-way messages over the Internet. You don't even need to miss out the messenger or soc…"
-            },
-            {
-              "name": "nekobin",
-              "url": "https://nekobin.com/",
-              "description": "Paste code, save and share the link!"
-            },
-            {
-              "name": "New Paste",
-              "url": "https://paste1.com/",
-              "description": "I wanna paste because typing is so boring!"
-            },
-            {
-              "name": "NoPaste",
-              "url": "https://nopaste.boris.sh/",
-              "description": "NoPaste is an open-source website similar to Pastebin where you can store any piece of code, and generate links for easy sharing"
-            },
-            {
-              "name": "nopaste.net",
-              "url": "https://nopaste.net/",
-              "description": "is a temporary file host, nopaste and clipboard across machines. You can upload files or text and share the link with others"
-            },
-            {
-              "name": "Notes",
-              "url": "https://notes.io/",
-              "description": ""
-            },
-            {
-              "name": "OTS- One Time Secrets",
-              "url": "https://ots.hackliberty.org/",
-              "description": "An encrypted pastebin site. No login needed!"
-            },
-            {
-              "name": "paaster",
-              "url": "https://paaster.io/",
-              "description": "Paaster is a secure and user-friendly pastebin application that prioritizes privacy and simplicity. With end-to-end encryption and paste…"
-            },
-            {
-              "name": "PastBin.net",
-              "url": "https://pastbin.net/",
-              "description": "Similar to Pastebin website where you can store code/text online for a set period of time and share to anyone anywhere. Search Option Ava…"
-            },
-            {
-              "name": "Paste.Cash",
-              "url": "https://www.paste.cash/",
-              "description": "Paste.CASH Is a privacy respected and encrypted pastebin hosted by Cash Hosting. Every paste are encrypted using 256 bits AES"
-            },
-            {
-              "name": "paste.debian",
-              "url": "https://paste.debian.net/",
-              "description": "Pastebins / Paste Services & Other resource"
-            },
-            {
-              "name": "paste.in.ua",
-              "url": "https://paste.in.ua/",
-              "description": ""
-            },
-            {
-              "name": "paste.kde",
-              "url": "https://paste.kde.org/",
-              "description": "Pastebins / Paste Services & Other resource"
-            },
-            {
-              "name": "Paste.Monster",
-              "url": "https://paste.monster/",
-              "description": "Share your thoughts online. API Available"
-            },
-            {
-              "name": "Paste.Quest",
-              "url": "https://pastequest.com/",
-              "description": "Copy and Paste text online to share with anyone anywhere. Use the password option to add a password to the pasted information"
-            },
-            {
-              "name": "paste.sh",
-              "url": "https://paste.sh/",
-              "description": "This is an encrypted paste site. Simply type or paste code here and share the URL. Saving is Automatic"
-            },
-            {
-              "name": "paste.ubuntu",
-              "url": "https://paste.ubuntu.com/",
-              "description": "Pastebins / Paste Services & Other resource"
-            },
-            {
-              "name": "Pastebin",
-              "url": "https://pastebin.pl/",
-              "description": "Store code/text online for a set period of time and share to anybody on earth"
-            },
-            {
-              "name": "Pastebin - Tor Link",
-              "url": "https://tor.link/paste/new",
-              "description": "Paste text to store or share with others"
-            },
-            {
-              "name": "Pastebin.cz",
-              "url": "https://www.pastebin.cz/en/",
-              "description": "A simple Pastebin"
-            },
-            {
-              "name": "Pastery",
-              "url": "https://www.pastery.net/",
-              "description": "The sweetest pastebin in the world!"
-            },
-            {
-              "name": "PasteShr",
-              "url": "https://www.pasteshr.com/",
-              "description": "Store any text online for easy sharing. Search option available!"
-            },
-            {
-              "name": "PasteSite.Net",
-              "url": "https://pastesite.net/",
-              "description": "The new generation pastebin"
-            },
-            {
-              "name": "Rentry",
-              "url": "https://rentry.co/",
-              "description": "is a markdown paste service service with preview, custom urls and editing. Fast, simple and free"
-            },
-            {
-              "name": "SafeNote",
-              "url": "https://safenote.co/",
-              "description": "SafeNote is a free web-based service that"
-            },
-            {
-              "name": "scrt.link",
-              "url": "https://scrt.link/",
-              "description": "Share a Secret with a link that only works one time and then self-destructs"
-            },
-            {
-              "name": "snippet.host",
-              "url": "https://snippet.host/",
-              "description": "Minimal text and code snippet hosting"
-            },
-            {
-              "name": "Spacebin",
-              "url": "https://spaceb.in/",
-              "description": "Spacebin is a modern Pastebin server implemented in Go and is capable of serving notes, novels, code, or any other form of text"
-            },
-            {
-              "name": "TextBin",
-              "url": "https://textbin.net/",
-              "description": "Secure pastebin where you can paste and store any type of text or code snippets online and share it with your friends"
-            },
-            {
-              "name": "Textbin-Code",
-              "url": "https://textbin.online/",
-              "description": "SECURE YOUR CODE!"
-            },
-            {
-              "name": "Tiny Paste",
-              "url": "https://tinypaste.in/",
-              "description": "Simple Pastebin. Login option available!"
-            },
-            {
-              "name": "TutPaste",
-              "url": "https://tutpaste.com/",
-              "description": "Welcome to our fast and free online paste tool. Paste and share your text or code snippets with anyone, anywhere, no registration required"
-            },
-            {
-              "name": "vaultbin",
-              "url": "https://vaultb.in/",
-              "description": "Vaultbin is a blazingly fast and secure alternative to Pastebin and Hastebin"
-            },
-            {
-              "name": "Verybin",
-              "url": "https://www.verybin.com/",
-              "description": "Anonymous and encrypted pastebin. Data is encrypted/decrypted in the browser using 256 bits AES and no IP address logged"
-            },
-            {
-              "name": "Write.as",
-              "url": "https://write.as/",
-              "description": "Type words, put them on the internet"
-            },
-            {
-              "name": "ZBin",
-              "url": "https://zbin.dev/",
-              "description": "Private & Secure Pastebin"
-            },
-            {
-              "name": "ZeroBin",
-              "url": "https://sebsauvage.net/paste/",
-              "description": "ZeroBin is a minimalist, opensource online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in th…"
-            }
-          ]
+          "name": "BeanPaste",
+          "url": "https://beanpaste.fun/",
+          "description": "A tiny way to share text"
+        },
+        {
+          "name": "bpaste",
+          "url": "https://bpa.st/",
+          "description": "Welcome to bpaste, this site is a pastebin. It"
+        },
+        {
+          "name": "CentOS Pastebin Service",
+          "url": "https://paste.centos.org/",
+          "description": "Stikked is an Open-Source PHP Pastebin, with the aim of keeping a simple and easy to use user interface"
+        },
+        {
+          "name": "cl1p",
+          "url": "https://cl1p.net/",
+          "description": "The Internet Clipboard"
+        },
+        {
+          "name": "commie",
+          "url": "https://commie.io/",
+          "description": "commie is a pastebin script with line commenting support"
+        },
+        {
+          "name": "Context",
+          "url": "https://ctxt.io/",
+          "description": "Share whatever you see with others in seconds"
+        },
+        {
+          "name": "ControlC Pastebin",
+          "url": "https://controlc.com/",
+          "description": "The easiest way to host your text"
+        },
+        {
+          "name": "Cryptobin",
+          "url": "https://cryptobin.co/",
+          "description": "The Ultimate Secure Pastebin"
+        },
+        {
+          "name": "Cutapaste",
+          "url": "https://cutapaste.net/",
+          "description": "Short Code and Share"
+        },
+        {
+          "name": "Defuse",
+          "url": "https://defuse.ca/pastebin.htm",
+          "description": "Encrypted Pastebin - Keep your data private and secure!"
+        },
+        {
+          "name": "doxbin",
+          "url": "https://doxbin.net/",
+          "description": "A dox style pastebin ran by hackers"
+        },
+        {
+          "name": "Etusivu",
+          "url": "https://pastebin.fi/",
+          "description": "It's an open source clone of . Default Language is Finnish"
+        },
+        {
+          "name": "Friendpaste",
+          "url": "https://friendpaste.com/",
+          "description": "Paste stuff to your friends"
+        },
+        {
+          "name": "GitHub gist",
+          "url": "https://gist.github.com/",
+          "description": "Pastebins / Paste Services & Other resource"
+        },
+        {
+          "name": "HashBin",
+          "url": "https://hashb.in/#Q===",
+          "description": "HashBin is a paste bin that never sees the contents of its pastes"
+        },
+        {
+          "name": "hastebin",
+          "url": "https://www.toptal.com/developers/hastebin/",
+          "description": ""
+        },
+        {
+          "name": "ideone",
+          "url": "https://ideone.com/",
+          "description": ""
+        },
+        {
+          "name": "ivpaste",
+          "url": "https://ivpaste.com/",
+          "description": ""
+        },
+        {
+          "name": "jsbin",
+          "url": "https://jsbin.com/",
+          "description": ""
+        },
+        {
+          "name": "justpaste",
+          "url": "https://justpaste.it/",
+          "description": "Pastebins / Paste Services & Other resource .it"
+        },
+        {
+          "name": "Katbin",
+          "url": "https://katb.in/",
+          "description": "Small, lightweight pastebin"
+        },
+        {
+          "name": "lesma.eu",
+          "url": "https://lesma.eu/",
+          "description": "Simple paste app friendly with browser and command line"
+        },
+        {
+          "name": "Linkode(alpha)",
+          "url": "https://linkode.org/",
+          "description": "Linkode is the useful pastebin!"
+        },
+        {
+          "name": "Logpasta",
+          "url": "https://logpasta.com/",
+          "description": "Simple, secure log paste service. Command line mode based"
+        },
+        {
+          "name": "n0paste",
+          "url": "https://n0paste.eu/",
+          "description": "Paste and share your code online"
+        },
+        {
+          "name": "Nachricht",
+          "url": "https://nachricht.co/",
+          "description": "With you can send self-destructive and encrypted one-way messages over the Internet. You don't even need to miss out the messenger or soc…"
+        },
+        {
+          "name": "nekobin",
+          "url": "https://nekobin.com/",
+          "description": "Paste code, save and share the link!"
+        },
+        {
+          "name": "New Paste",
+          "url": "https://paste1.com/",
+          "description": "I wanna paste because typing is so boring!"
+        },
+        {
+          "name": "NoPaste",
+          "url": "https://nopaste.boris.sh/",
+          "description": "NoPaste is an open-source website similar to Pastebin where you can store any piece of code, and generate links for easy sharing"
+        },
+        {
+          "name": "nopaste.net",
+          "url": "https://nopaste.net/",
+          "description": "is a temporary file host, nopaste and clipboard across machines. You can upload files or text and share the link with others"
+        },
+        {
+          "name": "Notes",
+          "url": "https://notes.io/",
+          "description": ""
+        },
+        {
+          "name": "OTS- One Time Secrets",
+          "url": "https://ots.hackliberty.org/",
+          "description": "An encrypted pastebin site. No login needed!"
+        },
+        {
+          "name": "paaster",
+          "url": "https://paaster.io/",
+          "description": "Paaster is a secure and user-friendly pastebin application that prioritizes privacy and simplicity. With end-to-end encryption and paste…"
+        },
+        {
+          "name": "PastBin.net",
+          "url": "https://pastbin.net/",
+          "description": "Similar to Pastebin website where you can store code/text online for a set period of time and share to anyone anywhere. Search Option Ava…"
+        },
+        {
+          "name": "Paste.Cash",
+          "url": "https://www.paste.cash/",
+          "description": "Paste.CASH Is a privacy respected and encrypted pastebin hosted by Cash Hosting. Every paste are encrypted using 256 bits AES"
+        },
+        {
+          "name": "paste.debian",
+          "url": "https://paste.debian.net/",
+          "description": "Pastebins / Paste Services & Other resource"
+        },
+        {
+          "name": "paste.in.ua",
+          "url": "https://paste.in.ua/",
+          "description": ""
+        },
+        {
+          "name": "paste.kde",
+          "url": "https://paste.kde.org/",
+          "description": "Pastebins / Paste Services & Other resource"
+        },
+        {
+          "name": "Paste.Monster",
+          "url": "https://paste.monster/",
+          "description": "Share your thoughts online. API Available"
+        },
+        {
+          "name": "Paste.Quest",
+          "url": "https://pastequest.com/",
+          "description": "Copy and Paste text online to share with anyone anywhere. Use the password option to add a password to the pasted information"
+        },
+        {
+          "name": "paste.sh",
+          "url": "https://paste.sh/",
+          "description": "This is an encrypted paste site. Simply type or paste code here and share the URL. Saving is Automatic"
+        },
+        {
+          "name": "paste.ubuntu",
+          "url": "https://paste.ubuntu.com/",
+          "description": "Pastebins / Paste Services & Other resource"
+        },
+        {
+          "name": "Pastebin",
+          "url": "https://pastebin.pl/",
+          "description": "Store code/text online for a set period of time and share to anybody on earth"
+        },
+        {
+          "name": "Pastebin - Tor Link",
+          "url": "https://tor.link/paste/new",
+          "description": "Paste text to store or share with others"
+        },
+        {
+          "name": "Pastebin.cz",
+          "url": "https://www.pastebin.cz/en/",
+          "description": "A simple Pastebin"
+        },
+        {
+          "name": "Pastery",
+          "url": "https://www.pastery.net/",
+          "description": "The sweetest pastebin in the world!"
+        },
+        {
+          "name": "PasteShr",
+          "url": "https://www.pasteshr.com/",
+          "description": "Store any text online for easy sharing. Search option available!"
+        },
+        {
+          "name": "PasteSite.Net",
+          "url": "https://pastesite.net/",
+          "description": "The new generation pastebin"
+        },
+        {
+          "name": "Rentry",
+          "url": "https://rentry.co/",
+          "description": "is a markdown paste service service with preview, custom urls and editing. Fast, simple and free"
+        },
+        {
+          "name": "SafeNote",
+          "url": "https://safenote.co/",
+          "description": "SafeNote is a free web-based service that"
+        },
+        {
+          "name": "scrt.link",
+          "url": "https://scrt.link/",
+          "description": "Share a Secret with a link that only works one time and then self-destructs"
+        },
+        {
+          "name": "snippet.host",
+          "url": "https://snippet.host/",
+          "description": "Minimal text and code snippet hosting"
+        },
+        {
+          "name": "Spacebin",
+          "url": "https://spaceb.in/",
+          "description": "Spacebin is a modern Pastebin server implemented in Go and is capable of serving notes, novels, code, or any other form of text"
+        },
+        {
+          "name": "TextBin",
+          "url": "https://textbin.net/",
+          "description": "Secure pastebin where you can paste and store any type of text or code snippets online and share it with your friends"
+        },
+        {
+          "name": "Textbin-Code",
+          "url": "https://textbin.online/",
+          "description": "SECURE YOUR CODE!"
+        },
+        {
+          "name": "Tiny Paste",
+          "url": "https://tinypaste.in/",
+          "description": "Simple Pastebin. Login option available!"
+        },
+        {
+          "name": "TutPaste",
+          "url": "https://tutpaste.com/",
+          "description": "Welcome to our fast and free online paste tool. Paste and share your text or code snippets with anyone, anywhere, no registration required"
+        },
+        {
+          "name": "vaultbin",
+          "url": "https://vaultb.in/",
+          "description": "Vaultbin is a blazingly fast and secure alternative to Pastebin and Hastebin"
+        },
+        {
+          "name": "Verybin",
+          "url": "https://www.verybin.com/",
+          "description": "Anonymous and encrypted pastebin. Data is encrypted/decrypted in the browser using 256 bits AES and no IP address logged"
+        },
+        {
+          "name": "Write.as",
+          "url": "https://write.as/",
+          "description": "Type words, put them on the internet"
+        },
+        {
+          "name": "ZBin",
+          "url": "https://zbin.dev/",
+          "description": "Private & Secure Pastebin"
+        },
+        {
+          "name": "ZeroBin",
+          "url": "https://sebsauvage.net/paste/",
+          "description": "ZeroBin is a minimalist, opensource online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in th…"
         }
       ]
     },
