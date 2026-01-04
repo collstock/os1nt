@@ -6825,6 +6825,16 @@
           "name": "ProfileImageIntel",
           "url": "https://profileimageintel.com/",
           "description": "Social media and WhatsApp profile image tool to find when a profile image was uploaded"
+        },
+        {
+          "name": "What Font Is",
+          "url": "https://www.whatfontis.com/",
+          "description": "Find any font from an image"
+        },
+        {
+          "name": "What The Font",
+          "url": "https://www.myfonts.com/WhatTheFont/",
+          "description": "Font identifier"
         }
       ]
     },
@@ -9631,16 +9641,6 @@
           "subtitle": "",
           "items": [
             {
-              "name": "7Photos.net",
-              "url": "http://7photos.net/",
-              "description": ""
-            },
-            {
-              "name": "Camera Trace",
-              "url": "http://www.cameratrace.com/trace",
-              "description": ""
-            },
-            {
               "name": "CamFind App",
               "url": "http://camfindapp.com/",
               "description": ""
@@ -9651,33 +9651,13 @@
               "description": ""
             },
             {
-              "name": "DocJax",
-              "url": "http://www.docjax.com/",
-              "description": ""
-            },
-            {
               "name": "Eleven Labs Dubbing",
               "url": "https://elevenlabs.io/dubbing",
-              "description": ""
-            },
-            {
-              "name": "ExifViewer",
-              "url": "http://www.exifviewer.org/",
-              "description": ""
+              "description": "Translate audio and video while preserving the emotion, timing, tone and unique characteristics of each speaker"
             },
             {
               "name": "Facebook Live Map",
               "url": "https://www.facebook.com/livemap#",
-              "description": ""
-            },
-            {
-              "name": "filessoo.com",
-              "url": "http://filessoo.com/",
-              "description": ""
-            },
-            {
-              "name": "Flickr Hive Mind",
-              "url": "http://flickrhivemind.net/",
               "description": ""
             },
             {
@@ -9704,11 +9684,6 @@
               "name": "Ghiro ",
               "url": "https://github.com/ghirensics/ghiro",
               "description": ""
-            },
-            {
-              "name": "Google Images",
-              "url": "https://images.google.com/?gws_rd=ssl",
-              "description": "OSINT Videos / Other Video OSINT resource"
             },
             {
               "name": "Google Videos",
@@ -9741,18 +9716,8 @@
               "description": ""
             },
             {
-              "name": "Metapicz",
-              "url": "http://metapicz.com/#landing",
-              "description": ""
-            },
-            {
               "name": "My Pics Map",
               "url": "http://www.mypicsmap.com/",
-              "description": ""
-            },
-            {
-              "name": "Panoramio",
-              "url": "http://www.panoramio.com/",
               "description": ""
             },
             {
@@ -9783,16 +9748,6 @@
             {
               "name": "TubeChop",
               "url": "http://www.tubechop.com/",
-              "description": ""
-            },
-            {
-              "name": "What Font Is",
-              "url": "https://www.whatfontis.com/",
-              "description": ""
-            },
-            {
-              "name": "What The Font",
-              "url": "https://www.myfonts.com/WhatTheFont/",
               "description": ""
             },
             {
@@ -9915,123 +9870,117 @@
             "name": "yt-dlp",
             "url": "https://github.com/yt-dlp/yt-dlp/",
             "description": "Downloads videos , along with information, thumbnails, subtitles, descriptions, and comments (comments only on a select few sites like Yo…"
+          },
+          {
+            "name": "Amazon AWS (D)",
+            "url": "https://www.google.com/search?q=site:s3.amazonaws.com+%3Csearchterm%3E",
+            "description": ""
+          },
+          {
+            "name": "blinkx Video Search",
+            "url": "http://www.blinkx.com/",
+            "description": ""
+          },
+          {
+            "name": "CC Search",
+            "url": "https://ccsearch.creativecommons.org/",
+            "description": "OSINT Videos / Search & Discovery resource"
+          },
+          {
+            "name": "Cryptome (D)",
+            "url": "https://www.google.com/search?q=site:cryptome.org+%3Csearchterm%3E",
+            "description": ""
+          },
+          {
+            "name": "Dogpile Web Search",
+            "url": "http://www.dogpile.com/",
+            "description": ""
+          },
+          {
+            "name": "Dropbox (D)",
+            "url": "https://www.google.com/?q=site:dl.dropbox.com+%3Csearchterm%3E",
+            "description": ""
+          },
+          {
+            "name": "GoogleDocs (D)",
+            "url": "https://www.google.com/?q=site:docs.google.com+%3Csearchterm%3E",
+            "description": ""
+          },
+          {
+            "name": "GoogleDrive (D)",
+            "url": "https://www.google.com/?q=site:drive.google.com+%3Csearchterm%3E",
+            "description": ""
+          },
+          {
+            "name": "IdentiFont",
+            "url": "http://www.identifont.com/index.html",
+            "description": ""
+          },
+          {
+            "name": "Imgur Search",
+            "url": "https://imgur.com/search",
+            "description": ""
+          },
+          {
+            "name": "Lakako Photo Search",
+            "url": "http://www.lakako.com/",
+            "description": ""
+          },
+          {
+            "name": "Leaked Cables",
+            "url": "https://search.wikileaks.org/plusd/",
+            "description": "OSINT Videos / Search & Discovery resource"
+          },
+          {
+            "name": "OneDrive (D)",
+            "url": "https://www.google.com/search?safe=off&q=site:onedrive.live.com+%3Csearchterm%3E",
+            "description": ""
+          },
+          {
+            "name": "PimEyes Face Search Engine",
+            "url": "https://pimeyes.com/en",
+            "description": ""
+          },
+          {
+            "name": "RevEye Reverse Image Search ",
+            "url": "https://chrome.google.com/webstore/detail/reveye-reverse-image-sear/keaaclcjhehbbapnphnmpiklalfhelgf?hl=en",
+            "description": "OSINT Videos / Search & Discovery resource"
+          },
+          {
+            "name": "Search by Exif",
+            "url": "http://www.exif-search.com/",
+            "description": ""
+          },
+          {
+            "name": "SmugMug Search",
+            "url": "http://www.smugmug.com/search",
+            "description": ""
+          },
+          {
+            "name": "TinEye Reverse Image Search",
+            "url": "http://tineye.com/",
+            "description": ""
+          },
+          {
+            "name": "Twitter Image Search (M)",
+            "url": "https://twitter.com/search?q=%3Csearchterm%3E&src=typd&vertical=default&f=images",
+            "description": ""
+          },
+          {
+            "name": "Vimeo Search",
+            "url": "https://vimeo.com/search?",
+            "description": ""
+          },
+          {
+            "name": "Vines (D)",
+            "url": "https://www.google.com/search?q=site:vine.co+%3Csearchterm%3E",
+            "description": ""
+          },
+          {
+            "name": "WikiLeaks Search",
+            "url": "https://search.wikileaks.org/advanced",
+            "description": "OSINT Videos / Search & Discovery resource"
           }
-        ]
-      },
-        {
-          "title": "Video Discovery",
-          "subtitle": "",
-          "items": [
-            {
-              "name": "Amazon AWS (D)",
-              "url": "https://www.google.com/search?q=site:s3.amazonaws.com+%3Csearchterm%3E",
-              "description": ""
-            },
-            {
-              "name": "blinkx Video Search",
-              "url": "http://www.blinkx.com/",
-              "description": ""
-            },
-            {
-              "name": "CC Search",
-              "url": "https://ccsearch.creativecommons.org/",
-              "description": "OSINT Videos / Search & Discovery resource"
-            },
-            {
-              "name": "Cryptome (D)",
-              "url": "https://www.google.com/search?q=site:cryptome.org+%3Csearchterm%3E",
-              "description": ""
-            },
-            {
-              "name": "Dogpile Web Search",
-              "url": "http://www.dogpile.com/",
-              "description": ""
-            },
-            {
-              "name": "Dropbox (D)",
-              "url": "https://www.google.com/?q=site:dl.dropbox.com+%3Csearchterm%3E",
-              "description": ""
-            },
-            {
-              "name": "GoogleDocs (D)",
-              "url": "https://www.google.com/?q=site:docs.google.com+%3Csearchterm%3E",
-              "description": ""
-            },
-            {
-              "name": "GoogleDrive (D)",
-              "url": "https://www.google.com/?q=site:drive.google.com+%3Csearchterm%3E",
-              "description": ""
-            },
-            {
-              "name": "IdentiFont",
-              "url": "http://www.identifont.com/index.html",
-              "description": ""
-            },
-            {
-              "name": "Imgur Search",
-              "url": "https://imgur.com/search",
-              "description": ""
-            },
-            {
-              "name": "Lakako Photo Search",
-              "url": "http://www.lakako.com/",
-              "description": ""
-            },
-            {
-              "name": "Leaked Cables",
-              "url": "https://search.wikileaks.org/plusd/",
-              "description": "OSINT Videos / Search & Discovery resource"
-            },
-            {
-              "name": "OneDrive (D)",
-              "url": "https://www.google.com/search?safe=off&q=site:onedrive.live.com+%3Csearchterm%3E",
-              "description": ""
-            },
-            {
-              "name": "PimEyes Face Search Engine",
-              "url": "https://pimeyes.com/en",
-              "description": ""
-            },
-            {
-              "name": "RevEye Reverse Image Search ",
-              "url": "https://chrome.google.com/webstore/detail/reveye-reverse-image-sear/keaaclcjhehbbapnphnmpiklalfhelgf?hl=en",
-              "description": "OSINT Videos / Search & Discovery resource"
-            },
-            {
-              "name": "Search by Exif",
-              "url": "http://www.exif-search.com/",
-              "description": ""
-            },
-            {
-              "name": "SmugMug Search",
-              "url": "http://www.smugmug.com/search",
-              "description": ""
-            },
-            {
-              "name": "TinEye Reverse Image Search",
-              "url": "http://tineye.com/",
-              "description": ""
-            },
-            {
-              "name": "Twitter Image Search (M)",
-              "url": "https://twitter.com/search?q=%3Csearchterm%3E&src=typd&vertical=default&f=images",
-              "description": ""
-            },
-            {
-              "name": "Vimeo Search",
-              "url": "https://vimeo.com/search?",
-              "description": ""
-            },
-            {
-              "name": "Vines (D)",
-              "url": "https://www.google.com/search?q=site:vine.co+%3Csearchterm%3E",
-              "description": ""
-            },
-            {
-              "name": "WikiLeaks Search",
-              "url": "https://search.wikileaks.org/advanced",
-              "description": "OSINT Videos / Search & Discovery resource"
-            }
           ]
         },
         {
@@ -10275,17 +10224,12 @@
       "items": [
         {
           "name": "Kik ",
-          "url": "https://play.google.com/store/apps/details?id=kik.android",
-          "description": ""
-        },
-        {
-          "name": "Kik Username (M)",
-          "url": "http://kik.me/%3Cusername%3E",
+          "url": "https://kik.com/",
           "description": ""
         },
         {
           "name": "LINE ",
-          "url": "https://play.google.com/store/apps/details?id=jp.naver.line.android",
+          "url": "https://www.line.me/en/",
           "description": ""
         },
         {
@@ -10295,47 +10239,37 @@
         },
         {
           "name": "Riot.im - Communicate, your way ",
-          "url": "https://play.google.com/store/apps/details?id=im.vector.app",
+          "url": "https://element.io/en",
           "description": ""
         },
         {
           "name": "Signal Private Messenger ",
-          "url": "https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms",
-          "description": ""
-        },
-        {
-          "name": "Skype Resolver 2019",
-          "url": "http://www.skypeipresolver.net/",
-          "description": ""
-        },
-        {
-          "name": "Skype Web Client",
-          "url": "https://web.skype.com/",
+          "url": "https://signal.org/",
           "description": ""
         },
         {
           "name": "Snapchat ",
-          "url": "https://play.google.com/store/apps/details?id=com.snapchat.android",
-          "description": ""
-        },
-        {
-          "name": "Snapchat Leak Checker",
-          "url": "https://lastpass.com/snapchat/",
+          "url": "https://www.snapchat.com/",
           "description": ""
         },
         {
           "name": "Telegram ",
-          "url": "https://play.google.com/store/apps/details?id=org.telegram.messenger",
+          "url": "https://telegram.org/",
           "description": ""
         },
         {
+          "name": "WeChat ",
+          "url": "https://www.wechat.com/",
+          "description": "Chinese messaging app"
+        },
+        {
           "name": "WhatsApp Messenger ",
-          "url": "https://play.google.com/store/apps/details?id=com.whatsapp",
+          "url": "https://www.whatsapp.com/",
           "description": ""
         },
         {
           "name": "Yik Yak ",
-          "url": "https://play.google.com/store/apps/details?id=com.yik.yak",
+          "url": "https://yikyak.com/",
           "description": ""
         },
         {
@@ -11085,6 +11019,11 @@
           "name": "Global Terrorism Database",
           "url": "http://www.start.umd.edu/gtd/",
           "description": ""
+        },
+        {
+          "name": "South Asia Terrorism Portal",
+          "url": "http://www.satp.org/",
+          "description": "Comprehensive, searchable online database and research center focusing on terrorism, low-intensity warfare, and sectarian violence specifically in South Asia"
         }
       ]
     },
