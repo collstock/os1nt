@@ -7377,7 +7377,17 @@
             {
               "name": "Windy",
               "url": "https://www.windy.com/",
-              "description": ""
+              "description": "Detailed overview of current and forecasted weather conditions"
+            },
+            {
+              "name": "Past Weather",
+              "url": "https://www.timeanddate.com/",
+              "description": "Check what the weather was like on a specific date in the past"
+            },
+            {
+              "name": "Wunderground",
+              "url": "https://www.wunderground.com/",
+              "description": "Detailed weather information including historical data"
             }
           ]
         }
