@@ -1301,7 +1301,7 @@
         {
           "name": "docker-onion-nmap ",
           "url": "https://github.com/milesrichardson/docker-onion-nmap",
-          "description": "Use nmap to scan hidden "onion" services on the Tor network. "
+          "description": "Use nmap to scan hidden onion services on the Tor network. "
         },
         {
           "name": "Exonera Tor",
