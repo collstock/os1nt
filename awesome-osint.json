@@ -2805,11 +2805,6 @@
               "description": ""
             },
             {
-              "name": "Imgrab",
-              "url": "https://imgrab.com/",
-              "description": ""
-            },
-            {
               "name": "Inflact Instagram Viewer (Anonymous)",
               "url": "https://inflact.com/profiles/instagram-viewer/",
               "description": ""
@@ -7369,27 +7364,6 @@
               "description": ""
             }
           ]
-        },
-        {
-          "title": "Weather",
-          "subtitle": "",
-          "items": [
-            {
-              "name": "Windy",
-              "url": "https://www.windy.com/",
-              "description": "Detailed overview of current and forecasted weather conditions"
-            },
-            {
-              "name": "Past Weather",
-              "url": "https://www.timeanddate.com/",
-              "description": "Check what the weather was like on a specific date in the past"
-            },
-            {
-              "name": "Wunderground",
-              "url": "https://www.wunderground.com/",
-              "description": "Detailed weather information including historical data"
-            }
-          ]
         }
       ]
     },
@@ -8177,6 +8151,27 @@
               "name": "WHO Data",
               "url": "http://www.who.int/gho/en",
               "description": "Data and Statistics / Health resource .int"
+            }
+          ]
+        },
+        {
+          "title": "Weather",
+          "subtitle": "",
+          "items": [
+            {
+              "name": "Windy",
+              "url": "https://www.windy.com/",
+              "description": "Detailed overview of current and forecasted weather conditions"
+            },
+            {
+              "name": "Past Weather",
+              "url": "https://www.timeanddate.com/",
+              "description": "Check what the weather was like on a specific date in the past"
+            },
+            {
+              "name": "Wunderground",
+              "url": "https://www.wunderground.com/",
+              "description": "Detailed weather information including historical data"
             }
           ]
         }
@@ -10957,42 +10952,6 @@
             {
               "name": "Nox App Player",
               "url": "https://www.bignox.com/",
-              "description": ""
-            }
-          ]
-        },
-        {
-          "title": "Android Apps (Play Store)",
-          "subtitle": "",
-          "items": [
-            {
-              "name": "Flickr",
-              "url": "https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.flickr",
-              "description": ""
-            },
-            {
-              "name": "Instagram",
-              "url": "https://play.google.com/store/apps/details?id=com.instagram.android",
-              "description": ""
-            },
-            {
-              "name": "Meerkat",
-              "url": "https://play.google.com/store/apps/details?id=co.getair.meerkat",
-              "description": ""
-            },
-            {
-              "name": "Periscope",
-              "url": "https://play.google.com/store/apps/details?id=tv.periscope.android",
-              "description": ""
-            },
-            {
-              "name": "Truecaller",
-              "url": "https://play.google.com/store/apps/details?id=com.truecaller",
-              "description": ""
-            },
-            {
-              "name": "Vine",
-              "url": "https://play.google.com/store/apps/details?id=co.vine.android",
               "description": ""
             }
           ]
