@@ -1291,7 +1291,7 @@
         {
           "name": "Aleph Open Search",
           "url": "https://open-search.aleph-networks.eu/",
-          "description": ""
+          "description": "Search for exposed company information on the dark web"
         },
         {
           "name": "Tor Watch",
@@ -1301,7 +1301,7 @@
         {
           "name": "docker-onion-nmap ",
           "url": "https://github.com/milesrichardson/docker-onion-nmap",
-          "description": ""
+          "description": "Use nmap to scan hidden "onion" services on the Tor network. "
         },
         {
           "name": "Exonera Tor",
@@ -1311,7 +1311,7 @@
         {
           "name": "Hyphanet",
           "url": "https://hyphanet.org/",
-          "description": ""
+          "description": "A decentralized dark network"
         },
         {
           "name": "Hidden Wiki",
@@ -1321,7 +1321,7 @@
         {
           "name": "I2P Anonymous Network ",
           "url": "https://geti2p.net/en/",
-          "description": ""
+          "description": "A fully encrypted private network laye"
         },
         {
           "name": "IACA Dark Web Investigation Support",
@@ -1344,14 +1344,14 @@
           "description": "Free and open source tool for investigating the Dark Web. Its main goal is to help researchers and investigators monitor and track Dark W…"
         },
         {
-          "name": "Tor Download ",
+          "name": "Tor Browser ",
           "url": "https://www.torproject.org/download/download-easy.html.en",
-          "description": ""
+          "description": "Official browser for accessing the Tor network and .onion sites securely and anonymously"
         },
         {
           "name": "TorBot",
           "url": "https://github.com/DedSecInside/TorBot",
-          "description": ""
+          "description": "Onion crawler and search engine for the Tor network"
         },
         {
           "name": "Web O Proxy",
@@ -3937,12 +3937,12 @@
             {
               "name": "Email Format",
               "url": "http://email-format.com/",
-              "description": "is a website that"
+              "description": "Find email address formats in use at thousands of companies"
             },
             {
               "name": "Email Permutator",
               "url": "http://metricsparrow.com/toolkit/email-permutator/",
-              "description": ""
+              "description": "Create email address permutations based on a person's name and domain"
             },
             {
               "name": "Email Permutator",
