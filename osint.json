@@ -286,6 +286,11 @@
           "name": "CyberChef",
           "url": "https://gchq.github.io/CyberChef/",
           "description": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis."
+        },
+        {
+          "name": "MxToolbox",
+          "url": "http://mxtoolbox.com/",
+          "description": "Email header analyzer and mail server diagnostic tools including DNS, MX, and SMTP checks"
         }
       ]
     }
