@@ -3554,22 +3554,17 @@
         {
           "name": "4chan Search",
           "url": "https://4chansearch.com/",
-          "description": ""
+          "description": "Search 4chan and archives"
         },
         {
           "name": "Boardreader",
           "url": "http://boardreader.com/",
-          "description": ""
+          "description": "Discussion forum search engine"
         },
         {
           "name": "Built With Flarum",
           "url": "https://builtwithflarum.com/",
-          "description": ""
-        },
-        {
-          "name": "Facebook Groups",
-          "url": "https://www.facebook.com/",
-          "description": ""
+          "description": "User sudmitted Flarum forums directory"
         },
         {
           "name": "Google Groups",
@@ -3577,14 +3572,14 @@
           "description": "Forums and Discussion Boards Search resource"
         },
         {
-          "name": "Linkedin Groups",
-          "url": "http://www.linkedin.com/",
-          "description": ""
+          "name": "Omgili",
+          "url": "http://omgili.com/",
+          "description": "Forums and Discussion Boards Search resource"
         },
         {
           "name": "Ning",
           "url": "http://www.ning.com/",
-          "description": ""
+          "description": "Forums and Discussion Boards Search resource"
         },
         {
           "name": "Yahoo Groups",
@@ -11121,21 +11116,6 @@
       "subtitle": "",
       "items": [
         {
-          "name": "0day.today",
-          "url": "http://0day.today/",
-          "description": ""
-        },
-        {
-          "name": "Australian Cyber Security Centre",
-          "url": "https://www.cyber.gov.au/",
-          "description": ""
-        },
-        {
-          "name": "Canadian Centre for Cyber Security",
-          "url": "https://cyber.gc.ca/",
-          "description": ""
-        },
-        {
           "name": "CVE - MITRE",
           "url": "http://cve.mitre.org/",
           "description": ""
@@ -11171,11 +11151,6 @@
           "description": ""
         },
         {
-          "name": "Hashes.org",
-          "url": "https://hashes.org/",
-          "description": ""
-        },
-        {
           "name": "Mend Vulnerability Database",
           "url": "https://www.mend.io/vulnerability-database/",
           "description": ""
@@ -11208,11 +11183,6 @@
         {
           "name": "Packet Storm",
           "url": "https://packetstormsecurity.com/",
-          "description": ""
-        },
-        {
-          "name": "Phenoelit Default Password List",
-          "url": "http://phenoelit.org/dpl/dpl.html",
           "description": ""
         },
         {
