@@ -105,6 +105,11 @@
               "name": "urlscan.io",
               "url": "https://urlscan.io/search/#*",
               "description": "URL and website scanner that analyzes page content and detects security threats"
+            },
+            {
+              "name": "Bulk WHOIS Lookup",
+              "url": "https://bulkseotools.com/bulk-whois-lookup.php",
+              "description": "Lookup WHOIS information for multiple domains at once"
             }
           ]
         },
