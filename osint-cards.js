@@ -8,7 +8,8 @@
 
   // Determine which JSON file to load based on view mode
   const isSimplified = sessionStorage.getItem('osintSimplified') === 'true';
-  const JSON_PATH = isSimplified ? "osint.json" : "awesome-osint.json";
+  const isLeas = sessionStorage.getItem('osintLeas') === 'true';
+  const JSON_PATH = isLeas ? "osint_le.json" : (isSimplified ? "osint.json" : "awesome-osint.json");
   const containers = [
     document.getElementById("osint-cards"),
     document.getElementById("osint-cards-middle"),
