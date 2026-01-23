@@ -50,6 +50,105 @@
 
     <section class="blog-feed" aria-label="Blog posts">
 
+      <!-- NEW POST: TINDER OSINT -->
+      <article class="card post-card">
+        <div class="card-head">
+          <div class="card-title">
+            <h2>Tinder OSINT: extracting profile data from network traffic</h2>
+            <div class="post-meta">
+              <span>Published 23 January 2026</span>
+              <span>8 min read</span>
+              <span>By OS1NT R3P0</span>
+            </div>
+          </div>
+          <button class="btn small" type="button">Bookmark</button>
+        </div>
+
+        <div class="card-body">
+          <p>Tinder is a mobile-first dating application with limited traditional OSINT surface. However, analysts can still extract meaningful information by examining network traffic sent to the mobile or web client.</p>
+
+          <h3>Data access and collection</h3>
+          <p>To conduct analysis, use a browser's Network Inspection tool or a web proxy such as Fiddler or Proxyman. During normal browsing, the application preloads profile data through API responses. One commonly observed response is a <code>core.json</code> file containing up to 15 profile cards loaded in advance.</p>
+
+          <p>This process does not require interaction with the profiles themselves. The data arrives automatically as part of the application's performance optimization.</p>
+
+          <h3>Identifiers and metadata</h3>
+          <p>Each profile loads with multiple internal identifiers, including:</p>
+          <ul>
+            <li>A MongoDB ObjectId, which encodes the user's registration timestamp.</li>
+            <li>A secondary internal numeric identifier used by the platform.</li>
+            <li>A content hash linked to profile state.</li>
+          </ul>
+            <figure>
+            <img src="blogres/user_bio.png" alt="Basic bio in core file" />
+            <figcaption class="muted">MongoDB ObjectID and basic bio in core.json</figcaption>
+            </figure>
+          <p>Together, these identifiers allow analysts to infer account age, correlate profiles across datasets, and distinguish between newly created and long-standing accounts.</p>
+            <h3>How to extract a timestamp from a MongoDB ObjectId</h3>
+            <p>A MongoDB ObjectId is a 24-character hexadecimal string. Its first 8 characters represent a Unix timestamp (seconds since 1 January 1970).</p>
+
+            <p><b>Analytical steps:</b></p>
+            <ol>
+              <li>Take the first 8 hexadecimal characters of the ObjectId.</li>
+              <li>Convert that value from hexadecimal to decimal.</li>
+              <li>Interpret the result as a Unix timestamp (UTC).</li>
+            </ol>
+
+            <p>This allows analysts to determine when a Tinder account was created, even if the platform does not display that information to users.</p>
+
+            <p><b>Example logic (conceptual):</b></p>
+            <ul>
+              <li>ObjectId: <code>5a7718e8f01e5f122e50061f</code></li>
+              <li>First 8 characters: <code>5a7718e8</code></li>
+              <li>Hex → decimal → Unix timestamp</li>
+              <li>Result: account creation date in UTC</li>
+            </ul>
+
+            <p>This technique is reliable because MongoDB generates ObjectIds server-side and embeds the timestamp by design.</p>
+          <h3>Personal and profile attributes</h3>
+          <p>The captured data typically includes:</p>
+          <ul>
+            <li>First name</li>
+            <li>Birth date, or an explicitly marked fuzzy birth date when the user restricts visibility</li>
+            <li>Bio text and badges</li>
+            <li>Lifestyle and personality descriptors, such as communication style, habits, and relationship intent</li>
+            <li>Distance information, revealing approximate geographic proximity at the time of capture</li>
+          </ul>
+          <p>Even when some fields appear hidden in the user interface, they often remain present in the underlying API response.</p>
+
+          <h3>Images and biometric metadata</h3>
+          <p>Profile photos arrive in multiple processed resolutions for display. In addition, the data frequently references an original, unprocessed high-resolution image hosted on Tinder's content delivery infrastructure.</p>
+
+          <p>Access to these originals relies on session-specific signed URLs. While the links expire, they allow full-resolution viewing without authentication as long as the session key remains valid.</p>
+
+          <p>The metadata also reveals automated image handling:</p>
+          <ul>
+            <li>Face detection bounding boxes</li>
+            <li>Cropping coordinates</li>
+            <li>Indicators showing algorithmic processing</li>
+          </ul>
+          <p>This information confirms that images undergo server-side facial analysis before delivery.</p>
+
+          <h3>Practical OSINT value</h3>
+          <p>Without interacting with users or bypassing controls, network traffic analysis can reveal:</p>
+          <ul>
+            <li>Account creation timelines</li>
+            <li>Consistency or obfuscation of age data</li>
+            <li>Behavioral and lifestyle indicators</li>
+            <li>High-resolution imagery and biometric processing artifacts</li>
+            <li>Differences between displayed privacy settings and backend data exposure</li>
+          </ul>
+
+          <div class="tag-list" aria-label="Tags">
+            <span class="chip"><b>OSINT</b></span>
+            <span class="chip"><b>Network Analysis</b></span>
+            <span class="chip"><b>API</b></span>
+            <span class="chip"><b>Dating Apps</b></span>
+            <span class="chip"><b>Tradecraft</b></span>
+          </div>
+        </div>
+      </article>
+
       <!-- NEW POST: FAVICON SEARCHES -->
       <article class="card post-card">
         <div class="card-head">
@@ -115,8 +214,6 @@ http.favicon.hash:123456789 port:443
             <span class="chip"><b>Shodan</b></span>
             <span class="chip"><b>Tradecraft</b></span>
           </div>
-        </div>
-      </article>
 
     </section>
 
