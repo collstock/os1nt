@@ -33,6 +33,11 @@
           "name": "GHunt",
           "url": "https://github.com/mxrch/GHunt",
           "description": "GHunt searches Google accounts for information such as last modifications, connected services, and more."
+        },
+        {
+          "name": "Maltego Search",
+          "url": "https://maltego.com/search-entities/",
+          "description": "Web-based search for entities such as people, companies, domains, and more using Maltego's data sources"
         }
       ]
     },
