@@ -1,0 +1,298 @@
+{
+  "categories": [
+    {
+      "title": "[\u2191](#-table-of-contents) Person Search",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "What's My Name",
+          "url": "https://whatsmyname.app/",
+          "description": "People search engine for finding social media profiles, contact info, and public records"
+        },
+        {
+          "name": "Epieos",
+          "url": "https://www.epieos.com/",
+          "description": "People search engine for finding social media profiles and online presence"
+        },
+        {
+          "name": "Have I Been Pwned",
+          "url": "https://haveibeenpwned.com/",
+          "description": "Service that allows users to check if their personal data has been compromised in data breaches"
+        },
+        {
+          "name": "That's Them",
+          "url": "https://thatsthem.com/",
+          "description": "People search engine for finding social media profiles, contact info, and public records"
+        },
+        {
+          "name": "Sherlock",
+          "url": "https://github.com/sherlock-project/sherlock",
+          "description": "Username search tool that finds usernames across social media platforms"
+        },
+        {
+          "name": "GHunt",
+          "url": "https://github.com/mxrch/GHunt",
+          "description": "GHunt searches Google accounts for information such as last modifications, connected services, and more."
+        }
+      ]
+    },
+    {
+      "title": "[\u2191](#-table-of-contents) Company Search",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "OpenCorporates",
+          "url": "https://opencorporates.com/",
+          "description": "The largest open database of companies in the world"
+        }, 
+        {
+          "name": "E-Justice Portal",
+          "url": "https://e-justice.europa.eu/topics/registers-business-insolvency-land/business-registers-search-company-eu_en",
+          "description": "Search for companies across European Union member states"
+        },
+        {
+          "name": "Companies House",
+          "url": "https://www.gov.uk/government/organisations/companies-house",
+          "description": "Official UK government register of companies"
+        }
+      ]
+    },
+    {
+      "title": "[\u2191](#-table-of-contents) General Search",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "DuckDuckGo",
+          "url": "https://duckduckgo.com/",
+          "description": "Privacy-focused search engine that does not track users"
+        },
+        {
+          "name": "Google NCR",
+          "url": "https://www.google.com/ncr",
+          "description": "Google search without regional redirects"
+        },
+        {
+          "name": "Wayback Machine",
+          "url": "https://archive.org/web/",
+          "description": "Digital archive of the World Wide Web and other information on the Internet"
+        },
+        {
+          "name": "SpiderFoot",
+          "url": "https://www.spiderfoot.net/",
+          "description": "Open source intelligence automation tool for gathering information from various sources"
+        }
+      ]
+    },
+    {
+      "title": "[\u2191](#-table-of-contents) Domain and IP Search",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "Central Ops",
+          "url": "http://centralops.net/",
+          "description": "Domain and IP research tools including traceroute, DNS, whois lookups"
+        },
+        {
+          "name": "Shodan",
+          "url": "https://www.shodan.io/",
+          "description": "Search engine for internet-connected devices with banner grabbing and vulnerability data"
+        },
+        {
+          "name": "ipinfo.io",
+          "url": "https://ipinfo.io/",
+          "description": "IP address intelligence platform providing geolocation, ASN, and privacy data"
+        },
+        {
+          "name": "host.io",
+          "url": "https://host.io/",
+          "description": "Host discovery and domain intelligence platform for subdomains, IPs, and technologies"
+        },
+        {
+          "name": "DNSDumpster",
+          "url": "https://dnsdumpster.com/",
+          "description": "Domain reconnaissance tool for discovering subdomains and DNS records"
+        },
+        {
+          "name": "WhoisXML API",
+          "url": "https://www.whoisxmlapi.com/",
+          "description": "Comprehensive WHOIS, DNS, IP, and domain intelligence APIs with historical records"
+        },
+        {
+          "name": "ViewDNS.info",
+          "url": "http://viewdns.info/",
+          "description": "DNS lookup and domain research tools including reverse IP and reverse DNS lookup"
+        },
+        {
+          "name": "urlscan.io",
+          "url": "https://urlscan.io/search/#*",
+          "description": "URL and website scanner that analyzes page content and detects security threats"
+        }
+      ]
+    },
+    {
+      "title": "[\u2191](#-table-of-contents) Documentation",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "Hunchly",
+          "url": "https://hunch.ly/",
+          "description": "Hunchly is a web capture tool designed for online investigations."
+        },
+        {
+          "name": "Video DownloadHelper",
+          "url": "https://www.downloadhelper.net/",
+          "description": "Browser extension for downloading videos and images from websites"
+        },
+        {
+          "name": "StorySaver",
+          "url": "https://storysaver.net/",
+          "description": "Instagram story viewer and downloader for saving stories anonymously"
+        }
+      ]
+    },
+    {
+      "title": "[\u2191](#-table-of-contents) Operational Security",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "Tails",
+          "url": "https://tails.boum.org/",
+          "description": "Live operating system focused on privacy and anonymity"
+        },
+        {
+          "name": "Oracle VirtualBox",
+          "url": "https://www.virtualbox.org/",
+          "description": "Virtualization software for running multiple operating systems on a single machine."
+        },
+        {
+          "name": "Cloudflare WARP",
+          "url": "https://www.cloudflare.com/warp/",
+          "description": "VPN service that encrypts internet traffic and enhances privacy and security"
+        },
+        {
+          "name": "Genymotion",
+          "url": "https://www.genymotion.com/",
+          "description": "Android emulator for app testing and development"
+        },
+        {
+          "name": "VMware",
+          "url": "https://www.vmware.com/products/workstation-player.html",
+          "description": "Virtualization framework for running multiple operating systems as virtual machines"
+        },
+        {
+          "name": "Kali Linux",
+          "url": "https://www.kali.org/",
+          "description": "Debian-based distribution for penetration testing and security research"
+        },
+        {
+          "name": "ParrotSec OS",
+          "url": "https://www.parrotsec.org/",
+          "description": "Security-oriented operating system for penetration testing and privacy"
+        },
+        {
+          "name": "Whonix",
+          "url": "https://www.whonix.org/wiki/Main_Page",
+          "description": "Privacy-focused operating system built on top of Tor"
+        }
+      ]
+    },
+    {
+      "title": "[\u2191](#-table-of-contents) Image Search",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "Google Reverse Image Search",
+          "url": "https://images.google.com/",
+          "description": "Search by image to find similar images and sources"
+        },
+        {
+          "name": "TinEye",
+          "url": "https://tineye.com/",
+          "description": "Reverse image search engine to find where images appear online"
+        },
+        {
+          "name": "Yandex Images",
+          "url": "https://yandex.com/images/",
+          "description": "Reverse image search engine by Yandex to find similar images and sources"
+        },
+        {
+          "name": "Face Check ID",
+          "url": "https://facecheck.id/",
+          "description": "Reverse search for faces to find social media profiles and online presence"
+        },
+        {
+          "name": "PimEyes",
+          "url": "https://pimeyes.com/",
+          "description": "Reverse image search engine to find image matches and sources"
+        }
+      ]
+    },
+    {
+      "title": "[\u2191](#-table-of-contents) Deep and Dark Web",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "Ahmia",
+          "url": "https://ahmia.fi/",
+          "description": "Search engine for the Tor network, indexing hidden services"
+        },
+        {
+          "name": "OnionLand",
+          "url": "https://onionland.io/",
+          "description": "Onion search engine for discovering Tor hidden services"
+        },
+        {
+          "name": "Tor Watch",
+          "url": "https://torwatch.io/",
+          "description": "Tor network monitoring and analysis tool"
+        },
+        {
+          "name": "Tor Browser",
+          "url": "https://www.torproject.org/download/",
+          "description": "Official browser for accessing the Tor network, enhancing privacy and anonymity"
+        }
+      ]
+    },
+    {
+      "title": "[\u2191](#-table-of-contents) IoC Analysis and Cyber Threat Intelligence",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "Virustotal",
+          "url": "https://www.virustotal.com/",
+          "description": "Analyze files and URLs for viruses, worms, trojans, and other kinds of malicious content"
+        },
+        {
+          "name": "Hybrid Analysis",
+          "url": "https://www.hybrid-analysis.com/",
+          "description": "Free malware analysis service for the community"
+        },
+        {
+          "name": "Any Run",
+          "url": "https://any.run/",
+          "description": "Interactive malware analysis sandbox"
+        },
+        {
+          "name": "Mitre ATT&CK",
+          "url": "https://attack.mitre.org/",
+          "description": "Knowledge base of adversary tactics and techniques based on real-world observations"
+        },
+        {
+          "name": "MISP",
+          "url": "https://www.misp-project.org/",
+          "description": "Open source threat intelligence platform for sharing, storing and correlating Indicators of Compromise"
+        },
+        {
+          "name": "CyberChef",
+          "url": "https://gchq.github.io/CyberChef/",
+          "description": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis."
+        },
+        {
+          "name": "MxToolbox",
+          "url": "http://mxtoolbox.com/",
+          "description": "Email header analyzer and mail server diagnostic tools including DNS, MX, and SMTP checks"
+        }
+      ]
+    }
+  ]
+}
