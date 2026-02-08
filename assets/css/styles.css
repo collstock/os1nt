@@ -13,6 +13,7 @@
   --inputBg: rgba(18,27,60,.65);
   --chipBg: rgba(255,255,255,.06);
   --danger: rgba(255,100,100,.9);
+  --accent: #3c82ff;
 }
 
 *{ box-sizing:border-box; }

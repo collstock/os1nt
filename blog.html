@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://www.google.com https://*.gstatic.com; connect-src 'self';">
   <title>OS1NT R3P0 — Blog</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico" />
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="blog-styles.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/blog-styles.css" />
 </head>
 <body>
   <header class="site-header">
@@ -16,7 +17,7 @@
       </a>
 
       <div class="brand">
-        <img src="search_5177376.png" alt="OS1NT R3P0 Logo" class="brand-mark" />
+        <img src="assets/images/logo.png" alt="OS1NT R3P0 Logo" class="brand-mark" />
         <div class="brand-text">
           <h1>OS1NT R3P0</h1>
           <p>Field Notes &amp; Stories</p>
@@ -43,7 +44,7 @@
         Long-form breakdowns, quick wins, and lessons learned from working through OSINT cases, tooling experiments, and verification drills.
       </p>
       <div class="stack">
-        <a class="btn primary" href="#">Subscribe</a>
+        <a class="btn primary" href="mailto:info@os1nt.com?subject=OS1NT%20Blog%20Subscription">Subscribe</a>
         <a class="btn" href="index.html">Browse the tools</a>
       </div>
     </section>
@@ -177,8 +178,8 @@
 
           
           <h3>How favicon hashing works</h3>
-          <p>The process is straightforward. First, collect the favicon file—commonly located at <code>/favicon.ico</code>.<p></p>
-          Next, generate a hash of the file contents. Shodan indexes favicons using a MurmurHash3 (mmh3) value derived from the favicon bytes. You can use tools like <a href="https://faviconhasher.codejavu.tech/" target="_blank" rel="noopener noreferrer">Favicon Hasher</a> to generate the mmh3 hash. <p></p> Finally, search that hash to identify other hosts serving the same icon.</p>
+          <p>The process is straightforward. First, collect the favicon file, commonly located at <code>/favicon.ico</code>.</p>
+          <p>Next, generate a hash of the file contents. Shodan indexes favicons using a MurmurHash3 (mmh3) value derived from the favicon bytes. You can use tools like <a href="https://faviconhasher.codejavu.tech/" target="_blank" rel="noopener noreferrer">Favicon Hasher</a> to generate the mmh3 hash. Finally, search that hash to identify other hosts serving the same icon.</p>
 
           <div class="code">
 http.favicon.hash:123456789
@@ -214,6 +215,8 @@ http.favicon.hash:123456789 port:443
             <span class="chip"><b>Shodan</b></span>
             <span class="chip"><b>Tradecraft</b></span>
           </div>
+        </div>
+      </article>
 
     </section>
 
@@ -222,6 +225,6 @@ http.favicon.hash:123456789 port:443
     </footer>
   </main>
 
-  <script src="blog-scripts.js" defer></script>
+  <script src="assets/js/blog-scripts.js" defer></script>
 </body>
 </html>

@@ -19,13 +19,16 @@ if (layoutSection) {
 const toggleAllBtn = document.getElementById('toggle-all');
 if (toggleAllBtn) {
   toggleAllBtn.addEventListener('click', () => {
-    const allDetails = document.querySelectorAll('.layout details');
+    // Select all details elements in the layout section (including those in three columns)
+    const allDetails = document.querySelectorAll('.layout details, .col-left details, .col-middle details, .col-right details');
     const anyOpen = Array.from(allDetails).some(d => d.open);
 
+    // Toggle all details elements
     allDetails.forEach(details => {
       details.open = !anyOpen;
     });
 
+    // Update button text
     toggleAllBtn.textContent = anyOpen ? 'Expand All' : 'Collapse All';
   });
 }

@@ -9,7 +9,7 @@
   // Determine which JSON file to load based on view mode
   const isSimplified = sessionStorage.getItem('osintSimplified') === 'true';
   const isLeas = sessionStorage.getItem('osintLeas') === 'true';
-  const JSON_PATH = isLeas ? "osint_le.json" : (isSimplified ? "osint.json" : "awesome-osint.json");
+  const JSON_PATH = isLeas ? "assets/data/osint_le.json" : (isSimplified ? "assets/data/osint.json" : "assets/data/awesome-osint.json");
   const containers = [
     document.getElementById("osint-cards"),
     document.getElementById("osint-cards-middle"),
@@ -17,6 +17,8 @@
   ];
   const searchInput = document.getElementById("search-input");
   const itemCountEl = document.getElementById("item-count");
+  let sectionFilterCache = new WeakMap();
+  let allCardsCache = [];
 
   const escapeHtml = (s) =>
     String(s ?? "")
@@ -186,28 +188,39 @@
     if (itemCountEl) itemCountEl.textContent = String(n);
   };
 
+  const buildSectionCache = (section) => {
+    const cardTitleEl = section.querySelector(":scope > details > summary .card-title h2");
+    const nestedSections = Array.from(section.querySelectorAll(":scope > details > .card-body > section.card"));
+    const directItems = Array.from(section.querySelectorAll(":scope > details > .card-body > ul > li.item"));
+    const sectionData = {
+      cardTitle: cardTitleEl ? cardTitleEl.textContent.toLowerCase() : "",
+      directItems,
+      nestedSections
+    };
+    sectionFilterCache.set(section, sectionData);
+    nestedSections.forEach(buildSectionCache);
+    return sectionData;
+  };
+
+  const rebuildFilterCache = () => {
+    sectionFilterCache = new WeakMap();
+    allCardsCache = [];
+    containers.forEach((container) => {
+      if (!container) return;
+      const rootCards = Array.from(container.querySelectorAll(":scope > section.card"));
+      allCardsCache.push(...rootCards);
+      rootCards.forEach(buildSectionCache);
+    });
+  };
+
   const applyFilter = (q) => {
     const query = (q || "").trim().toLowerCase();
     let visibleItems = 0;
 
-    const allCards = [];
-    containers.forEach(container => {
-      if (container) {
-        allCards.push(...container.querySelectorAll("section.card"));
-      }
-    });
-    
     // Helper function to recursively filter nested sections
     const filterSection = (section) => {
-      const cardTitleEl = section.querySelector(":scope > details > summary .card-title h2");
-      const cardTitle = cardTitleEl ? cardTitleEl.innerText.toLowerCase() : "";
-      
-      // Find direct items (not in nested sections)
-      const directItems = Array.from(section.querySelectorAll(":scope > details > .card-body > ul > li.item"));
-      
-      // Find nested sections
-      const nestedSections = Array.from(section.querySelectorAll(":scope > details > .card-body > section.card"));
-      
+      const sectionData = sectionFilterCache.get(section) || buildSectionCache(section);
+      const { cardTitle, directItems, nestedSections } = sectionData;
       let anyVisibleInSection = false;
 
       // Filter direct items
@@ -236,7 +249,7 @@
       return sectionMatches;
     };
 
-    allCards.forEach((card) => {
+    allCardsCache.forEach((card) => {
       filterSection(card);
     });
 
@@ -277,18 +290,22 @@
         </section>
       `;
     } else {
+      const columnBuffers = [[], [], []];
       // Distribute cards across three columns using round-robin
       cats.forEach((cat, idx) => {
         const targetIndex = idx % 3;
-        const targetContainer = containers[targetIndex];
-        if (targetContainer) {
-          targetContainer.innerHTML += renderCard(cat, idx);
-        }
+        columnBuffers[targetIndex].push(renderCard(cat, idx));
+      });
+
+      containers.forEach((container, idx) => {
+        if (!container) return;
+        container.innerHTML = columnBuffers[idx].join("");
       });
     }
 
     const total = cats.reduce((acc, c) => acc + countItems(c), 0);
     setCount(total);
+    rebuildFilterCache();
     initSearch();
   };
 

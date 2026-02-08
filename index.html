@@ -7,21 +7,21 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://www.google.com https://*.gstatic.com; connect-src 'self';">
   <title>OSINT Repository</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico" />
-  <link rel="stylesheet" href="styles.css" />
-  <script src="simplify.js" defer></script>
-  <script src="osint-cards.js" defer></script>
-  <script src="scripts.js" defer></script>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script src="assets/js/simplify.js" defer></script>
+  <script src="assets/js/osint-cards.js" defer></script>
+  <script src="assets/js/scripts.js" defer></script>
 </head>
 
 <body>
   <header class="site-header">
     <div class="header-inner">
-      <a class="home" href="#" aria-label="Home">
+      <a class="home" href="index.html" aria-label="Home">
         <span aria-hidden="true">🏠</span>
       </a>
 
       <div class="brand">
-        <img src="search_5177376.png" alt="OS1NT R3P0 Logo" class="brand-mark" />
+        <img src="assets/images/logo.png" alt="OS1NT R3P0 Logo" class="brand-mark" />
         <div class="brand-text">
           <h1>OS1NT R3P0</h1>
           <p>OSINT Link Collection</p>
@@ -40,7 +40,7 @@
         </div>
         <button id="contact-btn" class="btn" type="button" title="Contact admin">Contact</button>
 
-        <button id="toggle-all" class="btn primary">Collapse All</button>
+        <button id="toggle-all" class="btn primary">Expand All</button>
       </div>
     </div>
   </header>
@@ -56,7 +56,7 @@
           <a class="btn primary" href="blog.html">Blog</a>
           <button id="simplify-btn" class="btn primary" type="button" title="Simplify to 14 main categories">Simplify</button>
           <button id="leas-btn" class="btn primary" type="button" title="Show LEA categories only">LEAs</button>
-          <a class="btn" href="#">Donate</a>
+          <a class="btn" href="mailto:info@os1nt.com?subject=OS1NT%20Donation">Donate</a>
         </div>
       </div>
 
@@ -136,6 +136,6 @@
   </main>
 
   
-  <script src="contact.js" defer></script>
+  <script src="assets/js/contact.js" defer></script>
 </body>
 </html>

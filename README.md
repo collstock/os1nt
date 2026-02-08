@@ -1,10 +1,12 @@
 # OS1NT R3P0
 
-A curated OSINT (Open-Source Intelligence) link repository with an organized card-based interface, blog, and powerful search functionality.
+An Open-Source Intelligence (OSINT) link repository with an organized card-based interface, blog, and search functionality.
 
 ## Overview
 
-**OS1NT R3P0** is a searchable collection of open-source intelligence tools and resources, organized by category and designed for investigators, analysts, and security researchers. The project includes:
+**OS1NT R3P0** is a searchable collection of open-source intelligence tools and resources, organized by category and designed for investigators, analysts, and security researchers. Links are collected from open sources and tested for usability on a regular basis. 
+
+The project includes:
 
 - **Interactive card-based UI** for browsing OSINT tools and resources
 - **Blog section** with field notes, tradecraft guides, and tool tutorials
@@ -15,16 +17,32 @@ A curated OSINT (Open-Source Intelligence) link repository with an organized car
 ## Files & Structure
 
 ```
-├── index.html              # Main OSINT tools directory
-├── blog.html               # Blog/field notes
-├── styles.css              # Shared styling (dark theme, cards, responsive layout)
-├── osint-cards.js          # Dynamic card rendering & search logic
-├── awesome-osint.json      # Tool database with categories and descriptions
-├── search_5177376.png      # Logo/favicon
-├── blogres/                # Blog resources folder
-│   ├── favicon.png         # Example favicon for blog post
-│   └── shodan_favicon_search.png  # Search results screenshot
-└── README.md              # This file
+├── index.html              # Main site
+├── blog.html               # Blog
+├── favicon.ico             # Website favicon
+├── README.md               # This file
+│
+├── assets/                 # Organized asset folder
+│   ├── css/
+│   │   ├── styles.css      # Shared styling (dark theme, cards, responsive layout)
+│   │   └── blog-styles.css # Blog-specific styles
+│   ├── js/
+│   │   ├── osint-cards.js  # Dynamic card rendering & search logic
+│   │   ├── scripts.js      # General utility functions
+│   │   ├── simplify.js     # Simplified view toggle
+│   │   ├── contact.js      # Contact button handler
+│   │   ├── blog-scripts.js # Blog-specific functionality
+│   │   └── awesome-osint.js# OSINT loader (alternative loader)
+│   ├── data/
+│   │   ├── awesome-osint.json   # Tool database with categories and descriptions
+│   │   ├── osint.json           # Simplified view data
+│   │   ├── osint_le.json        # LEA-specific categories
+│   │   └── arf.json             # Additional reference data
+│   └── images/
+│       └── logo.png             # Logo/brand icon
+│
+└── blogres/                # Blog resources folder
+
 ```
 
 ## Features
@@ -88,7 +106,7 @@ A curated OSINT (Open-Source Intelligence) link repository with an organized car
 
 ### awesome-osint.json
 
-The primary data source is `awesome-osint.json`, structured as:
+The primary data source is located at `assets/data/awesome-osint.json`, structured as:
 
 ```json
 {
@@ -190,7 +208,7 @@ Categories can optionally include a `categories` array for hierarchical organiza
 
 ### Modifying Categories
 
-Edit `awesome-osint.json` to add or update category entries. Categories will automatically:
+Edit `assets/data/awesome-osint.json` to add or update category entries. Categories will automatically:
 - Sort alphabetically on page load
 - Render as searchable cards
 - Display with item counts
@@ -224,7 +242,7 @@ Nested categories:
 
 ### Styling
 
-Modify `styles.css` to adjust:
+Modify `assets/css/styles.css` (and `assets/css/blog-styles.css` for blog) to adjust:
 - Dark theme colors (CSS variables in `:root`)
 - Card layout and spacing
 - Search bar appearance
@@ -298,7 +316,7 @@ Both `osint-cards.js` (main directory) and `blog.html` (blog) implement real-tim
 
 To contribute tools or resources:
 
-1. Edit `awesome-osint.json` to add new entries
+1. Edit `assets/data/awesome-osint.json` to add new entries
 2. Follow the existing format (name, URL, description)
 3. Ensure URLs are valid and point to legitimate resources
 4. Test search functionality for new entries
@@ -321,9 +339,6 @@ https://github.com/collstock/os1nt
 
 ---
 
-**Last Updated**: December 31, 2025  
+**Last Updated**: February 8, 2026  
 **Maintained by**: OS1NT R3P0 Community
 
-## Recent Changes
-
-- **Merged categories**: Combined "Other Tools" and "Other Resources" into a single "Other Tools and Resources" category for better organization and reduced redundancy
